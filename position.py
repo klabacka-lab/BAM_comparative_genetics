@@ -3,9 +3,10 @@ class Position:
     def __init__(self, pos, seq_dict):
         self.pos = pos
         self.seq_dict = seq_dict
+        self.aa_dict = self.create_aa_dict()
         self.count_dict = self.initial_count()
         self.control_aa = self.find_control_aa()
-        self.aa_dict = self.create_aa_dict()
+        self.sample_size = self.get_sample_size()
         
     def initial_count(self):
         count_dict = {}
@@ -42,6 +43,10 @@ class Position:
         for species, sequences in self.seq_dict.items():
             aa_dict[species] = sequences[self.pos]
         return aa_dict
+
+    def get_sample_size(self):
+        print(self.seq_dict)
+        sample_size = len(self.seq_dict)
     
 
 

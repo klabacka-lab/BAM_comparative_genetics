@@ -29,12 +29,20 @@ def get_unique_aa(sites):
         unique_list.append(unique_count)
     return unique_list
 
-def write_to_csv(filename, positions, proportions, unique_counts):
+def get_sample_sizes(sites):
+    sample_sizes_list = []
+    for pos_obj in sites:
+        sample_size = pos_obj.sample_size
+        sample_sizes_list.append(sample_size)
+    print(sample_sizes_list)
+    return sample_sizes_list
+
+def write_to_csv(filename, positions, proportions, unique_counts, sample_sizes):
     with open(filename, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
-        csv_writer.writerow(['Position', 'Proportion', 'Unique Amino Acids'])
-        for pos, proportion, unique_count in zip(positions, proportions, unique_counts):
-            csv_writer.writerow([pos + 1, proportion, unique_count])
+        csv_writer.writerow(['Position', 'Proportion', 'Unique Amino Acids', 'Sample Sizes'])
+        for pos, proportion, unique_count, sample_size in zip(positions, proportions, unique_counts, sample_sizes):
+            csv_writer.writerow([pos + 1, proportion, unique_count, sample_size])
 
 if __name__ == "__main__":
     fasta_file = "enterobacteralesOA.fa"
@@ -43,6 +51,7 @@ if __name__ == "__main__":
     positions = list(range(len(list(seq_dict.values())[0])))  
     proportions_list = get_proportions(sites_list)
     unique_counts_list = get_unique_aa(sites_list)
+    sample_size_list = get_sample_sizes(sites_list)
     output_file = "entero_stats.csv"
     write_to_csv(output_file, positions, proportions_list, unique_counts_list)
 
