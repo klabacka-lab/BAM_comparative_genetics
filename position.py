@@ -22,13 +22,13 @@ class Position:
 		seq(dict) = dictionary with species as key and respective amino acid sequence as value
 		"""
 
-	self.pos = pos 
-	self.seq_dict = seq_dict
-	self.aa_dict = self.create_aa_dict()
-	self.count_dict = self.create_count_dict() 
-	self.control_aa = self.find_control_aa()
-	self.sample_size = self.get_sample_size()
-
+		self.pos = pos 
+		self.seq_dict = seq_dict
+		self.aa_dict = self.create_aa_dict()
+		self.count_dict = self.create_count_dict() 
+		self.control_aa = self.find_control_aa()
+		self.sample_size = self.get_sample_size()
+	
 
 	def create_count_dict(self):
 
