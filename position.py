@@ -132,8 +132,9 @@ class Position:
 		Work in progress.
 		"""
 
-		print(self.seq_dict)
-		sample_size = len(self.seq_dict)
+		sample_size = sum(1 for value in self.aa_dict.values() if value != '-')
+		print(str(self.pos + 1))
+		print('\t', sample_size)
 
 
 
