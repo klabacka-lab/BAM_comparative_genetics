@@ -18,14 +18,15 @@ def create_sites_list(seq_dict):
 def get_proportions(sites):
     proportions = []
     for pos_obj in sites:
-        prop = pos_obj.proportion()
+        prop = pos_obj.get_proportion()
+        print("\t",prop)
         proportions.append(prop)
     return proportions
 
 def get_unique_aa(sites):
     unique_list = []
     for pos_obj in sites:
-        unique_count = pos_obj.unique()
+        unique_count = pos_obj.count_unique_aa()
         unique_list.append(unique_count)
     return unique_list
 
@@ -34,7 +35,6 @@ def get_sample_sizes(sites):
     for pos_obj in sites:
         sample_size = pos_obj.sample_size
         sample_sizes_list.append(sample_size)
-    print(sample_sizes_list)
     return sample_sizes_list
 
 def write_to_csv(filename, positions, proportions, unique_counts, sample_sizes):
@@ -53,6 +53,6 @@ if __name__ == "__main__":
     unique_counts_list = get_unique_aa(sites_list)
     sample_size_list = get_sample_sizes(sites_list)
     output_file = "entero_stats.csv"
-    write_to_csv(output_file, positions, proportions_list, unique_counts_list)
+    write_to_csv(output_file, positions, proportions_list, unique_counts_list, sample_size_list)
 
 

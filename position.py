@@ -107,7 +107,9 @@ class Position:
 		Returns:
 			aa_proportion (float) = proportion of most common amino acid to total amino acids				"""
 
+		print(self.pos)
 		total_aa = self.find_total_aa()
+		print("\ttotal_aa" + str(total_aa))
 		control_aa_count = self.count_control()
 		aa_proportion = control_aa_count / total_aa
 		return aa_proportion
@@ -133,8 +135,9 @@ class Position:
 		"""
 
 		sample_size = sum(1 for value in self.aa_dict.values() if value != '-')
-		print(str(self.pos + 1))
-		print('\t', sample_size)
+		#print(str(self.pos + 1))
+		#print('\t', sample_size)
+		return(sample_size)
 
 
 
