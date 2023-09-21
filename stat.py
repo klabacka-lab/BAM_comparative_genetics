@@ -1,6 +1,7 @@
 from position import Position
 from Bio import SeqIO
 import csv
+import sys
 
 def read_fasta_file(file_path):
     sequence_dict = {}
@@ -48,11 +49,11 @@ if __name__ == "__main__":
     fasta_file = "enterobacteralesOA.fa"
     seq_dict = read_fasta_file(fasta_file)
     sites_list = create_sites_list(seq_dict)
-    positions = list(range(len(list(seq_dict.values())[0])))  
+    positions = list(range(len(list(seq_dict.values())[0])))
     proportions_list = get_proportions(sites_list)
     unique_counts_list = get_unique_aa(sites_list)
     sample_size_list = get_sample_sizes(sites_list)
-    output_file = "entero_stats.csv"
+    output_file = "test_output.csv"
     write_to_csv(output_file, positions, proportions_list, unique_counts_list, sample_size_list)
 
 
