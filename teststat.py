@@ -32,7 +32,9 @@ def get_unique_aa(sites):
 
 def excise_gaps(sites):
     for pos_obj in sites:
-        if pos_obj.sample_size != pos_obj.total_aa:
+        sample_size = pos_obj.sample_size
+        total = pos_obj.total_aa
+        if sample_size / total < 0.07:
             sites.remove(pos_obj)
     print("length of excised sites list: ", len(sites))
     return sites
@@ -54,15 +56,15 @@ if __name__ == "__main__":
     seq_dict = read_fasta_file(fasta_file)
     sites_list = create_sites_list(seq_dict)
     gap_absent_sites = excise_gaps(sites_list)
-    sample1 = get_sample_sizes(sites_list)
-    sample1a = get_total_aas(sites_list)
-    sample2 = get_sample_sizes(gap_absent_sites)
-    sample2a = get_total_aas(gap_absent_sites)
-    print("Number of sample sizes in untampered sites: ", len(sample1))
-    print("Number of sample sizes in excised sites: ", len(sample2))
-    print("Number of totals in untampered sites: ", len(sample1a))
-    print("Number of totals in excised sites :", len(sample2a))
-    print("Sample Size at Position 1 (including gaps?): ", sample1[0])
-    print("Total Amino Acids at Postion 1 (including gaps?) ", sample1a[0])
-    print("Sample Size at Position 1 (no gaps?) ", sample2[0])
-    print("Total Amino Acids at Position 1 (no gaps?) ", sample2a[0])
+    untampered_sample = get_sample_sizes(sites_list)
+    untampered_total = get_total_aas(sites_list)
+    excised_sample = get_sample_sizes(gap_absent_sites)
+    excised_total = get_total_aas(gap_absent_sites)
+    print("Number of sample sizes in untampered sites: ", len(untampered_sample))
+    print("Number of sample sizes in excised sites: ", len(excised_sample))
+    print("Number of totals in untampered sites: ", len(untampered_total))
+    print("Number of totals in excised sites :", len(excised_total))
+    print("Sample Size at Position 1 (including gaps?): ", untampered_sample[0])
+    print("Total Amino Acids at Postion 1 (including gaps?) ", untampered_total[0])
+    print("Sample Size at Position 1 (no gaps?) ", excised_sample[0])
+    print("Total Amino Acids at Position 1 (no gaps?) ", excised_total[0])
