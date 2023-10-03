@@ -35,8 +35,7 @@ def excise_gaps(sites):
         sample_size = pos_obj.sample_size
         total = pos_obj.total_aa
         if sample_size / total < 0.07:
-            sites.remove(pos_obj)
-    print("length of excised sites list: ", len(sites))
+            pos_obj.proportion = 'NA'
     return sites
 
 def get_sample_sizes(sites):
@@ -68,3 +67,5 @@ if __name__ == "__main__":
     print("Total Amino Acids at Postion 1 (including gaps?) ", untampered_total[0])
     print("Sample Size at Position 1 (no gaps?) ", excised_sample[0])
     print("Total Amino Acids at Position 1 (no gaps?) ", excised_total[0])
+    for site in sites_list:
+        print("pos: " + str(site.pos) + ", prop: " + str(site.proportion))

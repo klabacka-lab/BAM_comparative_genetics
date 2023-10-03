@@ -19,9 +19,7 @@ def create_sites_list(seq_dict):
 def get_proportions(sites):
     proportions = []
     for pos_obj in sites:
-        prop = pos_obj.get_proportion()
-        print("\t",prop)
-        proportions.append(prop)
+        proportions.append(pos_obj.proportion)
     return proportions
 
 def get_unique_aa(sites):
@@ -38,6 +36,14 @@ def get_sample_sizes(sites):
         sample_sizes_list.append(sample_size)
     return sample_sizes_list
 
+def excise_gaps(sites):
+    for pos_obj in sites:
+        sample_size = pos_obj.sample_size
+        total = pos_obj.total_aa
+        if sample_size / total < 0.07:
+            pos_obj.proportion = 'NA'
+    return sites
+
 def write_to_csv(filename, positions, proportions, unique_counts, sample_sizes):
     with open(filename, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
@@ -46,9 +52,12 @@ def write_to_csv(filename, positions, proportions, unique_counts, sample_sizes):
             csv_writer.writerow([pos + 1, proportion, unique_count, sample_size])
 
 if __name__ == "__main__":
-    fasta_file = "enterobacteralesOA.fa"
+    fasta_file = "alignments/hydroterra.fa"
     seq_dict = read_fasta_file(fasta_file)
-    sites_list = create_sites_list(seq_dict)
+    sites_list_gaps = create_sites_list(seq_dict)
+    sites_list = excise_gaps(sites_list_gaps)
+    for site in sites_list:
+        print("pos: " + str(site.pos) + ", prop: " + str(site.proportion))
     positions = list(range(len(list(seq_dict.values())[0])))
     proportions_list = get_proportions(sites_list)
     unique_counts_list = get_unique_aa(sites_list)
