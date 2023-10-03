@@ -1,3 +1,11 @@
+# October 2 2023 (notes from Randy)
+# I spoke with Dr. Bakelar, and he recommended adding 'Helicobacter pylori' to our dataset
+# He also recommended using SecY as our known conserved gene. As an alpha helical barrel complex that is also membrane-bound, it would be a good comparison for BamA.
+# TamA might also be a good option, since it is similar to BamA (it also has potra domains)
+
+# September 29 2923 (meeting notes from meeting with Alex and David)
+# 1. Add a new column to the output.csv that is called "Domain". The values for each row should containt he domain that the position resides within (e.g., Potra1, Potra2, ... , BamA)
+
 # September 21 2023 (meeting notes with Alex)
 # 1. Account for gaps for the proportion and unique values (gaps shouldn't be considered)
 # 2. Create output file that provides the sites of highest conservation
