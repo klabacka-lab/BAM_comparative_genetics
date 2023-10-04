@@ -1,7 +1,10 @@
 from position import Position
 from Bio import SeqIO
 import csv
+import re
 import sys
+
+
 
 def read_fasta_file(file_path):
     sequence_dict = {}
@@ -41,28 +44,55 @@ def excise_gaps(sites):
         sample_size = pos_obj.sample_size
         total = pos_obj.total_aa
         if sample_size / total < 0.07:
-            pos_obj.proportion = 'NA'
+            pos_obj.proportion = -1.0
     return sites
 
-def write_to_csv(filename, positions, proportions, unique_counts, sample_sizes):
-    with open(filename, 'w', newline='') as csvfile:
+def find_conserved_sites(sites):
+    conserved_sites = []
+    for pos_obj in sites:
+        if pos_obj.proportion > 0.98:
+            conserved_sites.append(pos_obj.pos)
+    return conserved_sites
+
+def write_plot_csv(filename, positions, proportions, unique_counts, sample_sizes):
+    custom_filename = generate_filename(filename, "stats")
+    with open(custom_filename, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(['Position', 'Proportion', 'Unique Amino Acids', 'Sample Sizes'])
         for pos, proportion, unique_count, sample_size in zip(positions, proportions, unique_counts, sample_sizes):
             csv_writer.writerow([pos + 1, proportion, unique_count, sample_size])
 
+def write_conserved_csv(filename, sites):
+    custom_filename = generate_filename(filename, "conservation")
+    with open(custom_filename, 'w', newline='') as csvfile:
+        csv_writer = csv.writer(csvfile)
+        csv_writer.writerow(['Conserved Position', 'Proportion'])
+        for pos in sites:
+            csv_writer.writerow([pos])
+
+
+def generate_filename(filename, purpose):
+    filename_without_extension = re.sub(r'\.(fasta|fa)$', '', filename)
+    custom_filename = ""
+    if purpose == "stats":
+        custom_filename = "{}_stats.csv".format(filename_without_extension)
+    if purpose == "conservation":
+        custom_filename = "{}_conserved.csv".format(filename_without_extension)
+    return custom_filename
+
 if __name__ == "__main__":
-    fasta_file = "alignments/hydroterra.fa"
+    if len(sys.argv) != 2:
+        sys.exit(sys.argv[0] + ": Expecting alignment file path")
+    fasta_file = str(sys.argv[1])
     seq_dict = read_fasta_file(fasta_file)
     sites_list_gaps = create_sites_list(seq_dict)
     sites_list = excise_gaps(sites_list_gaps)
-    for site in sites_list:
-        print("pos: " + str(site.pos) + ", prop: " + str(site.proportion))
     positions = list(range(len(list(seq_dict.values())[0])))
     proportions_list = get_proportions(sites_list)
     unique_counts_list = get_unique_aa(sites_list)
     sample_size_list = get_sample_sizes(sites_list)
-    output_file = "test_output.csv"
-    write_to_csv(output_file, positions, proportions_list, unique_counts_list, sample_size_list)
+    conserved_sites = find_conserved_sites(sites_list)
+    write_plot_csv(fasta_file, positions, proportions_list, unique_counts_list, sample_size_list)
+    write_conserved_csv(fasta_file, conserved_sites)
 
 
