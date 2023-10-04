@@ -51,7 +51,8 @@ def find_conserved_sites(sites):
     conserved_sites = []
     for pos_obj in sites:
         if pos_obj.proportion > 0.98:
-            conserved_sites.append(pos_obj.pos)
+            site_aa = (pos_obj.pos, pos_obj.control_aa)
+            conserved_sites.append(site_aa)
     return conserved_sites
 
 def write_plot_csv(filename, positions, proportions, unique_counts, sample_sizes):
