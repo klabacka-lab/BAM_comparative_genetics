@@ -1,3 +1,11 @@
+# October 4 2023 (notes from meeting with David)
+## It looks like SecY would be good as a conserved protein, and SecG would be good as a non-conserved protein. See following refs:
+### SecY is conserved: https://www.sciencedirect.com/science/article/pii/S0005273602006624
+### SecG does not show sequence conservation: https://www.nature.com/articles/367654a0
+#### These two references were found here: https://journals.asm.org/doi/full/10.1128/jb.187.18.6454-6465.2005?casa_token=N3MrCJWvM4EAAAAA%3AIO1dUQTFCvXOy1d8lGEYCcOFmKNOhhbnfHN6eIphWcj9O68eD2oQMlfiAP17FMuxpRcllJ_0u4m1qYY
+
+
+
 # October 2 2023 (notes from Randy)
 # I spoke with Dr. Bakelar, and he recommended adding 'Helicobacter pylori' to our dataset
 # He also recommended using SecY as our known conserved gene. As an alpha helical barrel complex that is also membrane-bound, it would be a good comparison for BamA.
