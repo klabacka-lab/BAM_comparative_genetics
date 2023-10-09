@@ -50,7 +50,7 @@ def excise_gaps(sites):
 def find_conserved_sites(sites):
     conserved_sites = []
     for pos_obj in sites:
-        if pos_obj != "N/A" and pos_obj.proportion > 0.98:
+        if pos_obj.proportion != "N/A" and pos_obj.proportion > 0.98:
             site_aa = (pos_obj.pos, pos_obj.control_aa)
             conserved_sites.append(site_aa)
     return conserved_sites
