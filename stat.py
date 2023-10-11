@@ -81,6 +81,18 @@ def generate_filename(filename, purpose):
         custom_filename = "{}_conserved.csv".format(filename_without_extension)
     return custom_filename
 
+def sliding_window(sites, window_size):
+    averaged_proportions = []
+    for i in range(len(sites) - window_size + 1):
+        window = sites[i:i + window_size]
+        total_prop = 0
+        for position in window:
+            if position.proportion != "N/A":
+                total_prop += position.proportion
+        average_prop = total_prop / window_size
+        averaged_proportions.append(average_prop)
+    return average_proportions
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit(sys.argv[0] + ": Expecting alignment file path")
