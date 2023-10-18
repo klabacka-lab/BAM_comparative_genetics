@@ -25,5 +25,6 @@ provided by the Position class across the entire alignment, writing them to CSV
 files.
   * Removes significant gaps from alignments
   * Makes note of positions that are significantly conserved
-    * Expecting the protein to be fairly well conserved amongst different taxa
+    * Expecting the protein to be fairly well conserved amongst different taxa,
+      though less and less the farther back in phlyogenetic distance we reach
     * Expecting the protein to be highly conserved just in Enterobacterales
