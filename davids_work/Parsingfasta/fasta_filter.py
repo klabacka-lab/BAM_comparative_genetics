@@ -117,7 +117,8 @@ class Fasta_filter():
 			else:
 				if match == True:
 					write_file.write(line)
-
+		sort_file.close()
+		write_file.close()
 
 	def report(self):
 
