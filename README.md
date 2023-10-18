@@ -22,7 +22,8 @@ given positions along the amino acid sequence alignment. Such statistics include
 
 * stat.py takes a multiple sequence alignment FASTA file and tracks statistics
 provided by the Position class across the entire alignment, writing them to CSV
-files. Also removes significant gaps from alignments and makes note of positions
-that are more highly conserved.
-
-
+files.
+  * Removes significant gaps from alignments
+  * Makes note of positions that are significantly conserved
+    * Expecting the protein to be fairly well conserved amongst different taxa
+    * Expecting the protein to be highly conserved just in Enterobacterales
