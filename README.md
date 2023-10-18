@@ -11,7 +11,7 @@ against highly conserved and neutral genes in Enterobacterales bacteria.
 
 ## Methods
 
-* position.py uses the Position class to calculate particular statistics at
+* position.py creates the Position class to calculate particular statistics at
 given positions along the amino acid sequence alignment. Such statistics include
   * Sample Size : Number of amino acids present at given position, excluding
     gaps
