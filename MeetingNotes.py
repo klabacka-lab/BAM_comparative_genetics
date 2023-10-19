@@ -1,4 +1,13 @@
-# October 4 2023 (notes from meeting with David)
+# October 19 2023 (notes from meeting with Alex, David, and Randy)
+## Create new alignment called 'bacteria.fa' that includes representatives of Fusobacteria, Aquificae, and Thermotogae
+### Just a handful per lineage is fine
+## Create new alignment called 'proteo_human.fa' 
+### Include the human version of BAMA "
+## Create new fastas for each of the alignments ('enterobacterales.fa', 'gammaproteo.fa', 'proteo.fa', 'hydrobacteria.fa', 'hydroterra.fa', 'bacteria.fa') where any position that doesn't have E. coli AA is removed
+## To the csv files, add potra domains
+## For next week, look into the BamA structure and map ultraconserved sites to the 3D structure.
+
+# October 4 2023 (notes from meeting with David and Randy)
 ## It looks like SecY would be good as a conserved protein, and SecG would be good as a non-conserved protein. See following refs:
 ### SecY is conserved: https://www.sciencedirect.com/science/article/pii/S0005273602006624
 ### SecG does not show sequence conservation: https://www.nature.com/articles/367654a0
