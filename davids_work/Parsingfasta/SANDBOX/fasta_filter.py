@@ -31,16 +31,21 @@ to do: currently only searches for names in brackets using the following RegEx: 
 This only works for Alex's fasta format (he got them from GenBank). Could be tweaked to read other formats
 
 '''
-import re
+import re,os
 from sys import argv
+from Bio import AlignIO
+from Bio import SeqIO
+from Bio import Seq
+
 
 
 class Fasta_filter():
-	def __init__(self,sort_fasta = None,read_fasta = None ,write_handle = None):
+	def __init__(self,sort_fasta = None,read_fasta = None ,write_handle = None, aligned_handle = None):
 		
 		self.read_fasta = read_fasta
 		self.sort_fasta = sort_fasta
 		self.write_handle = write_handle
+		self.aligned_handle = aligned_handle
 		self.bacteria_names=[]
 		self.unique_species=[]
 		self.match_species = []
@@ -119,6 +124,8 @@ class Fasta_filter():
 				if match == True:
 					write_file.write(line)
 
+		self.aligned_handle = write_handle
+
 		sort_file.close()
 		write_file.close()
 
@@ -167,10 +174,26 @@ class Fasta_filter():
 	def report(self):
 
 		set_species = {s for s in self.match_species}
-
 		print(f'\n\n{len(self.match_species)} sequences from species of interest found in {self.sort_fasta} (len match_species)')
 		print(f'{len(self.unique_species)} unique species')
 		print(f'{len(set_species)} (set comp from match_species)')
+
+
+
+
+	def align(self,read_fasta = None, write_handle = None):
+		if self.aligned_handle != None:
+			read_fasta = self.aligned_handle
+		if read_fasta == None:
+			read_fasta = self.read_fasta
+		if write_handle == None:
+			write_handle = 'aligned_'+read_fasta
+		
+		os.system(f"muscle -in {read_fasta} -out {write_handle}")
+
+
+
+
 		
 '''
 main function allows this to be executed from the command line, or for a parser object to be
@@ -178,22 +201,25 @@ imported to be importe to another script as a variable.
 
 If executed from the command line, it will run every functionality of the class
 '''
+
 def main(sort_fasta,read_fasta,write_handle):
 	parser_obj = Fasta_filter(sort_fasta,read_fasta,write_handle)
 	parser_obj.cross_ref()
 	parser_obj.cross_ref_nrs()
 	parser_obj.write_names(read_fasta)
 	parser_obj.report()
+	parser_obj.align()
 
 
 if __name__ == '__main__':
-	sort_fasta = argv[1] # The fasta to be sorted through
-	read_fasta = argv[2] # The fasta to extract names of species of interest from
-	try:
-		write_handle = argv[3] # The export file name
-	except:
-		write_handle = None
 
-	main(sort_fasta,read_fasta,write_handle)
+	if '-srt' in argv:
+		sort_fasta = argv[argv.index('-srt')+1]
+	if '-nms' in argv:
+		names_fasta = argv[argv.index('-nms')+1]
+	if '-out' in argv:
+		write_handle = argv[argv.index('-out')+1]
+
+	main(sort_fasta,names_fasta,write_handle)
 
 
