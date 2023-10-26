@@ -8,13 +8,23 @@ from Bio import SeqIO
 def farm_gaps(infile, target_species):
     records = list(SeqIO.parse(infile, "fasta"))
     target_species_index = None
+    new_records = []
     for i, record in enumerate(records):
         if target_species in record.id:
             target_species_index = i
             break
     if target_species_index != None:
         target_sequence = records[target_species_index].seq
-        new_records = [record for record in records if all(a == "-" or b != "-" for a,b in zip(target_sequence, record.seq))]
+        # Create a new list of sequences with gaps removed for the target species
+
+        for record in records:
+            new_seq = ""
+            for a, b in zip(target_sequence, record.seq):
+                if a != "-":
+                    new_seq += b
+            new_record = record
+            new_record.seq = new_seq
+            new_records.append(new_record)
     return new_records
 
 def generate_filename(infile):
@@ -25,7 +35,8 @@ def generate_filename(infile):
 
 def write_farmed_fasta(outfile, records):
     with open(outfile, "w") as outhandle:
-        SeqIO.write(records, outhandle, "fasta")
+        for record in records:
+            outhandle.write(">" + record.id + "\n" + record.seq + "\n")
     print("Farmed file written.")
 
 if __name__=="__main__":
