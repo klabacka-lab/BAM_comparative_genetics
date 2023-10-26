@@ -1,10 +1,12 @@
 # October 26 2023 (notes from meeting with Alex, David, and Randy)
+## See Oct 19 notes to create new fasta files for bacteria and proteo_human fasta
+## Add domain names to csv outputs (using dictionary technique discussed in meeting)
 
 # October 19 2023 (notes from meeting with Alex, David, and Randy)
 ## Create new alignment called 'bacteria.fa' that includes representatives of Fusobacteria, Aquificae, and Thermotogae
 ### Just a handful per lineage is fine
 ## Create new alignment called 'proteo_human.fa' 
-### Include the human version of BAMA "
+### Include the human version of BamA (Sam50/Tob55)
 ## Create new fastas for each of the alignments ('enterobacterales.fa', 'gammaproteo.fa', 'proteo.fa', 'hydrobacteria.fa', 'hydroterra.fa', 'bacteria.fa') where any position that doesn't have E. coli AA is removed
 ## To the csv files, add potra domains
 ## For next week, look into the BamA structure and map ultraconserved sites to the 3D structure.
