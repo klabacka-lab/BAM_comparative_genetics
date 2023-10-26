@@ -1,3 +1,5 @@
+# October 26 2023 (notes from meeting with Alex, David, and Randy)
+
 # October 19 2023 (notes from meeting with Alex, David, and Randy)
 ## Create new alignment called 'bacteria.fa' that includes representatives of Fusobacteria, Aquificae, and Thermotogae
 ### Just a handful per lineage is fine
