@@ -28,3 +28,10 @@ files.
     * Expecting the protein to be fairly well conserved amongst different taxa,
       though less and less the farther back in phlyogenetic distance we reach
     * Expecting the protein to be highly conserved just in Enterobacterales
+
+* e_coli_farm.py takes a multiple sequence alignment FASTA file and "farms" the
+  alignment for anything not present in a given species (default for this
+  project is Escherichia coli)
+  * Removes all columns not represented by target species (eliminates gaps in
+    target species)
+  * Writes farmed sequences to new FASTA file
