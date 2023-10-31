@@ -32,6 +32,7 @@ files.
 * e_coli_farm.py takes a multiple sequence alignment FASTA file and "farms" the
   alignment for anything not present in a given species (default for this
   project is Escherichia coli)
-  * Removes all columns not represented by target species (eliminates gaps in
-    target species)
+  * Removes all columns not represented by target species
+    * Eliminates gaps in target species and adjusts all other amino acid
+      sequences
   * Writes farmed sequences to new FASTA file
