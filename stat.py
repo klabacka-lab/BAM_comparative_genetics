@@ -94,13 +94,14 @@ def label_domains(sites):
     domain_dict = {(24,91): "POTRA1", (92,172): "POTRA2", (175,263): "POTRA3", (266,344): "POTRA4", (347,421): "POTRA5", (448,810): "BamA"}
     domain_list = []
     for pos_obj in sites:
+        labeled = False
         for start,stop in domain_dict.keys():
-            if pos_obj.pos in range(start, stop):
+            if pos_obj.pos in range(start, stop+1):
                 domain_list.append(domain_dict[(start,stop)])
+                labeled = True
                 break
-            else:
-                domain_list.append("N/A")
-    print(domain_list)
+        if not labeled:
+            domain_list.append("")
     return domain_list
 
 if __name__ == "__main__":
