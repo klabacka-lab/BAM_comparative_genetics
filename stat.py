@@ -91,7 +91,7 @@ def sliding_window(sites, window_size):
     return average_proportions
 
 def label_domains(sites):
-    domain_dict = {(0,23): "SIGNAL_SEQ", (24,91): "POTRA1", (92,172): "POTRA2", (175,263): "POTRA3", (266,344): "POTRA4", (347,421): "POTRA5", (448,810): "BamA"}
+    domain_dict = {(24,91): "POTRA1", (92,172): "POTRA2", (175,263): "POTRA3", (266,344): "POTRA4", (347,421): "POTRA5", (448,810): "BamA"}
     domain_list = []
     for pos_obj in sites:
         labeled = False
