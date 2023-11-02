@@ -1,3 +1,11 @@
+# November 2 2023 (notes from meeting with Alex, David, and Randy)
+## Alex added domain information to the output files of stat.py
+## We created the e_coli_farm.py script that removes sites from a fasta alignment that are not present in E. coli. We need to do this for SecY (conserved control) and another protein tbd (unconserved 'control')
+## Randy made a draft r script to run an ANOVA that looks at the relationship between domain and conservation (with each position along the domain being a sample)
+## The r script also plots the data (it is called 'statistical_analyses.r') and shows how you can create grids (joined plots in a single pdf)
+## Alex is now going to create all of the csvs for BamA, SecY (after farmed), and unconserved_protein_tbd (after farmed) on all of the alignments ('enterobacterales.csv', 'gammaproteo.csv', 'proteo.csv', 'hydrobacteria.csv', 'hydroterra.csv', 'bacteria.csv') 
+
+
 # October 26 2023 (notes from meeting with Alex, David, and Randy)
 ## See Oct 19 notes to create new fasta files for bacteria and proteo_human fasta
 ## Add domain names to csv outputs (using dictionary technique discussed in meeting)
