@@ -121,6 +121,21 @@ def get_sample_sizes(sites):
     return sample_sizes_list
 
 def excise_gaps(sites):
+
+    """
+    Negates positions that are more than 70% gap/missing amino acid
+
+    Parameters
+    ----------
+    sites: list
+        List of position objects (each object containing information about the position on a multiple sequence alignment)
+
+    Returns
+    -------
+    sites: list
+        Modified list of position objects with negated gaps
+    """
+
     for pos_obj in sites:
         sample_size = pos_obj.sample_size
         total = pos_obj.total_aa
@@ -129,6 +144,21 @@ def excise_gaps(sites):
     return sites
 
 def find_conserved_sites(sites):
+
+    """
+    Tracks position objects with a proportion value above 98% indicating high conservation
+
+    Parameters
+    ----------
+    sites: list
+        List of position objects (each object containing information about the position on a multiple sequence alignment)
+
+    Returns
+    -------
+    conserved_sites: list
+        List of position objects with high conservation of 98% or higher
+    """
+
     conserved_sites = []
     for pos_obj in sites:
         if pos_obj.proportion != "N/A" and pos_obj.proportion > 0.98:
@@ -137,22 +167,90 @@ def find_conserved_sites(sites):
     return conserved_sites
 
 def write_plot_csv(filename, positions, proportions, unique_counts, sample_sizes, domain_labels):
+
+    """
+    Writes all collected data to a csv file for future plotting
+
+    Parameters
+    ----------
+    filename: str
+        Output filename for csv file
+
+    positions: list
+        List of integers indicating position on alignment
+
+    proportions: list
+        List of control proportions at each position (each proportion being a float)
+
+    unique_counts: list
+        List of unique amino acids at each position (each item being an integer)
+
+    sample_sizes: list
+        List of sample sizes at each position (each sample size being an integer)
+
+    domain_labels: list
+        List of domain labels (strings indicating which domain each position is located under)
+
+    Returns
+    -------
+    None
+        Function writes a csv file
+    """
+
     custom_filename = generate_filename(filename, "stats")
     with open(custom_filename, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(['Position', 'Proportion', 'Unique Amino Acids', 'Sample Sizes', 'Domain'])
         for pos, proportion, unique_count, sample_size, domain_label in zip(positions, proportions, unique_counts, sample_sizes, domain_labels):
             csv_writer.writerow([pos + 1, proportion, unique_count, sample_size, domain_label])
+    print("Stat file created.")
 
 def write_conserved_csv(filename, sites):
+
+    """
+    Writes most conserved sites of the alignment to a csv file for future plotting
+
+    Parameters
+    ----------
+    filename: str
+        Output filename for csv file
+
+    sites: list
+        List of position objects for sites conserved at 98% or above
+
+    Returns
+    -------
+    None
+        Function writes a csv file
+    """
+
     custom_filename = generate_filename(filename, "conservation")
     with open(custom_filename, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(['Conserved Position', 'Proportion'])
         for pos in sites:
             csv_writer.writerow([pos])
+    print("Conserved site file written.")
 
 def generate_filename(filename, purpose):
+
+    """
+    Generates a custom filename for csv files based on functionality
+
+    Parameters
+    ----------
+    filename: str
+        Input filename to be manipulated
+
+    purpose: str
+        Determines function of csv file for custom filename
+
+    Returns
+    -------
+    custom_filename: str
+        Custom output filename specified for function
+    """
+
     filename_without_extension = re.sub(r'\.(fasta|fa)$', '', filename)
     custom_filename = ""
     if purpose == "stats":
@@ -162,6 +260,11 @@ def generate_filename(filename, purpose):
     return custom_filename
 
 def sliding_window(sites, window_size):
+
+    """
+    Come back to this, Alex
+    """
+
     averaged_proportions = []
     for i in range(len(sites) - window_size + 1):
         window = sites[i:i + window_size]
@@ -174,6 +277,21 @@ def sliding_window(sites, window_size):
     return average_proportions
 
 def label_domains(sites):
+
+    """
+    Labels position objects by domain name based on position location on alignment
+
+    Parameters
+    ----------
+    sites: list
+        List of position objects (each object containing information about a position on the multiple sequence alignment)
+
+    Returns
+    -------
+    domain_list: list
+        List of labels for each position based on location in reference to domains (based on Escherichia coli annotated protein)
+    """
+
     domain_dict = {(24,91): "POTRA1", (92,172): "POTRA2", (175,263): "POTRA3", (266,344): "POTRA4", (347,421): "POTRA5", (448,810): "BamA"}
     domain_list = []
     for pos_obj in sites:
@@ -190,11 +308,11 @@ def label_domains(sites):
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit(sys.argv[0] + ": Expecting alignment file path")
-    fasta_file = str(sys.argv[1])
+    fasta_file = str(sys.argv[1]) #command line input filepath
     seq_dict = read_fasta_file(fasta_file)
-    sites_list_gaps = create_sites_list(seq_dict)
-    sites_list = excise_gaps(sites_list_gaps)
-    positions = list(range(len(list(seq_dict.values())[0])))
+    sites_list_gaps = create_sites_list(seq_dict) #sites with no alteration
+    sites_list = excise_gaps(sites_list_gaps) #updated sites list with significant gaps labeled
+    positions = list(range(len(list(seq_dict.values())[0]))) #generates list of position numbers
     proportions_list = get_proportions(sites_list)
     unique_counts_list = get_unique_aa(sites_list)
     sample_size_list = get_sample_sizes(sites_list)
