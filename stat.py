@@ -101,7 +101,7 @@ def get_sample_sizes(sites):
 
     """
     Collects the sample size of each postion object
-        Sample Size = total number of amino acids at a given position
+        Sample Size = total number of amino acids at a given position (does not count gaps)
 
     Parameters
     ----------
@@ -110,7 +110,9 @@ def get_sample_sizes(sites):
 
     Returns
     -------
-
+    sample_sizes_list: list
+        List of sample sizes at each position (each item being an integer representing sample size)
+    """
 
     sample_sizes_list = []
     for pos_obj in sites:
