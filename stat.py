@@ -1,3 +1,9 @@
+#! /usr/bin/env python3
+
+"""
+A module that analyes the conservation of a multiple sequence amino acid alignment
+"""
+
 from position import Position
 from Bio import SeqIO
 import csv
@@ -5,12 +11,42 @@ import re
 import sys
 
 def read_fasta_file(file_path):
+
+    """
+    Reads a FASTA file and turns it into a manipulatable dictionary
+
+    Paramaters
+    ----------
+    file_path: str
+        File path for the FASTA file that is a multiple sequence amino acid alignment
+
+    Returns
+    -------
+    sequence_dict: dict
+        Dictionary composed of each sequence from FASTA file (Key = Sequence Descriptor, Value = Amino Acid Sequence)
+    """
+
     sequence_dict = {}
     for record in SeqIO.parse(file_path, "fasta"):
         sequence_dict[record.id] = str(record.seq)
     return sequence_dict
 
 def create_sites_list(seq_dict):
+
+    """
+    Creates list of position objects for each position on a multiple sequence alignment
+
+    Parameters
+    ----------
+    seq_dict: dict
+        Dictionary composed of each seqeuence from a FASTA file (Key = Sequence Descriptor, Value = Amino Acid Sequence)
+
+    Returns
+    -------
+    sites: list
+        List of position objects (each object containing information about the position on a multiple sequence alignment)
+    """
+
     sites = []
     for pos_num in range(len(list(seq_dict.values())[0])):
         position = Position(pos_num, seq_dict)
@@ -18,12 +54,43 @@ def create_sites_list(seq_dict):
     return sites
 
 def get_proportions(sites):
+
+    """
+    Collects proportion information from position objects
+        Proportion = most common amino acid / total amino acids at a given position
+
+    Parameters
+    ----------
+    sites: list
+        List of position objects (each object containing information about the postion on a multiple sequence alignment)
+
+    Returns
+    -------
+    proportions: list
+        List of proportion information for each position (each proportion being a float)
+    """
+
     proportions = []
     for pos_obj in sites:
         proportions.append(pos_obj.proportion)
     return proportions
 
 def get_unique_aa(sites):
+
+    """
+    Collects the number of unique amino acids across position objects
+
+    Parameters
+    ----------
+    sites: list
+        List of position objects (each object containing information about the position on a multiple sequence alignment)
+
+    Returns
+    -------
+    unique_list: list
+        List of unique amino acids at each position (each item being an integer representing total unique amino acids)
+    """
+
     unique_list = []
     for pos_obj in sites:
         unique_count = pos_obj.count_unique_aa()
@@ -31,6 +98,20 @@ def get_unique_aa(sites):
     return unique_list
 
 def get_sample_sizes(sites):
+
+    """
+    Collects the sample size of each postion object
+        Sample Size = total number of amino acids at a given position
+
+    Parameters
+    ----------
+    sites: list
+        List of position objects (each object containing information about the position on a multiple sequence alignment)
+
+    Returns
+    -------
+
+
     sample_sizes_list = []
     for pos_obj in sites:
         sample_size = pos_obj.sample_size
