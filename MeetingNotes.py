@@ -3,6 +3,7 @@
 ## David is going to add a step to the crossreference/mining/aligning script (fastacross.py) that makes the naming convention conform to that needed for ecoli_farm.py
 ## David is going to look into the biopython Entrez package (to see if we can do the data mining directly from the command line instead of going through a web browser). Randy added a temporary file that uses Entrez (not eloquently) that can be used as a reference- it is called "Entrez_example.py"
 ## Alex is going to fuse the 'statistical_analysis.r' and 'conservation_histogram.r' files. The line that performs the analysis (lm) and the section that creates the box and whisker plot (everything under the "Filter out data with no domain" and "# Plot the data" comments) can be placed within the same function that creates the histograms.
+## Alex will work on readme to integrate overview of bioinformatics pipeline (descriptions of each step, the scripts used, the file formats used and created), which David can convert into a illustrated version.
 ## IF YOU DARE: Look at figure 2a from the Copee paper we read this week- you can use it to inspire your adventorous soul
 
 # November 2 2023 (notes from meeting with Alex, David, and Randy)
