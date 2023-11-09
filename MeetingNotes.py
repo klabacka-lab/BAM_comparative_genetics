@@ -1,3 +1,10 @@
+# November 9 2023 (notes from meeting with Alex, David, and Randy)
+## Alex created .csv files for all of the alignments ('enterobacterales.csv', 'gammaproteo.csv', 'proteo.csv', 'proteo_human.csv', 'hydrobacteria.csv', 'hydroterra.csv', 'bacteria.csv') for BamA. He hasn't done it for SecY because the formatting of the fasta wasn't conducive to the ecoli_farm.py script
+## David is going to add a step to the crossreference/mining/aligning script (fastacross.py) that makes the naming convention conform to that needed for ecoli_farm.py
+## David is going to look into the biopython Entrez package (to see if we can do the data mining directly from the command line instead of going through a web browser). Randy added a temporary file that uses Entrez (not eloquently) that can be used as a reference- it is called "Entrez_example.py"
+## Alex is going to fuse the 'statistical_analysis.r' and 'conservation_histogram.r' files. The line that performs the analysis (lm) and the section that creates the box and whisker plot (everything under the "Filter out data with no domain" and "# Plot the data" comments) can be placed within the same function that creates the histograms.
+## IF YOU DARE: Look at figure 2a from the Copee paper we read this week- you can use it to inspire your adventorous soul
+
 # November 2 2023 (notes from meeting with Alex, David, and Randy)
 ## Alex added domain information to the output files of stat.py
 ## We created the e_coli_farm.py script that removes sites from a fasta alignment that are not present in E. coli. We need to do this for SecY (conserved control) and another protein tbd (unconserved 'control')
