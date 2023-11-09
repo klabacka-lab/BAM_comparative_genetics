@@ -13,12 +13,12 @@ against highly conserved and neutral genes in Enterobacterales bacteria.
 
 * position.py creates the Position class to calculate particular statistics at
 given positions along the amino acid sequence alignment. Such statistics include
-  * Sample Size : Number of amino acids present at given position, excluding
+  * Sample Size: Number of amino acids present at a given position, excluding
     gaps
-  * Unique Amino Acids : The number of unique amino acids represented at given
+  * Unique Amino Acids: The number of unique amino acids represented at the given
     position
-  * Proportion : The proportion of the most common amino acid to the total
-    amount of amino acids found at given position
+  * Proportion: The proportion of the most common amino acid to the total
+    amount of amino acids found at a given position
 
 * stat.py takes a multiple sequence alignment FASTA file and tracks statistics
 provided by the Position class across the entire alignment, writing them to CSV
@@ -26,7 +26,7 @@ files.
   * Removes significant gaps from alignments
   * Makes note of positions that are significantly conserved
     * Expecting the protein to be fairly well conserved amongst different taxa,
-      though less and less the farther back in phlyogenetic distance we reach
+      though less and less the farther back in the phylogenetic distance we reach
     * Expecting the protein to be highly conserved just in Enterobacterales
 
 * e_coli_farm.py takes a multiple sequence alignment FASTA file and "farms" the
