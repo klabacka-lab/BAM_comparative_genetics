@@ -5,7 +5,7 @@ import re
 import sys
 from Bio import SeqIO
 
-def farm_gaps(infile, target_species):
+def farm_data(infile, target_species):
     records = list(SeqIO.parse(infile, "fasta"))
     target_species_index = None
     new_records = []
@@ -50,5 +50,5 @@ if __name__=="__main__":
             help = "Target species for farming.")
     args = parser.parse_args()
     outhandle = generate_filename(args.infile)
-    farmed_records = farm_gaps(args.infile, args.species)
+    farmed_records = farm_data(args.infile, args.species)
     write_farmed_fasta(outhandle, farmed_records)
