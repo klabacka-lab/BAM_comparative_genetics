@@ -1,11 +1,33 @@
 #! /usr/bin/env python3
 
+"""
+A module that "farms" an alignment for positions only present in a given species (default E.coli)
+"""
+
 import argparse
 import re
 import sys
 from Bio import SeqIO
 
 def farm_data(infile, target_species):
+
+    """
+    Farms alignment to remove gaps not aligned with target species
+
+    Parameters
+    ----------
+    infile: str
+        Filepath for multiple sequence alignment to be farmed
+
+    target_species: str
+        Species to target in the alignment
+
+    Returns
+    -------
+    new_records: list
+        List of SeqRecord objects with gaps farmed for target species
+    """
+
     records = list(SeqIO.parse(infile, "fasta"))
     target_species_index = None
     new_records = []
@@ -15,8 +37,6 @@ def farm_data(infile, target_species):
             break
     if target_species_index != None:
         target_sequence = records[target_species_index].seq
-        # Create a new list of sequences with gaps removed for the target species
-
         for record in records:
             new_seq = ""
             for a, b in zip(target_sequence, record.seq):
@@ -28,12 +48,45 @@ def farm_data(infile, target_species):
     return new_records
 
 def generate_filename(infile):
+
+    """
+    Generates custom output filename based on input filename
+
+    Parameters
+    ----------
+    infile: str
+        Filepath for input alignment
+
+    Returns
+    -------
+    custom_filename: str
+        Custom output filename for farmed alignment
+    """
+
     custom_filename = ""
     infile_without_ext = re.sub(r'\.(fasta|fa)$', '', infile)
     custom_filename = "{}_farmed.fa".format(infile_without_ext)
     return custom_filename
 
 def write_farmed_fasta(outfile, records):
+
+    """
+    Writes all farmed sequences to a new FASTA file
+
+    Parameters
+    ----------
+    outfile: str
+        Filepath for output FASTA file
+
+    records: list
+        List of farmed sequences to be written into new file
+
+    Returns
+    -------
+    None
+        Function writes new file
+    """
+
     with open(outfile, "w") as outhandle:
         for record in records:
             outhandle.write(">" + record.id + "\n" + record.seq + "\n")
