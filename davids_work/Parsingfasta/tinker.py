@@ -1,14 +1,9 @@
-import fasta_filter as ff
-from sys import argv
+import fasta_cross as fb 
 
-if '-srt' in argv:
-	sort_fasta = argv[argv.index('-srt')+1]
-if '-nms' in argv:
-	names_fasta = argv[argv.index('-nms')+1]
-if '-out' in argv:
-	write_handle = argv[argv.index('-out')+1]
+blasta = fb.Fasta_cross()
+blasta.get_names('enterobacterales.fa','fasta_uniprot')
+blasta.cross_ref('BamA_UniProt.fasta',blasta.bacteria_names,repeat =False)
+blasta.write_fasta(blasta.match_records,'EGG.fasta')
+blasta.align('EGG.fasta')
 
-parser = ff.Fasta_filter(sort_fasta,names_fasta,write_handle)
-parser.cross_ref_nrs(write_handle = write_handle)
-parser.align()
 
