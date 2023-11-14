@@ -31,14 +31,22 @@ def farm_data(infile, target_species):
     records = list(SeqIO.parse(infile, "fasta"))
     target_species_index = None
     new_records = []
+
+    # Searches through FASTA file for target species
     for i, record in enumerate(records):
         if target_species in record.id:
             target_species_index = i
             break
+
+    # Writes new farmed sequences based on target species
     if target_species_index != None:
         target_sequence = records[target_species_index].seq
+
+        #
         for record in records:
             new_seq = ""
+
+            # Compares position in target sequence to current sequence
             for a, b in zip(target_sequence, record.seq):
                 if a != "-":
                     new_seq += b
