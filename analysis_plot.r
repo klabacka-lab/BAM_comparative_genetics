@@ -15,8 +15,6 @@ make_plots <- function(filename, conserved_value){
 
     # Filter data for histogram plot
     data <- read_csv(filename, col_names = TRUE)
-    data[data == "N/A"] <- NA
-    data <- na.omit(data)
     data$Proportion <- as.numeric(data$Proportion) * 100
 
     # Filter data for box and whisker plot
