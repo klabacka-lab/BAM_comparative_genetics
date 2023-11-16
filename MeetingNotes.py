@@ -3,6 +3,7 @@
 ## David is going to optimize the aligner using Entrez (currently running into some bugs with a few taxa)
 ## Alex will debug the analysis.r script (it is currently printing histograms with gaps)
 ## Alex will start drafting the poster (intro, methods, pipeline figure, playing with results slides)
+## WE ALSO NEED TO ADD ANABAENA
 
 # November 9 2023 (notes from meeting with Alex, David, and Randy)
 ## Alex created .csv files for all of the alignments ('enterobacterales.csv', 'gammaproteo.csv', 'proteo.csv', 'proteo_human.csv', 'hydrobacteria.csv', 'hydroterra.csv', 'bacteria.csv') for BamA. He hasn't done it for SecY because the formatting of the fasta wasn't conducive to the ecoli_farm.py script
