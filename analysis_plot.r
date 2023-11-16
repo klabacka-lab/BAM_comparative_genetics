@@ -9,8 +9,8 @@ make_plots <- function(filename, conserved_value){
 
     # Create output filenames for both plots
     base_name <- tools::file_path_sans_ext(filename)
-    hist_filename <- paste(base_name, "_histogram.png")
-    box_filename <- paste(base_name, "_box.png")
+    hist_filename <- paste(base_name, sep="", "_histogram.png")
+    box_filename <- paste(base_name, sep="", "_box.png")
 
 
     # Filter data for histogram plot
@@ -20,8 +20,8 @@ make_plots <- function(filename, conserved_value){
     data$Proportion <- as.numeric(data$Proportion) * 100
 
     # Filter data for box and whisker plot
-    domain_compariosn <- lm(Proportion~Domain, dat)
-    filtered_dat <- subset(dat, Domain!="")
+    domain_compariosn <- lm(Proportion~Domain, data)
+    filtered_dat <- subset(data, Domain!="")
 
     # Create histogram
     hist_plot <- ggplot(data, aes(x=Position, y=Proportion)) +
@@ -33,8 +33,7 @@ make_plots <- function(filename, conserved_value){
     box_plot <- ggplot(filtered_dat, aes(x=Domain, y=Proportion)) + geom_boxplot()
     plot1 <- box_plot + geom_jitter(shape=16, position=position_jitter(0.2))
     plot2 <- ggplot(filtered_dat, aes(x=Domain, y=Proportion)) +
-        geom_boxplot(outlier.color="black", outlier.shape=16,
-                     outlier.size=2, notch=FALSE)
+        geom_violin()
     combined_plots <- grid.arrange(plot1, plot2, nrow=2)
 
     # Save histogram plot
@@ -51,9 +50,10 @@ make_plots <- function(filename, conserved_value){
 
 main <- function()
     setwd("../BAM_comparative_genetics/alignments/statistics/farmed_stats")
-    file_paths <- fs::dir_ls("")
+    file_paths <- fs::dir_ls(path = "../BAM_comparative_genetics/alignments/statistics/farmed_stats", regexp = "*stats.csv$")
     conserved_value <- 98
     for (filename in file_paths){
+	filename
         make_plots(filename, conserved_value)
     }
 
