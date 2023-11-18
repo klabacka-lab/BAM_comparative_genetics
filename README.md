@@ -32,18 +32,17 @@ antibiotic targets.
       sequences
   * Writes farmed sequences to new FASTA file
 
-* position.py creates the Position class to calculate particular statistics at
-given positions along the amino acid sequence alignment. Such statistics include
-  * Sample Size: Number of amino acids present at a given position, excluding
-    gaps
-  * Unique Amino Acids: The number of unique amino acids represented at the given
-    position
-  * Proportion: The proportion of the most common amino acid to the total
-    amount of amino acids found at a given position
-
 * stat.py takes a multiple sequence alignment FASTA file and tracks statistics
 provided by the Position class across the entire alignment, writing them to CSV
 files.
+  * position.py creates the Position class to calculate particular statistics at
+given positions along the amino acid sequence alignment. Such statistics include
+    * Sample Size: Number of amino acids present at a given position, excluding
+    gaps
+    * Unique Amino Acids: The number of unique amino acids represented at the given
+    position
+    * Proportion: The proportion of the most common amino acid to the total
+    amount of amino acids found at a given position
   * Removes significant gaps from alignments
   * Makes note of positions that are significantly conserved
     * Expecting the protein to be fairly well conserved amongst different taxa,
