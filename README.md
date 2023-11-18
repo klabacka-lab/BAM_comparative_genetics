@@ -13,6 +13,16 @@ against highly conserved and neutral genes in Enterobacterales bacteria.
 
 ### Scripts
 
+* fasta_cross.py (ALEX GET BACK TO THIS ONE)
+
+* e_coli_farm.py takes a multiple sequence alignment FASTA file and "farms" the
+  alignment for anything not present in a given species (default for this
+  project is *Escherichia coli*)
+  * Removes all columns not represented by target species
+    * Eliminates gaps in target species and adjusts all other amino acid
+      sequences
+  * Writes farmed sequences to new FASTA file
+
 * position.py creates the Position class to calculate particular statistics at
 given positions along the amino acid sequence alignment. Such statistics include
   * Sample Size: Number of amino acids present at a given position, excluding
@@ -31,13 +41,14 @@ files.
       though less and less the farther back in the phylogenetic distance we reach
     * Expecting the protein to be highly conserved just in Enterobacterales
 
-* e_coli_farm.py takes a multiple sequence alignment FASTA file and "farms" the
-  alignment for anything not present in a given species (default for this
-  project is *Escherichia coli*)
-  * Removes all columns not represented by target species
-    * Eliminates gaps in target species and adjusts all other amino acid
-      sequences
-  * Writes farmed sequences to new FASTA file
+* analysis_plot.r takes a CSV file with statistics about position objects and
+  turns them into histogram & box and whisker plots before saving them into PNG
+  files
+   * \*_histogram.png
+     * Histogram plot
+     * Positions at or above 98% conservation are color coded red
+   * \*_box.png
+     * Includes box and whisker plots & violin plots
 
 ### Pipeline
 
