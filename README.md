@@ -3,11 +3,20 @@
 The purpose of this project is to analyze the conservation of the protein BamA and its
 satellite POTRA domains.
 
-## How
+## Abstract
 
-It approaches this by looking in particular at the amino acid
-sequences of BamA in Enterobacterales compared to other taxa of bacteria, as well as
-against highly conserved and neutral genes in Enterobacterales bacteria.
+$\beta$-barrel assembly machinery (BAM) is a protein complex vital to cell
+survival in gram-negative bacteria that functions to insert proteins into the
+cell’s outer membrane. BamA, a protein composed of a membrane-bound beta barrel
+and several potra domains that protrude into the cytosol, is the primary subunit
+within BAM. It is suggested that BamA is conserved due to its widespread
+presence across the bacterial tree of life. Here we quantify the conservancy of
+BamA in 142 species of gram-negative bacteria from across the bacterial tree of
+life, with a focus on 120 species belonging to the order Enterobacterales. In
+addition, we compared the conservancy of BamA with other proteins with high and
+moderate levels of conservation in Enterobacterales. Lastly, we discuss regions
+of BamA that are of high conservation in the context of their potential as
+antibiotic targets.
 
 ## Methods
 
