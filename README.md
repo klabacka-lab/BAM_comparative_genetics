@@ -11,6 +11,8 @@ against highly conserved and neutral genes in Enterobacterales bacteria.
 
 ## Methods
 
+### Scripts
+
 * position.py creates the Position class to calculate particular statistics at
 given positions along the amino acid sequence alignment. Such statistics include
   * Sample Size: Number of amino acids present at a given position, excluding
@@ -36,3 +38,7 @@ files.
     * Eliminates gaps in target species and adjusts all other amino acid
       sequences
   * Writes farmed sequences to new FASTA file
+
+### Pipeline
+
+![alt text](Pipeline.png "Script Pipeline for Data")
