@@ -124,7 +124,9 @@ Running `analysis_plot.r` will create two PNG files,
 `enterobacterales_test_farmed_stats_box.png` and
 `enterobacterales_test_farmed_stats_histogram.png`, respectively the box and
 histogram plots showing the conservation of BamA and its POTRA domains across
-the 128 sequences of this test file. These should look like
+the 128 sequences of this test file.
+
+### Final Products
 
 ![alt_text](box_test.png "Box plot you should see after running
 enterobacterales_test.fa through all the necessary scripts.")
