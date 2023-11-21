@@ -9,7 +9,9 @@ satellite POTRA domains.
 - [Methods](#methods)
   - [Scripts](#scripts)
   - [Pipeline](#pipeline)
-- [Walkthrough](#walkthrough)
+- [Process](#process)
+  - [Conditions](#conditions)
+  - [Walkthrough](#walkthrough)
 
 ## Abstract
 
@@ -70,8 +72,54 @@ given positions along the amino acid sequence alignment. Such statistics include
 
 ![alt text](Pipeline.png "Script Pipeline for Data")
 
-## Walkthrough
+## Process
 
-N/A For Now
+### Conditions
+
+As it stands, the scripts in this project are set to run on the conditions that
+
+1. We are looking at BamA and its POTRA domains, and
+2. Escherichia coli is present in the alignments and will be the base species
+   around which data will be manipulated
+
+Future modifications to the scripts will be to make it generalized for any given
+species and, ideally, any given protein one wants to analyze conservation.
+
+The walkthrough will be based around the test FASTA file
+`enterobacterales_test.fa`, so you can get a feel for the process required to
+analyze the conservation of BamA.
+
+### Walkthrough
+
+We start with `enterobacterales_test.fa`, a FASTA file of a multiple amino acid
+sequence alignment. There are 128 species represented by 128 amino acid
+sequences of the BamA protein.
+
+With the FASTA file, the next step will be to run it through `e_coli_farm.py`,
+a script that will "farm" the alignment of gaps that are not present in the
+sequence of *Escherichia coli*.
+
+    $ python3 e_coli_farm.py --infile enterobacterales_test.fa
+
+This will produce `enterobacterales_test_farmed.fa`.
+
+With the farmed FASTA file, we can get to the actual conservation analysis. To
+do that, run `enterobacterales_test_farmed.fa` through the `stat.py` script.
+
+    $ python3 stat.py enterobacterales_test_farmed.fa
+
+This will produce two CSV files, `enterobacterales_test_farmed_stats.csv` and
+`enterobacterales_test_farmed_conserved.csv`. The latter file contains each
+position and its most common amino acid with a proportion above 98%.
+
+The former is what we will use to create our plots using the R script
+`analysis_plot.r`.
+
+    $ Rscript analysis_plot.r
+
+`analysis_plot.r` will automatically look through the current working directory
+(ideally the cloned repository) for any CSV files ending in `*stats.csv`.
+
+
 
 

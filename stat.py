@@ -227,7 +227,7 @@ def write_conserved_csv(filename, sites):
     custom_filename = generate_filename(filename, "conservation")
     with open(custom_filename, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
-        csv_writer.writerow(['Conserved Position', 'Proportion'])
+        csv_writer.writerow(['Conserved Position', 'Amino Acid'])
         for pos in sites:
             csv_writer.writerow([pos])
     print("Conserved site file written.")
