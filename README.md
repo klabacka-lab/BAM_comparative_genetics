@@ -5,9 +5,10 @@ satellite POTRA domains.
 
 # Contents
 
-- [Abstract](##abstract)
-- [Methods](##methods)
-  - [Scripts](###scripts)
+- [Abstract](#abstract)
+- [Methods](#methods)
+  - [Scripts](#scripts)
+  - [Pipeline](#pipeline)
 
 ## Abstract
 
