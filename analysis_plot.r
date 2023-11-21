@@ -47,8 +47,8 @@ make_plots <- function(filename, conserved_value){
 }
 
 main <- function()
-    setwd("../BAM_comparative_genetics/alignments/statistics/farmed_stats")
-    file_paths <- fs::dir_ls(path = "../BAM_comparative_genetics/alignments/statistics/farmed_stats", regexp = "*stats.csv$")
+    setwd()
+    file_paths <- fs::dir_ls(path = ".", regexp = "*stats.csv$")
     conserved_value <- 98
     for (filename in file_paths){
 	filename
