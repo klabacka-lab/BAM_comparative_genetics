@@ -9,6 +9,7 @@ satellite POTRA domains.
 - [Methods](#methods)
   - [Scripts](#scripts)
   - [Pipeline](#pipeline)
+- [Walkthrough](#walkthrough)
 
 ## Abstract
 
@@ -68,3 +69,9 @@ given positions along the amino acid sequence alignment. Such statistics include
 ### Pipeline
 
 ![alt text](Pipeline.png "Script Pipeline for Data")
+
+## Walkthrough
+
+N/A For Now
+
+
