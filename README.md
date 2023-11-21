@@ -120,6 +120,14 @@ The former is what we will use to create our plots using the R script
 `analysis_plot.r` will automatically look through the current working directory
 (ideally the cloned repository) for any CSV files ending in `*stats.csv`.
 
+Running `analysis_plot.r` will create two PNG files,
+`enterobacterales_test_farmed_stats_box.png` and
+`enterobacterales_test_farmed_stats_histogram.png`, respectively the box and
+histogram plots showing the conservation of BamA and its POTRA domains across
+the 128 sequences of this test file. These should look like
 
+![alt_text](box_test.png "Box plot you should see after running
+enterobacterales_test.fa through all the necessary scripts.")
 
-
+![alt_text](histogram_test.png "Histogram plot you should see after running
+enterobacterales_test.fa through all the necessary scripts.")
