@@ -3,6 +3,12 @@
 The purpose of this project is to analyze the conservation of the protein BamA and its
 satellite POTRA domains.
 
+# Contents
+
+- [Abstract](##abstract)
+- [Methods](##methods)
+  - [Scripts](###scripts)
+
 ## Abstract
 
 $\beta$-barrel assembly machinery (BAM) is a protein complex vital to cell
