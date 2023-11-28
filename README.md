@@ -18,7 +18,7 @@ satellite POTRA domains.
 $\beta$-barrel assembly machinery (BAM) is a protein complex vital to cell
 survival in gram-negative bacteria that functions to insert proteins into the
 cell’s outer membrane. BamA, a protein composed of a membrane-bound beta barrel
-and several potra domains that protrude into the cytosol, is the primary subunit
+and several POTRA domains that protrude into the cytosol, is the primary subunit
 within BAM. It is suggested that BamA is conserved due to its widespread
 presence across the bacterial tree of life. Here we quantify the conservancy of
 BamA in 142 species of gram-negative bacteria from across the bacterial tree of
