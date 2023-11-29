@@ -42,7 +42,7 @@ def farm_data(infile, target_species):
     if target_species_index != None:
         target_sequence = records[target_species_index].seq
 
-        #
+        #Parses through each sequence in alignment
         for record in records:
             new_seq = ""
 
