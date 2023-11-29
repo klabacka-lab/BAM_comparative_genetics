@@ -30,20 +30,17 @@ make_plots <- function(filename, conserved_value){
     # Create box and whisker plot
     box_plot <- ggplot(filtered_dat, aes(x=Domain, y=Proportion)) + geom_boxplot()
     plot1 <- box_plot + geom_jitter(shape=16, position=position_jitter(0.2))
-    plot2 <- ggplot(filtered_dat, aes(x=Domain, y=Proportion)) +
-        geom_violin()
-    combined_plots <- grid.arrange(plot1, plot2, nrow=2)
 
     # Save histogram plot
     ggsave(filename = hist_filename,
            plot = hist_plot,
-           width = 20, height = 4, dpi = 250, units = "in", device = "png",
+           width = 20, height = 6, dpi = 250, units = "in", device = "png",
            limitsize = FALSE)
 
     # Save box and whisker plot
     ggsave(filename = box_filename,
-           plot = combined_plots,
-           width = 10, height = 8, units = "in", device = "png")
+           plot = plot1,
+           width = 10, height = 6, units = "in", device = "png")
 }
 
 main <- function()
