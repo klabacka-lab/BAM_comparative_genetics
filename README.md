@@ -84,11 +84,11 @@ given positions along the amino acid sequence alignment. Such statistics include
 
 To clone this repository using HTTPS, enter the following into the command line:
 
-    $ git clone https://github.com/KLab-UT/BAM_comparative_genetics.git
+    git clone https://github.com/KLab-UT/BAM_comparative_genetics.git
 
 To clone this repository using SSH, enter the following into the command line:
 
-    $ git clone git@github.com:KLab-UT/BAM_comparative_genetics.git
+    git clone git@github.com:KLab-UT/BAM_comparative_genetics.git
 
 ### Conditions
 
@@ -115,14 +115,14 @@ With the FASTA file, the next step will be to run it through `e_coli_farm.py`,
 a script that will "farm" the alignment of gaps that are not present in the
 sequence of *Escherichia coli*.
 
-    $ python e_coli_farm.py --infile enterobacterales_test.fa
+    python e_coli_farm.py --infile enterobacterales_test.fa
 
 This will produce `enterobacterales_test_farmed.fa`.
 
 With the farmed FASTA file, we can get to the actual conservation analysis. To
 do that, run `enterobacterales_test_farmed.fa` through the `stat.py` script.
 
-    $ python stat.py enterobacterales_test_farmed.fa
+    python stat.py enterobacterales_test_farmed.fa
 
 This will produce two CSV files, `enterobacterales_test_farmed_stats.csv` and
 `enterobacterales_test_farmed_conserved.csv`. The latter file contains each
@@ -131,7 +131,7 @@ position and its most common amino acid with a proportion above 98%.
 The former is what we will use to create our plots using the R script
 `analysis_plot.r`.
 
-    $ Rscript analysis_plot.r
+    Rscript analysis_plot.r
 
 `analysis_plot.r` will automatically look through the current working directory
 (ideally the cloned repository) for any CSV files ending in `*stats.csv`.
