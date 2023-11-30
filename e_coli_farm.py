@@ -35,17 +35,9 @@ def farm_data(infile, target_species):
     # Searches through FASTA file for target species
     for i, record in enumerate(records):
         if target_species in record.id:
-            target_species_index = i
-            break
-
-    # Writes new farmed sequences based on target species
-    if target_species_index != None:
-        target_sequence = records[target_species_index].seq
-
-        #Parses through each sequence in alignment
-        for record in records:
+            # Writes new farmed sequences based on target species
+            target_sequence = records[i].seq
             new_seq = ""
-
             # Compares position in target sequence to current sequence
             for a, b in zip(target_sequence, record.seq):
                 if a != "-":
@@ -53,7 +45,9 @@ def farm_data(infile, target_species):
             new_record = record
             new_record.seq = new_seq
             new_records.append(new_record)
-    return new_records
+            break
+
+    
 
 def generate_filename(infile):
 
