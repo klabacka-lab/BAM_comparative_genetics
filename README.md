@@ -115,14 +115,14 @@ With the FASTA file, the next step will be to run it through `e_coli_farm.py`,
 a script that will "farm" the alignment of gaps that are not present in the
 sequence of *Escherichia coli*.
 
-    $ python3 e_coli_farm.py --infile enterobacterales_test.fa
+    $ python e_coli_farm.py --infile enterobacterales_test.fa
 
 This will produce `enterobacterales_test_farmed.fa`.
 
 With the farmed FASTA file, we can get to the actual conservation analysis. To
 do that, run `enterobacterales_test_farmed.fa` through the `stat.py` script.
 
-    $ python3 stat.py enterobacterales_test_farmed.fa
+    $ python stat.py enterobacterales_test_farmed.fa
 
 This will produce two CSV files, `enterobacterales_test_farmed_stats.csv` and
 `enterobacterales_test_farmed_conserved.csv`. The latter file contains each
