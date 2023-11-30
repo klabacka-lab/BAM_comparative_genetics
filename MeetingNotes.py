@@ -1,3 +1,9 @@
+# November 28 2023 (notes from meeting with Alex and Randy)
+## Use the Parks et al. paper for phylogenetic naming of the different alignment files
+### Alex is going to change "Hydro" to "Graci" (for gracilicutes) 
+### Then Alex is going to add Fusobacteria (Cetobacerium and Fusobacterium) are part of the next group after graci, which we can call "Fusograci"
+### Then Alex is going to add Terrabacteria (Anabaena, Deinococcus, Microcystis, Mycobacterium, and Thermus) and call this "Bacteria"
+
 # November 16 2023 (notes from meeting with Alex, David, and Randy)
 ## Today we got the analysis.r script running
 ## David is going to optimize the aligner using Entrez (currently running into some bugs with a few taxa)
