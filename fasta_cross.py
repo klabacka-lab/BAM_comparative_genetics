@@ -2,6 +2,10 @@ import re, os
 from sys import argv
 from Bio import SeqIO
 
+#I would like to see a main doc string that details what the attributes are and maybe what the key value pairs will be.
+#also I really liked the format for your e_coli_farm.py doc strings where you explicitly stated what the inputs and outputs
+#are, it was relly easy to understand. I'm really nit picking here your code and documentation is AMAZING!!!!! -Erin
+
 class Fasta_cross():
 	def __init__(self):
 		self.bacteria_names = []
