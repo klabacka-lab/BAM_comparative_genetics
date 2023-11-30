@@ -1,4 +1,4 @@
-# Shebang line
+# !/usr/bin/env/Rscript
 
 library(fs)
 library(ggplot2)
