@@ -10,6 +10,7 @@ satellite POTRA domains.
   - [Scripts](#scripts)
   - [Pipeline](#pipeline)
 - [Process](#process)
+  - [Installation] (#installation)
   - [Conditions](#conditions)
   - [Walkthrough](#walkthrough)
 
@@ -32,7 +33,12 @@ antibiotic targets.
 
 ### Scripts
 
-* fasta_cross.py (ALEX GET BACK TO THIS ONE)
+* fasta_cross.py extracts the naming conventions of one FASTA file and aligns it
+  with the naming conventions of another.
+  * Using *Escherichia coli* as our example:
+    * GenBank convention = pdb|6V05|A:1-810 Chain A, Outer membrane protein
+      assembly factor BamA
+    * Project convention = Enterobacteriaceae-[Escherichiacoli]
 
 * e_coli_farm.py takes a multiple sequence alignment FASTA file and "farms" the
   alignment for anything not present in a given species (default for this
@@ -73,6 +79,16 @@ given positions along the amino acid sequence alignment. Such statistics include
 ![alt text](Pipeline.png "Script Pipeline for Data")
 
 ## Process
+
+### Installation
+
+To clone this repository using HTTPS, enter the following into the command line:
+
+    $ git clone https://github.com/KLab-UT/BAM_comparative_genetics.git
+
+To clone this repository using SSH, enter the following into the command line:
+
+    $ git clone git@github.com:KLab-UT/BAM_comparative_genetics.git
 
 ### Conditions
 
