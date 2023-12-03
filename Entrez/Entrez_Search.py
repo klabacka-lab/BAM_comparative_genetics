@@ -129,8 +129,15 @@ def main():
 	found_list = []
 	intruder_list = []
 
+	
+	'''
+ 	Checking number of times the same ammount of results has been returned could be bad. It's possible to get 3 results back 3 times in a row even if the results aren't the same each time.
+  	Need to check the actual content of the results.
+   	I guess this is a band-aid for now
+ 	'''
 	prev_number_names_found = 0
 	same_number_found = 0
+	
 
 	write_file = open("search_results.fasta","w")
 
@@ -160,7 +167,6 @@ def main():
 		for item in sift_results[1]:
 			if item not in found_list:
 				found_list.append(item)
-
 
 		for name in sift_results[2]:
 			if name not in intruder_list:
