@@ -1,0 +1,30 @@
+https://tree.opentreeoflife.org/curator/study/view/pg_2757
+Sachs J.L., Skophammer R.G., Bansal N., & Stajich J.E. 2013. Evolutionary origins and diversification of proteobacterial mutualists. Proceedings of the Royal Society B: Biological Sciences, .
+http://dx.doi.org/10.1098/rspb.2013.2146
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2757/?tab=home&tree=tree6369
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2739
+Schirrmeister, Bettina E, Alexandre Antonelli, Homayoun C Bagheri. 2011. The origin of multicellularity in cyanobacteria. BMC Evolutionary Biology 11 (1): 45.
+http://dx.doi.org/10.1186/1471-2148-11-45
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2739/?tab=home&tree=tree6601
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2448
+Segata, Nicola, Daniela Börnigen, Xochitl C. Morgan, Curtis Huttenhower. 2013. PhyloPhlAn is a new method for improved phylogenetic and taxonomic placement of microbes. Nature Communications 4: 2304.
+http://dx.doi.org/10.1038/ncomms3304
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2448/?tab=home&tree=tree5223
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2542
+Lang, Jenna Morgan, Aaron E. Darling, Jonathan A. Eisen. 2013. Phylogeny of bacterial and archaeal genomes using conserved genes: supertrees and supermatrices. PLoS ONE 8 (4): e62510.
+http://dx.doi.org/10.1371/journal.pone.0062510
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2542/?tab=home&tree=tree5590
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2753
+Filip Husník, Tomáš Chrudimský, Václav Hypša, 2011, 'Multiple origins of endosymbiosis within the Enterobacteriaceae (γ-Proteobacteria): convergence of complex phylogenetic approaches', BMC Biology, vol. 9, no. 1, p. 87
+http://dx.doi.org/10.1186/1741-7007-9-87
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2753/?tab=home&tree=tree6360
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2892
+Janaina Rigonato, Angela D. Kent, Danillo O. Alvarenga, Fernando D. Andreote, Raphael M. Beirigo, Pablo Vidal-Torrado, Marli F. Fiore, 2013, 'Drivers of cyanobacterial diversity and community composition in mangrove soils in south-east Brazil', Environmental Microbiology, vol. 15, no. 4, pp. 1103-1114
+http://dx.doi.org/10.1111/j.1462-2920.2012.02830.x
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2892/?tab=home&tree=tree6700
+-----------------------------------------------------------------------------
