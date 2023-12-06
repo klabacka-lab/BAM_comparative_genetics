@@ -1,3 +1,5 @@
+Cetobacterium somerae
+Fusobacterium nucleatum
 Anabaena sphaerica
 Deinococcus radiodurans
 Microcystis aeruginosa
@@ -140,3 +142,10 @@ Serratia marcescens
 Serratia proteamaculans
 Serratia symbiotica
 Wigglesworthia glossinidia
+Morganella
+Buttiauxella
+Cedecea
+Plesiomonas
+Biostraticola
+Serratia
+Shimwellia

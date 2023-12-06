@@ -1,5 +1,14 @@
+# December 5 2023 (notes from Randy playing with otol, phytools, and pymol)
+# OTOL pulled most of the taxa Alex selected. However, a couple of problems:
+## 1. It didn't pull everything. I didn't make note of what didn't come out, but there were a few taxa
+## 2. Many things hay polytomies
+## 3. The relationships don't follow the Coleman et al. (2021) relationships (with Gracilicutes). Instead, Fuso group pops out as outgroup.
+# I installed the pymol python package using this:
+## pip install pymolPy3 --user
+
+
 # November 28 2023 (notes from meeting with Alex and Randy)
-## Use the Parks et al. paper for phylogenetic naming of the different alignment files
+## Use the Coleman et al. (2021) paper for phylogenetic naming of the different alignment files
 ### Alex is going to change "Hydro" to "Graci" (for gracilicutes) 
 ### Then Alex is going to add Fusobacteria (Cetobacerium and Fusobacterium) are part of the next group after graci, which we can call "Fusograci"
 ### Then Alex is going to add Terrabacteria (Anabaena, Deinococcus, Microcystis, Mycobacterium, and Thermus) and call this "Bacteria"

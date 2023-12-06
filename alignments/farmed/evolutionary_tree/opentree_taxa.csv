@@ -1,5 +1,7 @@
 ORIGINAL LABEL,OTT TAXON NAME,OTT TAXON ID,TAXONOMIC SOURCES
-Anabaena sphaeric,Anabaena sphaerica,56106,ncbi:212446;gbif:5427269;irmng:11410088
+Cetobacterium somerae,Cetobacterium somerae,1060802,ncbi:188913;gbif:3225865;irmng:10529148
+Fusobacterium nucleatum,Fusobacterium nucleatum,89034,silva:FJ471641;ncbi:851;gbif:3225878;irmng:10032020
+Anabaena sphaerica,Anabaena sphaerica,56106,ncbi:212446;gbif:5427269;irmng:11410088
 Deinococcus radiodurans,Deinococcus radiodurans,563955,silva:Y11332;ncbi:1299;gbif:9797722;irmng:10033749
 Microcystis aeruginosa,Microcystis aeruginosa,269069,silva:AB035549;ncbi:1126;worms:146558;gbif:3217630;gbif:7821770;irmng:10734981;irmng:10730591
 Mycobacterium tuberculosis,Mycobacterium tuberculosis,604112,silva:X58890;ncbi:1773;gbif:3225140;irmng:10033268
@@ -13,7 +15,7 @@ Bordetella pertussis,Bordetella pertussis,373611,silva:AF142326;ncbi:520;gbif:32
 Mariprofundus ferrooxydans,Mariprofundus ferrooxydans,191433,silva:JQ073806;ncbi:314344;worms:570892;gbif:5905994;irmng:11795652
 Neisseria meningitidis,Neisseria meningitidis,611778,silva:AY146978;ncbi:487;gbif:3220226;irmng:10528686
 Orientia tsutsugamushi,Orientia tsutsugamushi,320567,silva:D38626;ncbi:784;gbif:3221477;irmng:11424320;irmng:10543713
-Aggregati bacteraphrophilus,Aggregatibacter aphrophilus,5282620,silva:M75040;ncbi:732;gbif:3222250;irmng:10435938;irmng:11338130
+Aggregatibacter aphrophilus,Aggregatibacter aphrophilus,5282620,silva:M75040;ncbi:732;gbif:3222250;irmng:10435938;irmng:11338130
 Aliivibrio fischeri,Aliivibrio fischeri,79581,silva:DQ187330;ncbi:668;worms:889930;worms:480250;worms:570701;gbif:5908955;irmng:10033157;irmng:11734129;irmng:11235929
 Haemophilus influenzae,Haemophilus influenzae,682806,silva:AY613561;ncbi:727;gbif:3222212;irmng:11185101
 Haemophilus pittmaniae,Haemophilus pittmaniae,372818,silva:AJ290754;ncbi:249188;gbif:3222203
@@ -88,8 +90,8 @@ Erwinia tracheiphila,Erwinia tracheiphila,492526,silva:EU490598;ncbi:65700;gbif:
 Mixta calida,Mixta calida,185667,silva:GQ367478;ncbi:665913;gbif:8034850
 Pantoea agglomerans,Pantoea agglomerans,1032074,silva:AB033602;ncbi:549;gbif:8905302;irmng:11186653;irmng:11070082;irmng:10035003;irmng:10436445
 Pantoea stewartii,Pantoea stewartii,455670,silva:JQ659402;ncbi:66269;gbif:3221841;irmng:11320968
-Edwardsi ellaictaluri,Edwardsiella ictaluri,174517,silva:EU231639;ncbi:67780;gbif:5427638;irmng:11091468
-Edwardsi ellatarda,Edwardsiella tarda,857253,silva:FJ405301;ncbi:636;gbif:5427636;gbif:5427639;irmng:11191963;irmng:10863749
+Edwardsiella ictaluri,Edwardsiella ictaluri,174517,silva:EU231639;ncbi:67780;gbif:5427638;irmng:11091468
+Edwardsiella tarda,Edwardsiella tarda,857253,silva:FJ405301;ncbi:636;gbif:5427636;gbif:5427639;irmng:11191963;irmng:10863749
 Hafnia alvei,Hafnia alvei,474474,silva:AB519795;ncbi:569;gbif:3222025;irmng:11180765
 Arsenophonus nasoniae,Arsenophonus nasoniae,857269,silva:AY264674;ncbi:638;gbif:3221725;irmng:10550299
 Morganella morganii,Morganella morganii,524741,silva:DQ885260;ncbi:582;gbif:5427640;irmng:11183672;irmng:10381781
@@ -135,3 +137,10 @@ Serratia marcescens,Serratia marcescens,433461,silva:EF102863;ncbi:615;worms:422
 Serratia proteamaculans,Serratia proteamaculans,409523,silva:AY902209;ncbi:28151;gbif:3221748;irmng:10540052
 Serratia symbiotica,Serratia symbiotica,1056433,silva:FJ655530;ncbi:138074;gbif:8367549
 Wigglesworthia glossinidia,Wigglesworthia glossinidia,189504,ncbi:51229;gbif:3222036;irmng:10034586
+Morganella,Morganella (genus in domain Bacteria),524780,ncbi:581;silva:AB089243/#6;gbif:3222026;irmng:1379174
+Buttiauxella,Buttiauxella,834829,silva:AF227860/#6;ncbi:82976;gbif:3221727;irmng:1100861
+Cedecea,Cedecea,609783,silva:AB086230/#6;ncbi:158483;gbif:3221930;irmng:1266841
+Plesiomonas,Plesiomonas,520786,silva:M59159/#6;ncbi:702;worms:571265;gbif:3222000;irmng:1038089
+Biostraticola,Biostraticola,266486,silva:AM774412/#6;ncbi:466108;gbif:8293095
+Serratia,Serratia,806315,silva:M27040/#6;ncbi:613;worms:415973;gbif:3221744;irmng:1309475
+Shimwellia,Shimwellia,5176353,silva:EU868610/#6;ncbi:1335483;gbif:8256667
