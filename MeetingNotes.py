@@ -1,3 +1,10 @@
+# January 18 2023
+## Syrus is added to the github repository
+## He will be creating a table that shows all of the taxonomic memberships for each taxon
+## David will decide on less-conserved protein to pair with SecY (to have two controls)
+## Based on the OTOL phylogeny, Alex will decide how to group taxa in the alignments
+# FOR SYRUS AND ALEX: Look at the literature listed in BAM_comparative_genetics/alignments/farmed/evolutionary_tree/ directory at the "opentree_citations.txt" file
+
 # December 5 2023 (notes from Randy playing with otol, phytools, and pymol)
 # OTOL pulled most of the taxa Alex selected. However, a couple of problems:
 ## 1. It didn't pull everything. I didn't make note of what didn't come out, but there were a few taxa
