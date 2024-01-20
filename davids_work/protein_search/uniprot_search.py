@@ -10,7 +10,6 @@ def get_genes(inFile):
 
 
 def uniprotSearch(gene,taxID):
-    taxID = '561' # Enterobacterales
     url = f'https://rest.uniprot.org/uniprotkb/stream?format=fasta&query=%28%28taxonomy_id%3A{taxID}%29+AND+%28gene%3A{gene}%29%29'
     return requests.get(url).text
 
