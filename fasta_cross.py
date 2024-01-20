@@ -87,12 +87,16 @@ class Fasta_cross():
 					f.write('>'+self.ref_descriptions[name]+'\n')
 					f.write(sequence+'\n')
 
-	def align(self,read_fasta):
+	def align(self,read_fasta,write_handle = None):
 		'''
 		Uses command line to run multiple sequence alignment algorithm. muscle must be installed for this method
 		to work.
 		'''
-		os.system(f"muscle -in {read_fasta} -out aligned_{read_fasta}")
+		if write_handle == None:
+			os.system(f"muscle -in {read_fasta} -out aligned_{read_fasta}")
+		else:
+			os.system(f"muscle -in {read_fasta} -out {write_handle}")
+
 
 def main():
 	obj = Fasta_cross()
