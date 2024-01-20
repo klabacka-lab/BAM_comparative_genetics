@@ -9,9 +9,9 @@ def get_genes(inFile):
         return(geneList)
 
 
-def uniprotSearch(gene):
-    taxID = '91347' # Enterobacterales
-    url = f'https://rest.uniprot.org/uniprotkb/stream?format=fasta&query=%28%28taxonomy_id%3A91347%29+AND+%28gene%3A{gene}%29%29'
+def uniprotSearch(gene,taxID):
+    taxID = '561' # Enterobacterales
+    url = f'https://rest.uniprot.org/uniprotkb/stream?format=fasta&query=%28%28taxonomy_id%3A{taxID}%29+AND+%28gene%3A{gene}%29%29'
     return requests.get(url).text
 
 def write_searches(gene):
@@ -26,26 +26,38 @@ def cross_fasta(names_fasta,search_fasta,write_handle):
     crosser.write_fasta(crosser.match_records,handle = write_handle)
     crosser.align(write_handle,write_handle=write_handle)
 
+
+
 def main():
 
+    # Random Sampling WITHOUT Replacement 
     geneList = get_genes('ecoli_all_proteins.txt')
-
-    # Random Sampling WITHOUT Replacement
     randomSample = random.sample(geneList, k=10)
 
+    # Target Specific genes
+    gene_list = ['bamA','secY']
 
-    #gene_list = ['bamA','secY']
+    taxID = 561
+
+    #taxIDs of interest
+    #------------------
+    #Escherichia: 561
+    #Enterobacterales: 91347
 
     for gene in randomSample:
     #for gene in gene_list:
 
         write_handle = f'./search_results/{gene}_enterobacterales.fasta'
-
-        searchResult = uniprotSearch(gene)
+        searchResult = uniprotSearch(gene,taxID) 
         with open(write_handle,'w') as outFile:
-                outFile.write(uniprotSearch(gene))
+                outFile.write(searchResult)
 
-        cross_fasta('enterobacterales.fa',search_fasta = write_handle, write_handle = write_handle)
+        cross_fasta(
+                names_fasta = 'enterobacterales.fa',
+                search_fasta = write_handle, 
+                write_handle = write_handle
+                )
 
+if __name__ == '__main__':
+    main()
 
-main()
