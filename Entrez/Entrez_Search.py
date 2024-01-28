@@ -193,8 +193,8 @@ def main():
 
 	# Writing search results to a file
 	
-
-main()
+if __name__ == '__main__':
+	main()
 
 
 
