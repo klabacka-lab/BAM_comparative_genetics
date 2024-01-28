@@ -10,7 +10,7 @@ satellite POTRA domains.
   - [Scripts](#scripts)
   - [Pipeline](#pipeline)
 - [Process](#process)
-  - [Installation] (#installation)
+  - [Installation](#installation)
   - [Conditions](#conditions)
   - [Walkthrough](#walkthrough)
 
