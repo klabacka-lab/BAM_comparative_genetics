@@ -1,11 +1,11 @@
 from Bio import SeqIO,Entrez
 Entrez.email = "david.bean@utahtech.edu"
 
-term = "BamA[Gene Name]"
+term = "BamA[Gene Name],Sequence"
 
 searchHandle = Entrez.esearch(
 	db = "nucleotide",
-	retmax = 10,
+	retmax = 1,
 	term = term
 	)
 
@@ -23,5 +23,5 @@ fetchHandle = Entrez.efetch(
 	)
 
 record = SeqIO.read(fetchHandle,'genbank')
-print(record.seq)
+print(record)
 
