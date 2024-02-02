@@ -2,6 +2,7 @@ import requests
 import random
 import fasta_cross
 import sys
+import time
 
 # Pulls gene names from ecoli names file. Returns names as list
 def get_genes(inFile):
@@ -47,23 +48,32 @@ def main():
 
     totalGenes = len(geneList)
     progressCount = 0
+    failureCount = 0
+    startTime = time.time()
+
     print(f'{progressCount}/{totalGenes} searched')
     for gene in geneList:
-        write_handle = f'./search_results/{gene}_enterobacterales.fasta'
-        searchResult = uniprotSearch(gene,taxID) 
-        with open(write_handle,'w') as outFile:
-                outFile.write(searchResult)
+        try:
+            write_handle = f'./search_results/{gene}_enterobacterales.fasta'
+            searchResult = uniprotSearch(gene,taxID) 
+            with open(write_handle,'w') as outFile:
+                    outFile.write(searchResult)
 
-        cross_fasta(
-                names_fasta = 'enterobacterales.fa',
-                search_fasta = write_handle, 
-                write_handle = write_handle
-                )
+            cross_fasta(
+                    names_fasta = 'enterobacterales.fa',
+                    search_fasta = write_handle, 
+                    write_handle = write_handle
+                    )
 
-        progressCount += 1
-        sys.stdout.write("\033[F")
-        print(f'{progressCount}/{totalGenes} searched')
+            progressCount += 1
+            currentTime = time.time()
+            elapsedTime = round(currentTime - startTime)
 
+            sys.stdout.write("\033[F")
+            print(f'{progressCount}/{totalGenes} searched.Time elapsed: {elapsedTime} s. Search Failures {failureCount}')
+        except:
+            failureCount += 1
+            print(f'Search Failures: {failureCount}')
 if __name__ == '__main__':
     main()
 
