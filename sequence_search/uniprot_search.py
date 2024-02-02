@@ -1,6 +1,7 @@
 import requests
 import random
 import fasta_cross
+import sys
 
 # Pulls gene names from ecoli names file. Returns names as list
 def get_genes(inFile):
@@ -23,18 +24,19 @@ def cross_fasta(names_fasta,search_fasta,write_handle):
     crosser.get_names(names_fasta,'alex') # enterobacterales.fa
     crosser.cross_ref(search_fasta,crosser.bacteria_names,repeat=False)
     crosser.write_fasta(crosser.match_records,handle = write_handle)
-    crosser.align(write_handle,write_handle=write_handle)
-
+    # Skipping the align step for now to save time
+    #crosser.align(write_handle,write_handle=write_handle)
 
 
 def main():
-
-    # Random Sampling WITHOUT Replacement 
+    # All genes in E.coli
     geneList = get_genes('ecoli_all_proteins.txt')
-    randomSample = random.sample(geneList, k=10)
 
-    # Target Specific genes
-    gene_list = ['bamA','secY']
+    # uncomment for random Sampling WITHOUT Replacement 
+    #geneList = random.sample(geneList, k=10)
+
+    # uncomment for target genes
+    #geneList = ['bamA','secY']
 
     taxID = 561
 
@@ -43,9 +45,10 @@ def main():
     #Escherichia: 561
     #Enterobacterales: 91347
 
-    for gene in randomSample:
-    #for gene in gene_list:
-
+    totalGenes = len(geneList)
+    progressCount = 0
+    print(f'{progressCount}/{totalGenes} searched')
+    for gene in geneList:
         write_handle = f'./search_results/{gene}_enterobacterales.fasta'
         searchResult = uniprotSearch(gene,taxID) 
         with open(write_handle,'w') as outFile:
@@ -56,6 +59,10 @@ def main():
                 search_fasta = write_handle, 
                 write_handle = write_handle
                 )
+
+        progressCount += 1
+        sys.stdout.write("\033[F")
+        print(f'{progressCount}/{totalGenes} searched')
 
 if __name__ == '__main__':
     main()
