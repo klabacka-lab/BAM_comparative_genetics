@@ -37,10 +37,27 @@ def main():
                         match = False
             if match == True:
                     genesOfInterest.append(fileHandle) # appending file Handle if it contais genes from all species of interest 
-            
-            
+            sys.stdout.write("\033[F")
             print(speciesCount)
-            print('genes of interest ',len(genesOfInterest))
+    print('copying genes of interest')
+    
+    filterCount = 0
+    minLength = 100
+    for handle in genesOfInterest:
+        unfilteredPath = f'./search_results/{handle}'
+        filteredPath = f'./filtered_results/{handle}'
+        records = list(SeqIO.parse(unfilteredPath,'fasta'))
 
+        tooShort = False
+
+        for record in records:
+            if len(record.seq) < minLength:
+                tooShort = True
+                print(handle + 'too short')
+
+        if tooShort == False:
+            filterCount += 1
+            os.system(f'cp {unfilteredPath} {filteredPath}')
+    print(str(filterCount) + ' genes remaining after filtering for min length ' + str(minLength))
 if __name__ == '__main__':
     main()
