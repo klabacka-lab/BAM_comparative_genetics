@@ -1,4 +1,5 @@
-from pymol import cmd
+#from pymol import cmd
+import pymolPy3
 
 cmd.fetch('8ADG')
 cmd.rotate('y', 65)
