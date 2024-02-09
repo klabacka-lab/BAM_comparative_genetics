@@ -1,5 +1,7 @@
-#from pymol import cmd
-import pymolPy3
+# Install the pymol-open-source package to use the pymol package
+## conda install pymol-open-source
+## the conda-forge chanel should work
+from pymol import cmd
 
 cmd.fetch('8ADG')
 cmd.rotate('y', 65)
@@ -12,7 +14,7 @@ cmd.select('selection', 'chain A and (resi 50 or resi 183 or resi 233 or resi 31
 cmd.color('red', 'selection')
 cmd.show('spheres', 'selection')
 cmd.zoom('all', -0.5)
-cmd.png('output_image.png')
+cmd.png('output_image.png', width=4000, height=4000, dpi=2000)
 
 #cmd.reinitialize()
 
