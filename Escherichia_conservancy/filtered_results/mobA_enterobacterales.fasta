@@ -1,0 +1,65 @@
+>sp|P07112|MOBA2_ECOLX Mobilization protein A OS=Escherichia coli OX=562 GN=mobA PE=1 SV=4
+MAIYHLTAKTGSRSGGQSARAKADYIQREGKYARDMDEVLHAESGHMPEFVERPADYWDA
+ADLYERANGRLFKEVEFALPVELTLDQQKALASEFAQHLTGAERLPYTLAIHAGGGENPH
+CHLMISERINDGIERPAAQWFKRYNGKTPEKGGAQKTEALKPKAWLEQTREAWADHANRA
+LERAGHDARIDHRTLEAQGIERLPGVHLGPNVVEMEGRGIRTDRADVALNIDTANAQIID
+LQEYREAIDHERNRQSEEIQRHQRVSGADRTAGPEHGDTGRRSPAGHEPDPAGQRGAGGG
+VAESPAPDRGGMGGAGQRVAGGSRRGEQRRAERPERVAGVALEAMANRDAGFHDAYGGAA
+DRIVALARPDATDNRGRLDLAALGGPMKNDRTLQAIGRQLKAMGCERFDIGVRDATTGQM
+MNREWSAAEVLQNTPWLKRMNAQGNDVYIRPAEQERHGLVLVDDLSEFDLDDMKAEGREP
+ALVVETSPKNYQAWVKVADAAGGELRGQIARTLASEYDADPASADSRHYGRLAGFTNRKD
+KHTTRAGYQPWVLLRESKGKTATAGPALVQQAGQQIEQAQRQQEKARRLASLELPERQLS
+RHRRTALDEYRSEMAGLVKRFGDDLSKCDFIAAQKLASRGRSAEEIGKAMAEASPALAER
+KPGHEADYIERTVSKVMGLPSVQLARAELARAPAPRQRGMDRGGPDFSM
+>tr|A0A9X1H5J2|A0A9X1H5J2_9ESCH Molybdenum cofactor guanylyltransferase OS=Escherichia ruysiae OX=2608867 GN=mobA PE=3 SV=1
+------------------------------------------------------------
+--------------------------------MNLMTMITG--------VVLAG------
+-------------------------GKARRMGGVDK------------------------
+------------------GLLELNGKPLWQHVAD----ALMTQLSHVVVNAN--------
+--------------------RHQEIYQA-----------------------TGLKVIADS
+LADYPGPLAG-------------------------------MLSVMQQEKG---------
+------------------------------------------------------------
+---EW-----FLFCP--------CDTPYIPQ-----------------DLVSRLNHQRKD
+APVV---------WVH--------------------------------------------
+-----------------DGERDHPTIALVNRAIEPLLQKYLLSGERRVMAFMNLAG----
+------------------------------------------------------------
+--GHAVDFSDRKEAFINVNTPEELARWQEKR------------------
+>tr|A0A2B7LZH5|A0A2B7LZH5_9ESCH Molybdenum cofactor guanylyltransferase OS=Escherichia marmotae OX=1499973 GN=mobA_1 PE=3 SV=1
+------------------------------------------------------------
+--------------------------------MNLMTTITG--------VVLAG------
+-------------------------GKARRMGGVDK------------------------
+------------------GLLELNGKPLWRHVAD----ALMTQLSHVVVNAN--------
+--------------------RHQEIYQL-----------------------SGLKVIEDS
+LADYPGPLAG-------------------------------MLSVMQQEAD---------
+------------------------------------------------------------
+---EW-----FLFCP--------CDTPYIPQ-----------------DLASRLYHQRKD
+ASVV---------WVH--------------------------------------------
+-----------------DGERDHPTIALVNRTIEPLLQEYLHSGERRVMAFMNLAG----
+------------------------------------------------------------
+--GHAVDFSDRKEAFVNVNTPEELARWQERQ------------------
+>tr|A0A7U8ZQ40|A0A7U8ZQ40_9ESCH Molybdenum cofactor guanylyltransferase OS=Escherichia albertii OX=208962 GN=mobA PE=3 SV=1
+------------------------------------------------------------
+--------------------------------MNLMTTITG--------VVLAG------
+-------------------------GKARRMGGADK------------------------
+------------------GLLELNGKPLWQHVAD----ALMTQLSHVVVNAN--------
+--------------------RHQEIYQA-----------------------SGLKVIEDS
+LADYPGPLAG-------------------------------MLSVMQQEAG---------
+------------------------------------------------------------
+---EW-----FLFCP--------CDTPYIPH-----------------DLATRLNHQRKD
+APVV---------WVH--------------------------------------------
+-----------------DGERDHPTIALVNRTIEPLLQEYLQAGERRVMAFMRLAG----
+------------------------------------------------------------
+--GHAVDFSDHKDAFVNVNTPEELARWQEKR------------------
+>tr|A0A7W3EG51|A0A7W3EG51_ESCFE Molybdenum cofactor guanylyltransferase OS=Escherichia fergusonii OX=564 GN=mobA PE=3 SV=1
+------------------------------------------------------------
+--------------------------------MNLMTTITG--------VVLAG------
+-------------------------GKARRMGGVDK------------------------
+------------------GLLELNGKPLWQHVAD----ALMTQLSHVVVNAN--------
+--------------------RHQEIYQA-----------------------SGLKVIEDS
+LADYPGPLAG-------------------------------MLSVMQQEAG---------
+------------------------------------------------------------
+---EW-----FLFCP--------CDTPYIPP-----------------DLAARLNHQRKD
+APVV---------WVH--------------------------------------------
+-----------------DGERDHPTIALVNRAIEPLLLEYLQAGERRVMAFMRLAG----
+------------------------------------------------------------
+--GHAVDFSDHKDAFVNVNTPEELARWQEKR------------------
