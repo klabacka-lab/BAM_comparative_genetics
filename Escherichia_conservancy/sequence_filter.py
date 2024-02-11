@@ -6,6 +6,7 @@ from Bio import SeqIO
 def main():
     path = "./search_results"
     resultsDir = os.listdir(path)
+
     specRegex = 'OS=([A-Za-z]* [a-z]*)'
 
     speciesCount = {} # Dictionary {(key) species : (value) # occurances among fasta files)
@@ -57,7 +58,7 @@ def main():
         if tooShort == False:
             filterCount += 1
             os.system(f'cp {unfilteredPath} {filteredPath}')
-            
+
     print(str(filterCount) + ' genes remaining after filtering')
 if __name__ == '__main__':
     main()

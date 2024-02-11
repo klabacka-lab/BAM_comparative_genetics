@@ -25,10 +25,15 @@ def write_searches(gene):
 # run with the list of bacteria we have though.
 
 def cross_fasta(names_fasta,search_fasta,write_handle):
+
+    # Note: Need to use names from enterobacterales file to be compatible with e_coli_farm.py.
+    # this happens with ref_descriptions = True from write_fasta method
+    
     crosser = fasta_cross.Fasta_cross()
     crosser.get_names(names_fasta,'alex') # enterobacterales.fa
     crosser.cross_ref(search_fasta,crosser.bacteria_names,repeat=False)
-    crosser.write_fasta(crosser.match_records,handle = write_handle)
+    crosser.write_fasta(crosser.match_records,handle = write_handle,ref_descriptions = False)
+
     # We will algn sequences in a later step with align.py
 
 # def cross_fasta(search_fasta,bactList):

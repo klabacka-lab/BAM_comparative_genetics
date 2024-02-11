@@ -39,6 +39,11 @@ if [ -d "filtered_results" ]; then
 	rm -r filtered_results
 fi
 
+if [ -d "farmed_results" ]; then
+	rm -r farmed_results
+fi 
+
+
 mkdir search_results
 python3 uniprot_search.py $geneFile $taxID $maxNumGenes 
 echo ""
@@ -71,8 +76,9 @@ echo "== STEP 2: Filtering Results ======================================"
 echo "==================================================================="
 echo ""
 echo "Filtering retrieved sequences to following specifications:"
-echo "minimum sequence length: $minSeqLen"
-echo "must contain: ${speciesOfInterest[@]}" 
+echo "	minimum sequence length: $minSeqLen"
+echo "	must contain: ${speciesOfInterest[@]}"
+echo ""
 python3 sequence_filter.py $minSeqLen ${speciesOfInterest[@]}
 echo ""
 
@@ -95,7 +101,7 @@ echo ""
 echo "NOTE: for this step, muscle must be installed."
 echo ""
 python3 aligner.py
-
+echo ""
 #######################################
 #### farming alignments ###############
 #######################################
@@ -106,7 +112,22 @@ python3 aligner.py
 #	e_coli_farm.py
 #
 # OUT:	Multiple sequence alignments in which insertaons not present have been trimmed
+echo "==================================================================="
+echo "== STEP 4: Farming  ==============================================="
+echo "==================================================================="
+mkdir farmed_results
+echo ""
+infileDir=filtered_results
+outfileDir=farmed_results
+farmSpecies="Escherechia coli"
 
+
+for filename in $infileDir/*.fasta; do
+	#python3 e_coli_farm.py -i $filename -s $farmSpecies -d $outfileDir
+	python3 e_coli_farm.py -i $filename -d $outfileDir -q true
+done
+echo "Farming complete"
+echo""
 
 #######################################
 #### Retrieving statistics ############
