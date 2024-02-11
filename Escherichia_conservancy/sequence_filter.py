@@ -9,14 +9,12 @@ def main():
     specRegex = 'OS=([A-Za-z]* [a-z]*)'
 
     speciesCount = {} # Dictionary {(key) species : (value) # occurances among fasta files)
-
     genesOfInterest = []
-    speciesOfInterest = [
-            'Escherichia albertii',
-            'Escherichia coli',
-            'Escherichia fergusonii',
-            'Escherichia ruysiae'
-            ]
+
+
+    minLength = int(sys.argv[1])
+    speciesOfInterest = sys.argv[2].split(",")
+    speciesOfInterest = [i.replace('_',' ') for i in speciesOfInterest]
 
     for fileHandle in resultsDir:
         filePath = path+"/"+fileHandle
@@ -37,12 +35,13 @@ def main():
                         match = False
             if match == True:
                     genesOfInterest.append(fileHandle) # appending file Handle if it contais genes from all species of interest 
-            sys.stdout.write("\033[F")
-            print(speciesCount)
-    print('copying genes of interest')
+            # sys.stdout.write("\033[F")
+            # print(speciesCount)
+
     
     filterCount = 0
-    minLength = 100
+
+
     for handle in genesOfInterest:
         unfilteredPath = f'./search_results/{handle}'
         filteredPath = f'./filtered_results/{handle}'
@@ -58,6 +57,7 @@ def main():
         if tooShort == False:
             filterCount += 1
             os.system(f'cp {unfilteredPath} {filteredPath}')
-    print(str(filterCount) + ' genes remaining after filtering for min length ' + str(minLength))
+            
+    print(str(filterCount) + ' genes remaining after filtering')
 if __name__ == '__main__':
     main()

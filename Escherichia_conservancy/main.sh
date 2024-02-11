@@ -18,10 +18,13 @@
 
 
 geneFile="ecoli_all_proteins.txt"
-maxNumGenes=5
+maxNumGenes=10
 taxID=561
 echo ""
 echo "==================================================================="
+echo "== STEP 1: Retrieving Sequences ===================================="
+echo "==================================================================="
+echo ""
 echo "Running uniprot searches for genes in $geneFile within taxID $taxID"
 echo "Limiting search to the first $maxNumGenes genes in $geneFile"
 echo ""
@@ -38,7 +41,7 @@ fi
 
 mkdir search_results
 python3 uniprot_search.py $geneFile $taxID $maxNumGenes 
-
+echo ""
 
 #######################################
 #### Filtering sequences###############
@@ -53,13 +56,25 @@ python3 uniprot_search.py $geneFile $taxID $maxNumGenes
 #	sequence_filter.py
 #
 # OUT:	refined set of FASTA files
+# arg1 <minimum sequence length> arg2 <array of species of interest>
+
+# Note: for speciesOfInterest array, delimit species with a comma. Use underspaces instead
+# 	of spaces.
+
+
+minSeqLen=50
+speciesOfInterest=("Escherichia_albertii,Escherichia_coli,Escherichia_fergusonii,Escherichia_marmotae,Escherichia_ruysiae")
 
 mkdir filtered_results
-echo ""
+echo "==================================================================="
+echo "== STEP 2: Filtering Results ======================================"
 echo "==================================================================="
 echo ""
-
-
+echo "Filtering retrieved sequences to following specifications:"
+echo "minimum sequence length: $minSeqLen"
+echo "must contain: ${speciesOfInterest[@]}" 
+python3 sequence_filter.py $minSeqLen ${speciesOfInterest[@]}
+echo ""
 
 
 
