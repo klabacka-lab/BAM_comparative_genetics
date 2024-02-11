@@ -22,7 +22,7 @@ maxNumGenes=10
 taxID=561
 echo ""
 echo "==================================================================="
-echo "== STEP 1: Retrieving Sequences ===================================="
+echo "== STEP 1: Retrieving Sequences ==================================="
 echo "==================================================================="
 echo ""
 echo "Running uniprot searches for genes in $geneFile within taxID $taxID"
@@ -60,7 +60,7 @@ echo ""
 
 # Note: for speciesOfInterest array, delimit species with a comma. Use underspaces instead
 # 	of spaces.
-
+# Potential future change: remove search results directory to save space/memory
 
 minSeqLen=50
 speciesOfInterest=("Escherichia_albertii,Escherichia_coli,Escherichia_fergusonii,Escherichia_marmotae,Escherichia_ruysiae")
@@ -87,7 +87,14 @@ echo ""
 #	aligner.py
 #
 # OUT:	Multiple sequence allignments
-
+# NOTE: muscle must be installed for this step
+echo "==================================================================="
+echo "== STEP 3: Aligning ==============================================="
+echo "==================================================================="
+echo ""
+echo "NOTE: for this step, muscle must be installed."
+echo ""
+python3 aligner.py
 
 #######################################
 #### farming alignments ###############
