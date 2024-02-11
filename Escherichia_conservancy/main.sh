@@ -5,6 +5,7 @@
 ########################################
 #
 # IN: 	List of genes (ecoli_all_proteins)
+#	taxID to limit search
 #
 #	Uniprot_search.py
 #
@@ -18,11 +19,25 @@
 
 geneFile="ecoli_all_proteins.txt"
 maxNumGenes=5
+taxID=561
+echo ""
+echo "==================================================================="
+echo "Running uniprot searches for genes in $geneFile within taxID $taxID"
+echo "Limiting search to the first $maxNumGenes genes in $geneFile"
+echo ""
+# clearing previous search results
 
-python3 uniprot_search.py $geneFile $maxNumGenes 
+if [ -d "search_results" ]; then
+	echo "Removing previous search results"
+	rm -r search_results
+fi
 
+if [ -d "filtered_results" ]; then
+	rm -r filtered_results
+fi
 
-
+mkdir search_results
+python3 uniprot_search.py $geneFile $taxID $maxNumGenes 
 
 
 #######################################
@@ -38,6 +53,14 @@ python3 uniprot_search.py $geneFile $maxNumGenes
 #	sequence_filter.py
 #
 # OUT:	refined set of FASTA files
+
+mkdir filtered_results
+echo ""
+echo "==================================================================="
+echo ""
+
+
+
 
 
 #######################################
