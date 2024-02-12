@@ -21,7 +21,7 @@ files = os.listdir()
 
 totalFiles = len(files)
 count = 0
-print( f'{count}/{totalFiles} genes processed ({(count/totalFiles)*100}%)')
+print( f'{count}/{totalFiles} genes processed ({round((count/totalFiles)*100)}%)')
 
 
 for fileName in files:

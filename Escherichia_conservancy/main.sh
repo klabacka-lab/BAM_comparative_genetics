@@ -183,7 +183,7 @@ echo ""
 #	One CSV file containing all proteins and their median % conservancy
 
 echo "==================================================================="
-echo "== STEP 5: Getting Average and Mean Conservancy  =================="
+echo "== STEP 6: Getting Average and Mean Conservancy  =================="
 echo "==================================================================="
 echo ""
 
