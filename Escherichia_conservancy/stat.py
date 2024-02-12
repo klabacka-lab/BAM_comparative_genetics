@@ -9,10 +9,10 @@ from Bio import SeqIO
 import csv
 import re
 import sys
+import os
 
 def read_fasta_file(file_path):
     print('FILEPATH TO FASTA:',file_path)
-    file_path = "./"+ file_path
 
     """
     Reads a FASTA file and turns it into a manipulatable dictionary
@@ -29,7 +29,12 @@ def read_fasta_file(file_path):
     """
 
     sequence_dict = {}
+
+
+    record = SeqIO.parse(file_path,"fasta")
+    print(record)
     for record in SeqIO.parse(file_path, "fasta"):
+        print(record)
         sequence_dict[record.id] = str(record.seq)
     return sequence_dict
 
@@ -323,7 +328,21 @@ def label_domains(sites):
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit(sys.argv[0] + ": Expecting alignment file path")
+
+
     fasta_file = str(sys.argv[1]) #command line input filepath
+    print(os.getcwd())
+
+
+
+    # David's work to get it working within Esch pipeline
+    # Changing working directoryt to farmed_results
+    fasta_file = fasta_file.split('/')[1]
+    os.chdir('farmed_results')
+    print(os.getcwd())
+
+
+
     seq_dict = read_fasta_file(fasta_file)
     print(seq_dict)
     sites_list_gaps = create_sites_list(seq_dict) #sites with no alteration
@@ -334,7 +353,17 @@ if __name__ == "__main__":
     sample_size_list = get_sample_sizes(sites_list)
     domain_label_list = label_domains(sites_list)
     conserved_sites = find_conserved_sites(sites_list)
+
+
+
+    # Changing working directory from farmed_results to stats
+    os.chdir('../stats')
+    print(os.getcwd())
     write_plot_csv(fasta_file, positions, proportions_list, unique_counts_list, sample_size_list, domain_label_list,directories = True)
-    write_conserved_csv(fasta_file, conserved_sites,directories = True)
+
+    # Changing working directory from stats to conserved
+    os.chdir('../conserved')
+    print(os.getcwd())
+    write_conserved_csv(fasta_file, conserved_sites,directories = False)
 
 

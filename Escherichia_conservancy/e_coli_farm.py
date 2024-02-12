@@ -29,8 +29,9 @@ def farm_data(infile, target_species):
     """
 
     records = list(SeqIO.parse(infile, "fasta"))
+    print(records)
 
-    targer_species = target_species.replace("_"," ")
+    target_species = target_species.replace("_"," ")
     target_species_index = None
     new_records = []
 
@@ -141,5 +142,7 @@ if __name__=="__main__":
 
     args = parser.parse_args()
     outhandle = generate_filename(args.infile,args.write_directory)
+    print('OUTHANDLE',outhandle)
+
     farmed_records = farm_data(args.infile, args.species)
     write_farmed_fasta(outhandle, farmed_records, args.quiet)

@@ -18,7 +18,7 @@
 
 
 geneFile="ecoli_all_proteins.txt"
-maxNumGenes=10
+maxNumGenes=5
 taxID=561
 echo ""
 echo "==================================================================="
@@ -123,10 +123,11 @@ echo "== STEP 4: Farming  ==============================================="
 echo "==================================================================="
 mkdir farmed_results
 echo ""
-
 infileDir=filtered_results
 outfileDir=farmed_results
 farmSpecies="Escherechia_coli"
+echo $infileDir
+echo $outfileDir
 # Add counter here
 for filename in $infileDir/*.fasta; do
 	#python3 e_coli_farm.py -i $filename -s $farmSpecies -d $outfileDir
