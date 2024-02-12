@@ -11,6 +11,8 @@ import re
 import sys
 
 def read_fasta_file(file_path):
+    print('FILEPATH TO FASTA:',file_path)
+    file_path = "./"+ file_path
 
     """
     Reads a FASTA file and turns it into a manipulatable dictionary
@@ -166,7 +168,7 @@ def find_conserved_sites(sites):
             conserved_sites.append(site_aa)
     return conserved_sites
 
-def write_plot_csv(filename, positions, proportions, unique_counts, sample_sizes, domain_labels):
+def write_plot_csv(filename, positions, proportions, unique_counts, sample_sizes, domain_labels, directories = False):
 
     """
     Writes all collected data to a csv file for future plotting
@@ -197,7 +199,7 @@ def write_plot_csv(filename, positions, proportions, unique_counts, sample_sizes
         Function writes a csv file
     """
 
-    custom_filename = generate_filename(filename, "stats")
+    custom_filename = generate_filename(filename, "stats",directories = False)
     with open(custom_filename, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(['Position', 'Proportion', 'Unique Amino Acids', 'Sample Sizes', 'Domain'])
@@ -205,7 +207,7 @@ def write_plot_csv(filename, positions, proportions, unique_counts, sample_sizes
             csv_writer.writerow([pos + 1, proportion, unique_count, sample_size, domain_label])
     print("Stat file created.")
 
-def write_conserved_csv(filename, sites):
+def write_conserved_csv(filename, sites, directories):
 
     """
     Writes most conserved sites of the alignment to a csv file for future plotting
@@ -224,7 +226,8 @@ def write_conserved_csv(filename, sites):
         Function writes a csv file
     """
 
-    custom_filename = generate_filename(filename, "conservation")
+    custom_filename = generate_filename(filename, "conservation", directories)
+
     with open(custom_filename, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(['Conserved Position', 'Amino Acid'])
@@ -232,7 +235,7 @@ def write_conserved_csv(filename, sites):
             csv_writer.writerow([pos])
     print("Conserved site file written.")
 
-def generate_filename(filename, purpose):
+def generate_filename(filename, purpose, directories):
 
     """
     Generates a custom filename for csv files based on functionality
@@ -251,13 +254,25 @@ def generate_filename(filename, purpose):
         Custom output filename specified for function
     """
 
-    filename_without_extension = re.sub(r'\.(fasta|fa)$', '', filename)
-    custom_filename = ""
-    if purpose == "stats":
-        custom_filename = "{}_stats.csv".format(filename_without_extension)
-    if purpose == "conservation":
-        custom_filename = "{}_conserved.csv".format(filename_without_extension)
-    return custom_filename
+    if directories == False:
+
+        filename_without_extension = re.sub(r'\.(fasta|fa)$', '', filename)
+        custom_filename = ""
+        if purpose == "stats":
+            custom_filename = "{}_stats.csv".format(filename_without_extension)
+        if purpose == "conservation":
+            custom_filename = "{}_conserved.csv".format(filename_without_extension)
+        return custom_filename
+
+    else:
+
+        filename_without_extension = re.sub(r'\.(fasta|fa)$', '', filename)
+        custom_filename = ""
+        if purpose == "stats":
+            custom_filename = "./stats/"+"{}_stats.csv".format(filename_without_extension)
+        if purpose == "conservation":
+            custom_filename = "./conserved/"+"{}_conserved.csv".format(filename_without_extension)
+        return custom_filename
 
 def sliding_window(sites, window_size):
 
@@ -310,6 +325,7 @@ if __name__ == "__main__":
         sys.exit(sys.argv[0] + ": Expecting alignment file path")
     fasta_file = str(sys.argv[1]) #command line input filepath
     seq_dict = read_fasta_file(fasta_file)
+    print(seq_dict)
     sites_list_gaps = create_sites_list(seq_dict) #sites with no alteration
     sites_list = excise_gaps(sites_list_gaps) #updated sites list with significant gaps labeled
     positions = list(range(len(list(seq_dict.values())[0]))) #generates list of position numbers
@@ -318,7 +334,7 @@ if __name__ == "__main__":
     sample_size_list = get_sample_sizes(sites_list)
     domain_label_list = label_domains(sites_list)
     conserved_sites = find_conserved_sites(sites_list)
-    write_plot_csv(fasta_file, positions, proportions_list, unique_counts_list, sample_size_list, domain_label_list)
-    write_conserved_csv(fasta_file, conserved_sites)
+    write_plot_csv(fasta_file, positions, proportions_list, unique_counts_list, sample_size_list, domain_label_list,directories = True)
+    write_conserved_csv(fasta_file, conserved_sites,directories = True)
 
 

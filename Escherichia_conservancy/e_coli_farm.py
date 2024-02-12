@@ -30,20 +30,18 @@ def farm_data(infile, target_species):
 
     records = list(SeqIO.parse(infile, "fasta"))
 
+    targer_species = target_species.replace("_"," ")
     target_species_index = None
     new_records = []
 
     # Searches through FASTA file for target species
     for i, record in enumerate(records):
-        print('target_species:',target_species)
-        print('record.id:',record.id)
 
         # Need to change to record.description
         # I don't think this will interfere with Alex's usage
         #if target_species in record.id:
         if target_species in record.description:
             target_species_index = i
-            print('found target species index')
             break
 
     # Writes new farmed sequences based on target species
@@ -118,7 +116,7 @@ def write_farmed_fasta(outfile, records, quiet):
 
     with open(outfile, "w") as outhandle:
         for record in records:
-            outhandle.write(">" + record.id + "\n" + record.seq + "\n")
+            outhandle.write(">" + record.description + "\n" + record.seq + "\n")
 
     if quiet != True:
         print("Farmed file written.")

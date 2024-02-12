@@ -41,9 +41,15 @@ fi
 
 if [ -d "farmed_results" ]; then
 	rm -r farmed_results
-fi 
+fi
 
+if [ -d "stats" ]; then
+	rm -r stats
+fi
 
+if [ -d "conserved" ]; then
+	rm -r conserved
+fi
 mkdir search_results
 python3 uniprot_search.py $geneFile $taxID $maxNumGenes 
 echo ""
@@ -117,16 +123,14 @@ echo "== STEP 4: Farming  ==============================================="
 echo "==================================================================="
 mkdir farmed_results
 echo ""
-echo "converting to [] format"
 
 infileDir=filtered_results
 outfileDir=farmed_results
 farmSpecies="Escherechia_coli"
-
-
+# Add counter here
 for filename in $infileDir/*.fasta; do
 	#python3 e_coli_farm.py -i $filename -s $farmSpecies -d $outfileDir
-	python3 e_coli_farm.py -i $filename -d $outfileDir -q true
+	python3 e_coli_farm.py -i $filename -d $outfileDir -s $farmSpecies -q true
 done
 echo "Farming complete"
 echo""
@@ -142,9 +146,24 @@ echo""
 #
 # OUT:	directory of CSV files (one per gene) containing proportion of most common
 #	amino acid at each position of aligned sequences
+#
+# stat.py imports position.py
+# arg1 <fasta file>
+echo "==================================================================="
+echo "== STEP 5: Generating Statistics Files  ==========================="
+echo "==================================================================="
 
+mkdir stats
+mkdir conserved
 
+infileDir=farmed_results
+outfileDir=stats
 
+for filename in $infileDir/*.fa; do
+	echo $filename
+	python3 stat.py $filename
+	
+done
 #### Merging statistics
 #
 # IN: 	directory of CSV files
@@ -170,31 +189,4 @@ echo""
 
 
 
-#
 
-
-
-
-
-#
-
-
-
-
-#
-
-
-
-
-
-
-
-
-#
-
-
-
-
-
-
-#
