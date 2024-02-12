@@ -125,7 +125,7 @@ mkdir farmed_results
 echo ""
 infileDir=filtered_results
 outfileDir=farmed_results
-farmSpecies="Escherechia_coli"
+farmSpecies="Escherichia_coli"
 echo $infileDir
 echo $outfileDir
 # Add counter here

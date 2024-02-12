@@ -31,8 +31,8 @@ def read_fasta_file(file_path):
     sequence_dict = {}
 
 
-    record = SeqIO.parse(file_path,"fasta")
-    print(record)
+    record = list(SeqIO.parse(file_path,"fasta"))
+    print(record.description,record.seq)
     for record in SeqIO.parse(file_path, "fasta"):
         print(record)
         sequence_dict[record.id] = str(record.seq)

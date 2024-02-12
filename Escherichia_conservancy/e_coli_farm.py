@@ -32,6 +32,7 @@ def farm_data(infile, target_species):
     print(records)
 
     target_species = target_species.replace("_"," ")
+    print('\n'+ 'target_species:',target_species)
     target_species_index = None
     new_records = []
 
@@ -42,6 +43,7 @@ def farm_data(infile, target_species):
         # I don't think this will interfere with Alex's usage
         #if target_species in record.id:
         if target_species in record.description:
+            print(f'\nTarget species({target_species}) found in {record.description}')
             target_species_index = i
             break
 
@@ -145,4 +147,5 @@ if __name__=="__main__":
     print('OUTHANDLE',outhandle)
 
     farmed_records = farm_data(args.infile, args.species)
+    print(farmed_records)
     write_farmed_fasta(outhandle, farmed_records, args.quiet)
