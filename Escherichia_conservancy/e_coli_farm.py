@@ -29,13 +29,21 @@ def farm_data(infile, target_species):
     """
 
     records = list(SeqIO.parse(infile, "fasta"))
+
     target_species_index = None
     new_records = []
 
     # Searches through FASTA file for target species
     for i, record in enumerate(records):
-        if target_species in record.id:
+        print('target_species:',target_species)
+        print('record.id:',record.id)
+
+        # Need to change to record.description
+        # I don't think this will interfere with Alex's usage
+        #if target_species in record.id:
+        if target_species in record.description:
             target_species_index = i
+            print('found target species index')
             break
 
     # Writes new farmed sequences based on target species
@@ -57,7 +65,7 @@ def farm_data(infile, target_species):
 
 def generate_filename(infile,directory = None):
     # DAVID HERE: added optional argument for a directory, allows user to specify directory 
-    # to write outfile in. Using this option currently assumes you also pulled names from
+    # to write outfile in. 
 
     """
     Generates custom output filename based on input filename
@@ -122,7 +130,7 @@ if __name__=="__main__":
             help = "FASTA file to be farmed.")
     parser.add_argument("-s", "--species",
             type = str,
-            default = "Escherichiacoli",
+            default = "Escherichia coli",
             help = "Target species for farming.")
     parser.add_argument("-d","--write_directory",
             type = str,

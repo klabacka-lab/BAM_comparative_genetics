@@ -117,9 +117,11 @@ echo "== STEP 4: Farming  ==============================================="
 echo "==================================================================="
 mkdir farmed_results
 echo ""
+echo "converting to [] format"
+
 infileDir=filtered_results
 outfileDir=farmed_results
-farmSpecies="Escherechia coli"
+farmSpecies="Escherechia_coli"
 
 
 for filename in $infileDir/*.fasta; do
