@@ -159,11 +159,12 @@ mkdir stats
 mkdir conserved
 
 infileDir=farmed_results
-outfileDir=stats
+statsDir=stats
+conservedDir=conserved
 
 for filename in $infileDir/*.fa; do
 	echo $filename
-	python3 stat.py $filename
+	python3 stat.py $filename $infileDir $statsDir $conservedDir
 	
 done
 #### Merging statistics

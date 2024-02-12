@@ -326,25 +326,25 @@ def label_domains(sites):
     return domain_list
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        sys.exit(sys.argv[0] + ": Expecting alignment file path")
+    # Commenting out because I am using more than one argument
+    #if len(sys.argv) != 2:
+    #    sys.exit(sys.argv[0] + ": Expecting alignment file path")
 
 
     fasta_file = str(sys.argv[1]) #command line input filepath
-    print(os.getcwd())
 
 
 
     # David's work to get it working within Esch pipeline
-    # Changing working directoryt to farmed_results
+    # Changing working directoryt to farmed_results (infile directory)
+    # sys.argv[2]
+
     fasta_file = fasta_file.split('/')[1]
-    os.chdir('farmed_results')
-    print(os.getcwd())
+    os.chdir(sys.argv[2])
 
 
 
     seq_dict = read_fasta_file(fasta_file)
-    print(seq_dict)
     sites_list_gaps = create_sites_list(seq_dict) #sites with no alteration
     sites_list = excise_gaps(sites_list_gaps) #updated sites list with significant gaps labeled
     positions = list(range(len(list(seq_dict.values())[0]))) #generates list of position numbers
@@ -357,13 +357,11 @@ if __name__ == "__main__":
 
 
     # Changing working directory from farmed_results to stats
-    os.chdir('../stats')
-    print(os.getcwd())
+    os.chdir(f'../{sys.argv[3]}')
     write_plot_csv(fasta_file, positions, proportions_list, unique_counts_list, sample_size_list, domain_label_list,directories = True)
 
     # Changing working directory from stats to conserved
-    os.chdir('../conserved')
-    print(os.getcwd())
+    os.chdir(f'../{sys.argv[4]}')
     write_conserved_csv(fasta_file, conserved_sites,directories = False)
 
 
