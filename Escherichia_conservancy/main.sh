@@ -18,7 +18,7 @@
 
 
 geneFile="ecoli_all_proteins.txt"
-maxNumGenes=10
+maxNumGenes=200
 taxID=561
 echo ""
 echo "==================================================================="
@@ -191,10 +191,18 @@ python3 esch_stats.py
 echo ""
 echo "results written to Gene_Proportions.csv"
 echo ""
+
+
+
+
+
 #### Placing BamA
 #
 # Output: of the genes in BamA, proportion that BamA is more conserved than
-
+echo "==================================================================="
+echo "== STEP 7: Making Histogram, summarizing stats  ==================="
+echo "==================================================================="
+echo ""
 
 #### Histograms
 #
