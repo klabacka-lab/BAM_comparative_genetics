@@ -18,7 +18,7 @@
 
 
 geneFile="ecoli_all_proteins.txt"
-maxNumGenes=5
+maxNumGenes=10
 taxID=561
 echo ""
 echo "==================================================================="
@@ -127,9 +127,9 @@ infileDir=filtered_results
 outfileDir=farmed_results
 farmSpecies="Escherichia_coli" # If you fail spell this correctly you will be punished
 # Underscores will be replaced by spaces in python script
-echo $infileDir
-echo $outfileDir
+
 # Add counter here
+
 for filename in $infileDir/*.fasta; do
 	#python3 e_coli_farm.py -i $filename -s $farmSpecies -d $outfileDir
 	python3 e_coli_farm.py -i $filename -d $outfileDir -s $farmSpecies -q true
@@ -154,7 +154,7 @@ echo""
 echo "==================================================================="
 echo "== STEP 5: Generating Statistics Files  ==========================="
 echo "==================================================================="
-
+echo ""
 mkdir stats
 mkdir conserved
 
@@ -163,10 +163,16 @@ statsDir=stats
 conservedDir=conserved
 
 for filename in $infileDir/*.fa; do
-	echo $filename
+	#echo $filename
 	python3 stat.py $filename $infileDir $statsDir $conservedDir
+	# TODO: Add counter and progress tracker
 	
 done
+echo "Statistics written to following directories:"
+echo "		$statsDir"
+echo "		$conservedDir"
+echo ""
+
 #### Merging statistics
 #
 # IN: 	directory of CSV files
@@ -176,8 +182,15 @@ done
 # OUT:	One CSV file containing all proteins and their average % conservancy
 #	One CSV file containing all proteins and their median % conservancy
 
+echo "==================================================================="
+echo "== STEP 5: Getting Average and Mean Conservancy  =================="
+echo "==================================================================="
+echo ""
 
-
+python3 esch_stats.py
+echo ""
+echo "results written to Gene_Proportions.csv"
+echo ""
 #### Placing BamA
 #
 # Output: of the genes in BamA, proportion that BamA is more conserved than

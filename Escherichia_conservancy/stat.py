@@ -12,7 +12,6 @@ import sys
 import os
 
 def read_fasta_file(file_path):
-    print('FILEPATH TO FASTA:',file_path)
 
     """
     Reads a FASTA file and turns it into a manipulatable dictionary
@@ -34,7 +33,6 @@ def read_fasta_file(file_path):
     records = list(SeqIO.parse(file_path,"fasta"))
 
     for record in records:
-        print(record.description,record.seq)
         sequence_dict[record.description] = str(record.seq)
     return sequence_dict
 
@@ -210,7 +208,7 @@ def write_plot_csv(filename, positions, proportions, unique_counts, sample_sizes
         csv_writer.writerow(['Position', 'Proportion', 'Unique Amino Acids', 'Sample Sizes', 'Domain'])
         for pos, proportion, unique_count, sample_size, domain_label in zip(positions, proportions, unique_counts, sample_sizes, domain_labels):
             csv_writer.writerow([pos + 1, proportion, unique_count, sample_size, domain_label])
-    print("Stat file created.")
+    #print("Stat file created.")
 
 def write_conserved_csv(filename, sites, directories):
 
@@ -238,7 +236,7 @@ def write_conserved_csv(filename, sites, directories):
         csv_writer.writerow(['Conserved Position', 'Amino Acid'])
         for pos in sites:
             csv_writer.writerow([pos])
-    print("Conserved site file written.")
+    #print("Conserved site file written.")
 
 def generate_filename(filename, purpose, directories):
 
