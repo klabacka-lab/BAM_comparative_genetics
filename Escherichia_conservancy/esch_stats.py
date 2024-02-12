@@ -6,12 +6,8 @@ import os, sys
 import warnings
 
 
-
-
-
 # Creating result data frame
 new_df = pd.DataFrame({})
-
 
 
 # Iterating through files in stats folder
@@ -38,8 +34,13 @@ for fileName in files:
 	# Rounding to 4th decimal arbitrarily. Can change later
 	meanProportion = df[["Proportion"]].mean().iloc[0].round(4)
 	medProportion = df[["Proportion"]].median().iloc[0]
+	seqLength = df[['Position']].max().iloc[0]
+
+
+
 	geneData['Mean Prop'] = [meanProportion]
 	geneData['Med Prop'] = [medProportion]
+	geneData['TrimmedLen'] = [seqLength]
 
 
 	# Merging Gene info to outfile Data Frame
