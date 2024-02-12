@@ -31,11 +31,11 @@ def read_fasta_file(file_path):
     sequence_dict = {}
 
 
-    record = list(SeqIO.parse(file_path,"fasta"))
-    print(record.description,record.seq)
-    for record in SeqIO.parse(file_path, "fasta"):
-        print(record)
-        sequence_dict[record.id] = str(record.seq)
+    records = list(SeqIO.parse(file_path,"fasta"))
+
+    for record in records:
+        print(record.description,record.seq)
+        sequence_dict[record.description] = str(record.seq)
     return sequence_dict
 
 def create_sites_list(seq_dict):

@@ -125,7 +125,8 @@ mkdir farmed_results
 echo ""
 infileDir=filtered_results
 outfileDir=farmed_results
-farmSpecies="Escherichia_coli"
+farmSpecies="Escherichia_coli" # If you fail spell this correctly you will be punished
+# Underscores will be replaced by spaces in python script
 echo $infileDir
 echo $outfileDir
 # Add counter here
