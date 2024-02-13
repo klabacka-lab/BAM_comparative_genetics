@@ -46,7 +46,7 @@ def main():
     geneHandle = sys.argv[1]
 
     # Limiting number of genes retrieved for debugging
-    if sys.argv[3]:
+    if len(sys.argv) == 4:
         maxGenes = int(sys.argv[3]) + 1
     else:
         maxGenes = None
@@ -57,7 +57,7 @@ def main():
         geneList = get_genes(geneHandle)[1:maxGenes:]
 
     print(f'Retrieving genes from {geneHandle}')
-    print(f'Max genes: {maxGenes - 1}')
+    #print(f'Max genes: {maxGenes - 1}')
 
 
     totalGenes = len(geneList)

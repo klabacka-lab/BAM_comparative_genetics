@@ -26,7 +26,7 @@ echo "== STEP 1: Retrieving Sequences ==================================="
 echo "==================================================================="
 echo ""
 echo "Running uniprot searches for genes in $geneFile within taxID $taxID"
-echo "Limiting search to the first $maxNumGenes genes in $geneFile"
+# echo "Limiting search to the first $maxNumGenes genes in $geneFile"
 echo ""
 # clearing previous search results
 
@@ -51,7 +51,7 @@ if [ -d "conserved" ]; then
 	rm -r conserved
 fi
 mkdir search_results
-python3 uniprot_search.py $geneFile $taxID $maxNumGenes 
+python3 uniprot_search.py $geneFile $taxID #$maxNumGenes 
 echo ""
 
 #######################################
