@@ -9,8 +9,9 @@ prop_of_interest = 0.9991
 
 hist_plot <-ggplot(stats,aes(x=Mean.Prop)) +
   geom_histogram(aes(fill = Mean.Prop > .9815),
-                 binwidth = 0.0015) +
-  geom_vline(aes(xintercept=prop_of_interest))
+                 binwidth = 0.0005) +
+  geom_vline(aes(xintercept=prop_of_interest)) +
+
 
 hist_plot
 
