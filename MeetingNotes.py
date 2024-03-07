@@ -1,4 +1,14 @@
-# January 18 2023
+# March 7 2024
+## We decided it would be cool to checkout TamA and compare it to BamA
+## Jeremy joined our meeting today, and he said that BamA and TamA are the two members of the beta barrel assembly machine
+#### Meaning that they both structurally and functionally are doing very similar things
+## To do:
+#### Add comments and README.md to uniprot_search.py (David)
+#### Get the output of stats.py for SecY (Syrus)
+#### Get the output of stats.py UP TO Protoeobacteria for TamA (because it isn't outside of these groups) (Alex)
+#### Mark TamA position on the histogram (David)
+
+# January 18 2024
 ## Syrus is added to the github repository
 ## He will be creating a table that shows all of the taxonomic memberships for each taxon
 ## David will decide on less-conserved protein to pair with SecY (to have two controls)
