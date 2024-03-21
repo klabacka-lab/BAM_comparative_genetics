@@ -2,6 +2,7 @@
 
 from Bio import Entrez
 import argparse
+import os
 import requests
 import sys
 import time
@@ -55,7 +56,7 @@ def write_tax_ID_file(tax_IDs, outfile):
 
 def uniprot_search(gene, tax_ID):
     url = f"https://www.uniprot.org/uniprot/"
-    parameters = {"query": f"gene:{gene}+taxonomy{tax_ID}",
+    parameters = {"query": f"gene:{gene}+taxonomy:{tax_ID}",
             "format": "fasta"}
     try:
         response = requests.get(url, params=parameters)
@@ -70,7 +71,7 @@ def uniprot_search(gene, tax_ID):
         return None
 
 def create_fasta_file(gene, tax_IDs, tax_level):
-    output_file = f"./search_results/{gene}_{tax_level}.fa"
+    output_file = os.path.join("search_results", f"{gene}_{tax_level}.fasta")
     start_time = time.time()
     failure_count = 0
 
@@ -91,7 +92,7 @@ def create_fasta_file(gene, tax_IDs, tax_level):
             with open("failed_taxa.txt", "w") as out2file:
                 out2file.write(f"{tax_ID} not found for {gene}" + "\n")
 
-    print("{tax_level} FASTA file written.")
+    print(f"{tax_level} FASTA file written.")
 
 def main():
     parser = argparse.ArgumentParser()
