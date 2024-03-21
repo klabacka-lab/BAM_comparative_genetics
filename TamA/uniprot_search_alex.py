@@ -54,15 +54,22 @@ def write_tax_ID_file(tax_IDs, outfile):
     print("List of taxonomic IDs written.")
 
 def uniprot_search(gene, tax_ID):
-    url = f"https://rest.uniprot.org/uniprotkb/stream?format=fasta&query=%28%28taxonomy_id%3A{tax_ID}%29+AND+%28gene%3A{gene}%29%29"
-    return requests.get(url).txt
+    url = f"https://www.uniprot.org/uniprot/"
+    parameters = {"query": f"gene:{gene}+taxonomy{tax_ID}",
+            "format": "fasta"}
+    try:
+        response = requests.get(url, params=parameters)
+        if response.ok:
+            fasta_data = response.text
+            return fasta_data
+        else:
+            return None
 
-def create_fasta_file(gene, tax_file, tax_level):
-    tax_IDs = []
-    with open(tax_file, "r") as infile:
-        for line in infile.readlines():
-            tax_IDs.append(line.strip())
+    except requests.RequestException as e:
+        print(f"Error: {e}")
+        return None
 
+def create_fasta_file(gene, tax_IDs, tax_level):
     output_file = f"./search_results/{gene}_{tax_level}.fa"
     start_time = time.time()
     failure_count = 0
@@ -71,7 +78,7 @@ def create_fasta_file(gene, tax_file, tax_level):
         try:
             result = uniprot_search(gene, tax_ID)
 
-            with open(output_file, "w") as outfile:
+            with open(output_file, "a") as outfile:
                 outfile.write(result)
 
             current_time = time.time()
@@ -111,7 +118,7 @@ def main():
 #    print("\n")
 #    write_tax_ID_file(tax_IDs, args.taxa)
 #    print("\n")
-    create_fasta_file(args.gene, args.taxa, args.level)
+    create_fasta_file(args.gene, [520, 314344, 487], args.level)
 
 if __name__=="__main__":
     main()
