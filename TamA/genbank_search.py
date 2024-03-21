@@ -34,7 +34,7 @@ def create_fasta_file(gene, species_list, tax_level, email):
     failure_count = 0
     outfile_path = f"{tax_level}_{gene}.fa"
     outfile = open(outfile_path, "w")
-    failfile = open("failed_species.txt", "w")
+    failfile = open(f"failed_species_{gene}.txt", "w")
 
     for species in species_list:
         ID_result = search_genbank(gene, species, email)
