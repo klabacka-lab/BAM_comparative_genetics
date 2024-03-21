@@ -1,2 +1,3 @@
-farm_tamA.py
-    -
+genbank_search.py
+    - Adjust searching GenBank so it ignores partials / skips to the next search
+      result
