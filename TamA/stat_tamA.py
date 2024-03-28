@@ -318,7 +318,7 @@ if __name__ == "__main__":
     sample_size_list = get_sample_sizes(sites_list)
     #domain_label_list = label_domains(sites_list)
     conserved_sites = find_conserved_sites(sites_list)
-    write_plot_csv(fasta_file, positions, proportions_list, unique_counts_list, sample_size_list, domain_label_list)
+    write_plot_csv(fasta_file, positions, proportions_list, unique_counts_list, sample_size_list, ["TamA"])
     write_conserved_csv(fasta_file, conserved_sites)
 
 
