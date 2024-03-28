@@ -9,7 +9,7 @@
 #### Mark TamA position on the histogram (David)
 
 # TamA: 
-# Mean Proportion 0.9889
+# Mean Proportion 0.9889 <- Marking with BLUE line on histogram
 # Trimmed Length 577
 
 
