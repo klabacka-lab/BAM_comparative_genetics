@@ -7,13 +7,10 @@ medProp <-stats$Med.Prop
 
 prop_of_interest = 0.9991
 
+tamA_proportion = 0.9889
+
 hist_plot <-ggplot(stats,aes(x=Mean.Prop)) +
   geom_histogram(aes(fill = Mean.Prop > .9815),
-<<<<<<< HEAD
-                 binwidth = 0.0005) +
-  geom_vline(aes(xintercept=prop_of_interest)) +
-
-=======
                  binwidth = 0.0015, show.legend = F) +
 		 theme_classic() + 
 		 scale_color_manual(values = c("gray", "black")) +
@@ -21,8 +18,10 @@ hist_plot <-ggplot(stats,aes(x=Mean.Prop)) +
       	         labs(x = "Sequence Conservation", y = "Number of Proteins") +
 		 theme(axis.text = element_text(size = 18),  
                  axis.title = element_text(size = 20)) +
+  geom_vline(aes(xintercept=tamA_proportion), color = "blue") +
   geom_vline(aes(xintercept=prop_of_interest), color = "red")
->>>>>>> aaf6e53bd96394c6613a42bbd022189d6bb17783
+  
+  
 
 hist_plot
 
