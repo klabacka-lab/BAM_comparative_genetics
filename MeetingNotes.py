@@ -8,6 +8,11 @@
 #### Get the output of stats.py UP TO Protoeobacteria for TamA (because it isn't outside of these groups) (Alex)
 #### Mark TamA position on the histogram (David)
 
+# TamA: 
+# Mean Proportion 0.9889
+# Trimmed Length 577
+
+
 # January 18 2024
 ## Syrus is added to the github repository
 ## He will be creating a table that shows all of the taxonomic memberships for each taxon
