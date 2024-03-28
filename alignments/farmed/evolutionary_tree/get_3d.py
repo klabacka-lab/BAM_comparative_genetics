@@ -14,7 +14,7 @@ cmd.select('selection', 'chain A and (resi 50 or resi 183 or resi 233 or resi 31
 cmd.color('red', 'selection')
 cmd.show('spheres', 'selection')
 cmd.zoom('all', -0.5)
-cmd.png('output_image.png', width=10000, height=10000, dpi=2000)
+cmd.png('output_image.png', width=4000, height=4000, dpi=2000)
 
 #cmd.reinitialize()
 
