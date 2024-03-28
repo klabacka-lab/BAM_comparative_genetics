@@ -27,13 +27,14 @@ def farm_data(infile, target_species):
     new_records: list
         List of SeqRecord objects with gaps farmed for target species
     """
+
     records = list(SeqIO.parse(infile, "fasta"))
     target_species_index = None
     new_records = []
 
     # Searches through FASTA file for target species
     for i, record in enumerate(records):
-        if str(target_species) in record.description:
+        if target_species in record.description:
             target_species_index = i
             break
 

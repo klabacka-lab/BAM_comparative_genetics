@@ -1,0 +1,5 @@
+WP_316244582.1 POTRA domain-containing protein, partial [Bordetella pertussis]
+WP_276316969.1 POTRA domain-containing protein, partial [Neisseria meningitidis]
+WP_337166630.1 POTRA domain-containing protein, partial [Vibrio parahaemolyticus]
+WP_282980223.1 POTRA domain-containing protein, partial [Cronobacter dublinensis]
+WP_305144429.1 POTRA domain-containing protein, partial [Cronobacter sakazakii]
