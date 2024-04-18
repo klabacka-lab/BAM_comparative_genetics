@@ -292,7 +292,7 @@ def label_domains(sites):
         List of labels for each position based on location in reference to domains (based on Escherichia coli annotated protein)
     """
 
-    domain_dict = {(24,91): "POTRA1", (92,172): "POTRA2", (175,263): "POTRA3", (266,344): "POTRA4", (347,421): "POTRA5", (448,810): "BamA"}
+    domain_dict = {(23,107): "POTRA1", (108,171): "POTRA2", (172,251): "POTRA3", (188,264): "POTRA4", (266,578): "TamA"}
     domain_list = []
     for pos_obj in sites:
         labeled = False
@@ -316,9 +316,9 @@ if __name__ == "__main__":
     proportions_list = get_proportions(sites_list)
     unique_counts_list = get_unique_aa(sites_list)
     sample_size_list = get_sample_sizes(sites_list)
-    #domain_label_list = label_domains(sites_list)
+    domain_label_list = label_domains(sites_list)
     conserved_sites = find_conserved_sites(sites_list)
-    write_plot_csv(fasta_file, positions, proportions_list, unique_counts_list, sample_size_list, ["TamA"])
+    write_plot_csv(fasta_file, positions, proportions_list, unique_counts_list, sample_size_list, domain_label_list)
     write_conserved_csv(fasta_file, conserved_sites)
 
 
