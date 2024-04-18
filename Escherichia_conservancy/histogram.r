@@ -9,7 +9,8 @@ bamA_proportion = 0.9815
 tamA_proportion = 0.9889
 secY_proportion = 0.9991
 
-
+label_h_offset = .004
+label_angle = 90
 
 hist_plot <-ggplot(stats,aes(x=Mean.Prop)) +
   geom_histogram(aes(fill = Mean.Prop > .9815),
@@ -28,9 +29,10 @@ hist_plot <-ggplot(stats,aes(x=Mean.Prop)) +
   
   
   # Labeling vertical lines
-  geom_text(aes(x=bamA_proportion,y = 100, label = "BamA")) +
-  geom_text(aes(x=tamA_proportion,y = 110, label = "TamA")) +
-  geom_text(aes(x=secY_proportion,y = 120, label = "SecY")) 
+  
+  geom_text(aes(x=bamA_proportion-label_h_offset,y = 100, angle = label_angle, label = "BamA")) +
+  geom_text(aes(x=tamA_proportion-label_h_offset,y = 110, angle = label_angle, label = "TamA")) +
+  geom_text(aes(x=secY_proportion-label_h_offset,y = 120, angle = label_angle, label = "SecY")) 
   
 #Make the whole plot grey, 3 labeled black lines
   
