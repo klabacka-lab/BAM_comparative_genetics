@@ -1,3 +1,8 @@
+# August 23 2024
+## Alex and I caught up and discussed plans for the semester
+## He (and maybe Jalynn or Zach and/or Syrus) will estimate signatures of selection using PAML
+## The species tree can be estimated using anvio (see script called "anvio_example.sh" added to repository)
+
 # March 7 2024
 ## We decided it would be cool to checkout TamA and compare it to BamA
 ## Jeremy joined our meeting today, and he said that BamA and TamA are the two members of the beta barrel assembly machine
@@ -8,7 +13,7 @@
 #### Get the output of stats.py UP TO Protoeobacteria for TamA (because it isn't outside of these groups) (Alex)
 #### Mark TamA position on the histogram (David)
 
-# TamA: 
+# TamA:
 # Mean Proportion 0.9889 <- Marking with BLUE line on histogram
 # Trimmed Length 577
 
@@ -31,7 +36,7 @@
 
 # November 28 2023 (notes from meeting with Alex and Randy)
 ## Use the Coleman et al. (2021) paper for phylogenetic naming of the different alignment files
-### Alex is going to change "Hydro" to "Graci" (for gracilicutes) 
+### Alex is going to change "Hydro" to "Graci" (for gracilicutes)
 ### Then Alex is going to add Fusobacteria (Cetobacerium and Fusobacterium) are part of the next group after graci, which we can call "Fusograci"
 ### Then Alex is going to add Terrabacteria (Anabaena, Deinococcus, Microcystis, Mycobacterium, and Thermus) and call this "Bacteria"
 
@@ -55,7 +60,7 @@
 ## We created the e_coli_farm.py script that removes sites from a fasta alignment that are not present in E. coli. We need to do this for SecY (conserved control) and another protein tbd (unconserved 'control')
 ## Randy made a draft r script to run an ANOVA that looks at the relationship between domain and conservation (with each position along the domain being a sample)
 ## The r script also plots the data (it is called 'statistical_analyses.r') and shows how you can create grids (joined plots in a single pdf)
-## Alex is now going to create all of the csvs for BamA, SecY (after farmed), and unconserved_protein_tbd (after farmed) on all of the alignments ('enterobacterales.csv', 'gammaproteo.csv', 'proteo.csv', 'hydrobacteria.csv', 'hydroterra.csv', 'bacteria.csv') 
+## Alex is now going to create all of the csvs for BamA, SecY (after farmed), and unconserved_protein_tbd (after farmed) on all of the alignments ('enterobacterales.csv', 'gammaproteo.csv', 'proteo.csv', 'hydrobacteria.csv', 'hydroterra.csv', 'bacteria.csv')
 
 
 # October 26 2023 (notes from meeting with Alex, David, and Randy)
@@ -65,7 +70,7 @@
 # October 19 2023 (notes from meeting with Alex, David, and Randy)
 ## Create new alignment called 'bacteria.fa' that includes representatives of Fusobacteria, Aquificae, and Thermotogae
 ### Just a handful per lineage is fine
-## Create new alignment called 'proteo_human.fa' 
+## Create new alignment called 'proteo_human.fa'
 ### Include the human version of BamA (Sam50/Tob55)
 ## Create new fastas for each of the alignments ('enterobacterales.fa', 'gammaproteo.fa', 'proteo.fa', 'hydrobacteria.fa', 'hydroterra.fa', 'bacteria.fa') where any position that doesn't have E. coli AA is removed
 ## To the csv files, add potra domains
