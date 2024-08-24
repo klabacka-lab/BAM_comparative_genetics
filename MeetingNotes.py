@@ -2,6 +2,8 @@
 ## Alex and I caught up and discussed plans for the semester
 ## He (and maybe Jalynn or Zach and/or Syrus) will estimate signatures of selection using PAML
 ## The species tree can be estimated using anvio (see script called "anvio_example.sh" added to repository)
+# Actions:
+## Alex is going to work on estimating a phylogeny for the taxa of interest using anvio.
 
 # March 7 2024
 ## We decided it would be cool to checkout TamA and compare it to BamA
