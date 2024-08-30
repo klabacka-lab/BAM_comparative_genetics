@@ -1,3 +1,14 @@
+# Auguust 30 2024
+## Alex talked about his progress downloading genomes for the project
+## He is going to start working on the anvio pipeline
+## We need the following:
+### 1. whole bacterial genomes (for estimating the species tree)
+##### -- genbank files (gb) would be fine
+### 2. get genome alignment (from anvio)
+### 3. estimate species tree (using iqtree within anvio)
+### 4. get BamA nucleotide alignment
+## We just added Jalynn to the github repository, she will be checking out the files and come to next meeting with questions.
+
 # August 23 2024
 ## Alex and I caught up and discussed plans for the semester
 ## He (and maybe Jalynn or Zach and/or Syrus) will estimate signatures of selection using PAML
