@@ -1,0 +1,74 @@
+LOCUS       NZ_AP031325          1920958 bp    DNA     circular CON 24-JUL-2024
+DEFINITION  Thermus thermophilus strain TF21 chromosome, complete genome.
+ACCESSION   NZ_AP031325
+VERSION     NZ_AP031325.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMD00754789
+            Sequence Read Archive: DRR536142, DRR536143
+            Assembly: GCF_040822545.1
+KEYWORDS    RefSeq.
+SOURCE      Thermus thermophilus
+  ORGANISM  Thermus thermophilus
+            Bacteria; Deinococcota; Deinococci; Thermales; Thermaceae; Thermus.
+REFERENCE   1
+  AUTHORS   Takafuji,Y., Fischer,T., Miyazaki,K. and Honda,K.
+  TITLE     Complete genome sequences of Thermus thermophilus strains isolated
+            from Shirahama Hot Spring in Japan
+  JOURNAL   Microbiol Resour Announc e00316-24 (2024)
+  REMARK    DOI:10.1128/mra.00316-24 Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1920958)
+  AUTHORS   Miyazaki,K. and Honda,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-MAR-2024) Contact:Kentaro Miyazaki Osaka University;
+            2-1 Yamadaoka, Suita 565-0871, Japan
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method                   :: Unicycler v. 0.5.0
+            Genome Coverage                   :: 704x
+            Sequencing Technology             :: MiSeq; MinION
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_040822545.1-RS_2024_07_24
+            Annotation Date                   :: 07/24/2024 11:30:22
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.7
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 2,440
+            CDSs (total)                      :: 2,384
+            Genes (coding)                    :: 2,303
+            CDSs (with protein)               :: 2,303
+            Genes (RNA)                       :: 56
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 47
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 81
+            CDSs (without protein)            :: 81
+            Pseudo Genes (ambiguous residues) :: 0 of 81
+            Pseudo Genes (frameshifted)       :: 43 of 81
+            Pseudo Genes (incomplete)         :: 45 of 81
+            Pseudo Genes (internal stop)      :: 6 of 81
+            Pseudo Genes (multiple problems)  :: 10 of 81
+            CRISPR Arrays                     :: 4
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            AP031325.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Annotated by DFAST https://dfast.ddbj.nig.ac.jp/
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1920958
+                     /organism="Thermus thermophilus"
+                     /mol_type="genomic DNA"
+                     /strain="TF21"
+                     /isolation_source="hot spring water"
+                     /db_xref="taxon:274"
+                     /geo_loc_name="Japan:Wakayama, Shirahama Hot Spring"
+                     /collection_date="2023-09-28"
+                     /collected_by="Kentaro Miyazaki"
+CONTIG      join(AP031325.1:1..1920958)
+//

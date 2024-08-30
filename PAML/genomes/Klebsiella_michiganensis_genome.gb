@@ -1,0 +1,74 @@
+LOCUS       NZ_CP166239          6062634 bp    DNA     circular CON 15-AUG-2024
+DEFINITION  Klebsiella michiganensis strain 2023CK-00457 chromosome, complete
+            genome.
+ACCESSION   NZ_CP166239
+VERSION     NZ_CP166239.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN34191887
+            Assembly: GCF_041283495.1
+KEYWORDS    RefSeq.
+SOURCE      Klebsiella michiganensis
+  ORGANISM  Klebsiella michiganensis
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Klebsiella/Raoultella group; Klebsiella.
+REFERENCE   1  (bases 1 to 6062634)
+  AUTHORS   Hergert,J., Casey,R., Wagner,J., Young,E.L. and Oakeson,K.F.
+  TITLE     Pathogen: clinical or host-associated sample
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 6062634)
+  AUTHORS   Hergert,J., Casey,R., Wagner,J., Young,E.L. and Oakeson,K.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2024) Utah Public Health Laboratory, Utah Public
+            Health Laboratory Infectious Disease submission group, 4431 S 2700
+            W, Salt Lake City, UT 84129, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method                   :: Flye v. 2.9.3
+            Genome Representation             :: Full
+            Expected Final Version            :: Yes
+            Genome Coverage                   :: 100.0x
+            Sequencing Technology :: Illumina MiSeq; Oxford Nanopore GridION
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_041283495.1-RS_2024_08_15
+            Annotation Date                   :: 08/15/2024 00:10:13
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.8
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 5,896
+            CDSs (total)                      :: 5,778
+            Genes (coding)                    :: 5,690
+            CDSs (with protein)               :: 5,690
+            Genes (RNA)                       :: 118
+            rRNAs                             :: 9, 8, 8 (5S, 16S, 23S)
+            complete rRNAs                    :: 9, 8, 8 (5S, 16S, 23S)
+            tRNAs                             :: 85
+            ncRNAs                            :: 8
+            Pseudo Genes (total)              :: 88
+            CDSs (without protein)            :: 88
+            Pseudo Genes (ambiguous residues) :: 0 of 88
+            Pseudo Genes (frameshifted)       :: 32 of 88
+            Pseudo Genes (incomplete)         :: 66 of 88
+            Pseudo Genes (internal stop)      :: 10 of 88
+            Pseudo Genes (multiple problems)  :: 20 of 88
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            CP166239.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..6062634
+                     /organism="Klebsiella michiganensis"
+                     /mol_type="genomic DNA"
+                     /strain="2023CK-00457"
+                     /isolation_source="urine"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1134687"
+                     /geo_loc_name="USA"
+                     /collection_date="2023-03-05"
+CONTIG      join(CP166239.1:1..6062634)
+//

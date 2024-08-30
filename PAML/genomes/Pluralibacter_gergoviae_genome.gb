@@ -1,0 +1,79 @@
+LOCUS       NZ_CP009450          5489680 bp    DNA     circular CON 03-MAR-2024
+DEFINITION  Pluralibacter gergoviae strain FB2 chromosome, complete genome.
+ACCESSION   NZ_CP009450
+VERSION     NZ_CP009450.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN03031196
+            Assembly: GCF_000757785.1
+KEYWORDS    RefSeq.
+SOURCE      Pluralibacter gergoviae
+  ORGANISM  Pluralibacter gergoviae
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Pluralibacter.
+REFERENCE   1  (bases 1 to 5489680)
+  AUTHORS   Chan,K.G., Tee,K.K., Yin,W.F. and Tan,J.Y.
+  TITLE     Complete Genome Sequence of Pluralibacter gergoviae FB2, an N-Acyl
+            Homoserine Lactone-Degrading Strain Isolated from Packed Fish Paste
+  JOURNAL   Genome Announc 2 (6), e01276-14 (2014)
+   PUBMED   25502672
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 5489680)
+  AUTHORS   Tan,J.-Y. and Chan,K.-G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-2016) Institute of Biological Sciences, University
+            of Malaya, Kuala Lumpur, Kuala Lumpur 50603, Malaysia
+  REMARK    Annotation update requested by submitter to incorporate the plasmids
+            that belong to the genome
+REFERENCE   3  (bases 1 to 5489680)
+  AUTHORS   Tan,J.-Y. and Chan,K.-G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-SEP-2014) Institute of Biological Sciences, University
+            of Malaya, Kuala Lumpur, Kuala Lumpur 50603, Malaysia
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method                   :: PacBio v. 10-9-2014
+            Genome Coverage                   :: 93.65x
+            Sequencing Technology             :: PacBio
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 03/03/2024 05:44:43
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.6
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 5,207
+            CDSs (total)                      :: 5,089
+            Genes (coding)                    :: 4,976
+            CDSs (with protein)               :: 4,976
+            Genes (RNA)                       :: 118
+            rRNAs                             :: 8, 7, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 8, 7, 7 (5S, 16S, 23S)
+            tRNAs                             :: 85
+            ncRNAs                            :: 11
+            Pseudo Genes (total)              :: 113
+            CDSs (without protein)            :: 113
+            Pseudo Genes (ambiguous residues) :: 0 of 113
+            Pseudo Genes (frameshifted)       :: 50 of 113
+            Pseudo Genes (incomplete)         :: 64 of 113
+            Pseudo Genes (internal stop)      :: 20 of 113
+            Pseudo Genes (multiple problems)  :: 19 of 113
+            CRISPR Arrays                     :: 2
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            CP009450.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..5489680
+                     /organism="Pluralibacter gergoviae"
+                     /mol_type="genomic DNA"
+                     /strain="FB2"
+                     /isolation_source="Fish ball"
+                     /db_xref="taxon:61647"
+                     /geo_loc_name="Malaysia"
+                     /collection_date="2013-04"
+CONTIG      join(CP009450.1:1..5489680)
+//

@@ -1,0 +1,75 @@
+LOCUS       NZ_CP016176          4522699 bp    DNA     circular CON 05-MAR-2024
+DEFINITION  Xenorhabdus hominickii strain ANU1 chromosome, complete genome.
+ACCESSION   NZ_CP016176
+VERSION     NZ_CP016176.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN05207277
+            Assembly: GCF_001721185.1
+KEYWORDS    RefSeq.
+SOURCE      Xenorhabdus hominickii
+  ORGANISM  Xenorhabdus hominickii
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Morganellaceae; Xenorhabdus.
+REFERENCE   1  (bases 1 to 4522699)
+  AUTHORS   Park,Y. and Kim,Y.
+  TITLE     Bacterial characters and pathogenicity of Xenorhabdus hominickii
+            from an entomopathogenic nematode, Steinernema monticolum
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4522699)
+  AUTHORS   Park,Y. and Kim,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2016) Bioresource Sciences, Andong National
+            University, Songchon 388, Andong, Gyeongbuk 760-749, Republic of
+            Korea
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date                     :: 23-FEB-2016
+            Assembly Method                   :: Falcon v. 2.3
+            Genome Representation             :: Full
+            Expected Final Version            :: Yes
+            Genome Coverage                   :: 100x
+            Sequencing Technology             :: PacBio
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 03/04/2024 13:15:04
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.6
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 4,241
+            CDSs (total)                      :: 4,128
+            Genes (coding)                    :: 3,928
+            CDSs (with protein)               :: 3,928
+            Genes (RNA)                       :: 113
+            rRNAs                             :: 8, 7, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 8, 7, 7 (5S, 16S, 23S)
+            tRNAs                             :: 87
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 200
+            CDSs (without protein)            :: 200
+            Pseudo Genes (ambiguous residues) :: 0 of 200
+            Pseudo Genes (frameshifted)       :: 91 of 200
+            Pseudo Genes (incomplete)         :: 125 of 200
+            Pseudo Genes (internal stop)      :: 67 of 200
+            Pseudo Genes (multiple problems)  :: 69 of 200
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            CP016176.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4522699
+                     /organism="Xenorhabdus hominickii"
+                     /mol_type="genomic DNA"
+                     /strain="ANU1"
+                     /host="Steinernema monticolum"
+                     /culture_collection="KCTC:18464"
+                     /db_xref="taxon:351679"
+                     /geo_loc_name="South Korea: Andong"
+                     /collection_date="2015-03-04"
+                     /collected_by="Yonggyun Kim"
+CONTIG      join(CP016176.1:1..4522699)
+//

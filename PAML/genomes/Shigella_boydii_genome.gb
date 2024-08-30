@@ -1,0 +1,72 @@
+LOCUS       NZ_CP041513          4569995 bp    DNA     circular CON 08-JUL-2024
+DEFINITION  Shigella boydii strain KCCM 41690 chromosome, complete genome.
+ACCESSION   NZ_CP041513
+VERSION     NZ_CP041513.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN12233447
+            Assembly: GCF_007106565.1
+KEYWORDS    RefSeq.
+SOURCE      Shigella boydii
+  ORGANISM  Shigella boydii
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Shigella.
+REFERENCE   1  (bases 1 to 4569995)
+  AUTHORS   Jo,Y., Huy,P.Q. and Shin,J.-H.
+  TITLE     Genome sequence of Shigella boydii KCCM 41690
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4569995)
+  AUTHORS   Jo,Y., Huy,P.Q. and Shin,J.-H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUL-2019) School of Applied Bioscience, Kyungpook
+            National University, 80 Daehakro, Daegu 41566, South Korea
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method                   :: HGAP v. 4
+            Genome Representation             :: Full
+            Expected Final Version            :: Yes
+            Genome Coverage                   :: 194.0x
+            Sequencing Technology             :: PacBio RSII
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_007106565.1-RS_2024_07_08
+            Annotation Date                   :: 07/08/2024 04:07:00
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.7
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 4,929
+            CDSs (total)                      :: 4,799
+            Genes (coding)                    :: 3,951
+            CDSs (with protein)               :: 3,951
+            Genes (RNA)                       :: 130
+            rRNAs                             :: 8, 7, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 8, 7, 7 (5S, 16S, 23S)
+            tRNAs                             :: 101
+            ncRNAs                            :: 7
+            Pseudo Genes (total)              :: 848
+            CDSs (without protein)            :: 848
+            Pseudo Genes (ambiguous residues) :: 0 of 848
+            Pseudo Genes (frameshifted)       :: 327 of 848
+            Pseudo Genes (incomplete)         :: 525 of 848
+            Pseudo Genes (internal stop)      :: 139 of 848
+            Pseudo Genes (multiple problems)  :: 133 of 848
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            CP041513.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Bacteria and source DNA available from Shin's Lab.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4569995
+                     /organism="Shigella boydii"
+                     /mol_type="genomic DNA"
+                     /strain="KCCM 41690"
+                     /culture_collection="KCCM:41690"
+                     /db_xref="taxon:621"
+                     /geo_loc_name="South Korea"
+                     /collection_date="2019-04-04"
+CONTIG      join(CP041513.1:1..4569995)
+//

@@ -1,0 +1,76 @@
+LOCUS       NZ_CP053417          4476215 bp    DNA     circular CON 17-JUL-2024
+DEFINITION  Salmonella bongori strain 92-0238 chromosome, complete genome.
+ACCESSION   NZ_CP053417
+VERSION     NZ_CP053417.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN07151172
+            Assembly: GCF_006051015.1
+KEYWORDS    RefSeq.
+SOURCE      Salmonella bongori
+  ORGANISM  Salmonella bongori
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (bases 1 to 4476215)
+  AUTHORS   Dinsmore,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAY-2020) EDLB-CDC, 1600 Clifton Road, Atlanta, GA
+            30329, USA
+REFERENCE   2  (bases 1 to 4476215)
+  AUTHORS   Tarr,C.L., Trees,E., Katz,L.S., Carleton-Romer,H.A., Stroika,S.,
+            Kucerova,Z., Roache,K.F., Sabol,A.L., Besser,J. and Gerner-Smidt,P.
+  CONSRTM   PulseNet: The National Subtyping Network for Foodborne Disease
+            Surveillance
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JUL-2018) Enteric Diseases Laboratory Branch, Centers
+            for Disease Control and Prevention, 1600 Clifton Rd., MS C03,
+            Atlanta, GA 30333, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method                   :: HGAP v. 1
+            Genome Representation             :: Full
+            Expected Final Version            :: Yes
+            Genome Coverage                   :: 30x
+            Sequencing Technology             :: PacBio RSII
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_006051015.1-RS_2024_07_17
+            Annotation Date                   :: 07/17/2024 02:33:03
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.7
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 4,220
+            CDSs (total)                      :: 4,102
+            Genes (coding)                    :: 3,919
+            CDSs (with protein)               :: 3,919
+            Genes (RNA)                       :: 118
+            rRNAs                             :: 8, 7, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 8, 7, 7 (5S, 16S, 23S)
+            tRNAs                             :: 85
+            ncRNAs                            :: 11
+            Pseudo Genes (total)              :: 183
+            CDSs (without protein)            :: 183
+            Pseudo Genes (ambiguous residues) :: 0 of 183
+            Pseudo Genes (frameshifted)       :: 103 of 183
+            Pseudo Genes (incomplete)         :: 105 of 183
+            Pseudo Genes (internal stop)      :: 31 of 183
+            Pseudo Genes (multiple problems)  :: 46 of 183
+            CRISPR Arrays                     :: 2
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            CP053417.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4476215
+                     /organism="Salmonella bongori"
+                     /mol_type="genomic DNA"
+                     /strain="92-0238"
+                     /db_xref="taxon:54736"
+                     /geo_loc_name="USA"
+                     /collected_by="CDC"
+CONTIG      join(CP053417.1:1..4476215)
+//

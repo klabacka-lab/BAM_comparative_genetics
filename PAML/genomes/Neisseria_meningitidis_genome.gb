@@ -1,0 +1,76 @@
+LOCUS       NZ_CP064367          2181327 bp    DNA     circular CON 23-AUG-2024
+DEFINITION  Neisseria meningitidis strain PartJ-Nmeningitidis-RM8376 chromosome,
+            complete genome.
+ACCESSION   NZ_CP064367
+VERSION     NZ_CP064367.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN14078801
+            Assembly: GCF_022869645.1
+KEYWORDS    RefSeq.
+SOURCE      Neisseria meningitidis
+  ORGANISM  Neisseria meningitidis
+            Bacteria; Pseudomonadota; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (bases 1 to 2181327)
+  AUTHORS   Tourlousse,D.M., Tallon,L., Sadzewicz,L., Jackson,S.A., Sichtig,H.
+            and Kralj,J.G.
+  TITLE     Multiple strains for NIST's mixed pathogen genomic DNA reference
+            material, genome sequencing and assembly
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2181327)
+  AUTHORS   Tourlousse,D.M., Tallon,L., Sadzewicz,L., Jackson,S.A., Sichtig,H.
+            and Kralj,J.G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-NOV-2020) Material Measurement Laboratory /Biosystems
+            and Biomaterials Division, National Institute of Standards and
+            Technology (NIST), 100 Bureau Drive, Gaithersburg, MD 20899, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method                   :: Flye v. 2.5; Pilon v. 1.23
+            Genome Coverage                   :: 1750x
+            Sequencing Technology             :: Illumina; PacBio
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_022869645.1-RS_2024_04_26
+            Annotation Date                   :: 04/26/2024 04:43:24
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.7
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 2,201
+            CDSs (total)                      :: 2,126
+            Genes (coding)                    :: 1,974
+            CDSs (with protein)               :: 1,974
+            Genes (RNA)                       :: 75
+            rRNAs                             :: 4, 4, 4 (5S, 16S, 23S)
+            complete rRNAs                    :: 4, 4, 4 (5S, 16S, 23S)
+            tRNAs                             :: 59
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 152
+            CDSs (without protein)            :: 152
+            Pseudo Genes (ambiguous residues) :: 0 of 152
+            Pseudo Genes (frameshifted)       :: 74 of 152
+            Pseudo Genes (incomplete)         :: 82 of 152
+            Pseudo Genes (internal stop)      :: 27 of 152
+            Pseudo Genes (multiple problems)  :: 29 of 152
+            CRISPR Arrays                     :: 1
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            CP064367.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Bacteria and source DNA available from ATCC.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2181327
+                     /organism="Neisseria meningitidis"
+                     /mol_type="genomic DNA"
+                     /strain="PartJ-Nmeningitidis-RM8376"
+                     /culture_collection="ATCC:13077"
+                     /type_material="type strain of Neisseria meningitidis"
+                     /db_xref="taxon:487"
+                     /collected_by="ATCC -> NIST"
+CONTIG      join(CP064367.1:1..2181327)
+//

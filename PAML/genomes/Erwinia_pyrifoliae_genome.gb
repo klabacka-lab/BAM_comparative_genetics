@@ -1,0 +1,81 @@
+LOCUS       NZ_CP139347          4018953 bp    DNA     circular CON 03-AUG-2024
+DEFINITION  Erwinia pyrifoliae strain YKB12327 chromosome, complete genome.
+ACCESSION   NZ_CP139347
+VERSION     NZ_CP139347.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN38393563
+            Assembly: GCF_041015235.1
+KEYWORDS    RefSeq.
+SOURCE      Erwinia pyrifoliae
+  ORGANISM  Erwinia pyrifoliae
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Erwiniaceae; Erwinia.
+REFERENCE   1  (bases 1 to 4018953)
+  AUTHORS   Nie,H., Lee,S., Ko,S.-R., Lee,Y.K., Lee,M.-H., Yu,J.M., Moon,J.S.,
+            Shin,A.-Y. and Kwon,S.-Y.
+  TITLE     Complete genome sequence of Erwinia pyrifoliae strain YKB12327,
+            isolated from an apple tree in Korea
+  JOURNAL   J Plant Pathol (2024)
+REFERENCE   2  (bases 1 to 4018953)
+  AUTHORS   Nie,H., Lim,S., Lee,S., Ko,S.-R., Kwon,J.A., Moon,J.S., Lee,M.-H.,
+            Lee,Y., Ham,H., Yu,J.M., Shin,A.-Y. and Kwon,S.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-NOV-2023) Plant Systems Engineering Research Center,
+            Korea Research Institute of Bioscience and Biotechnology, Gwahak-ro
+            125, Daejeon 34141, South Korea
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method                   :: CLC NGS Cell v. 23.0.4
+            Assembly Name                     :: Erwinia pyrifoliae YKB12327
+            Genome Representation             :: Full
+            Expected Final Version            :: Yes
+            Genome Coverage                   :: 188.6x
+            Sequencing Technology             :: Oxford Nanopore MinION
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_041015235.1-RS_2024_08_03
+            Annotation Date                   :: 08/03/2024 05:31:54
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.7
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 3,847
+            CDSs (total)                      :: 3,736
+            Genes (coding)                    :: 3,120
+            CDSs (with protein)               :: 3,120
+            Genes (RNA)                       :: 111
+            rRNAs                             :: 8, 7, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 8, 7, 7 (5S, 16S, 23S)
+            tRNAs                             :: 76
+            ncRNAs                            :: 13
+            Pseudo Genes (total)              :: 616
+            CDSs (without protein)            :: 616
+            Pseudo Genes (ambiguous residues) :: 0 of 616
+            Pseudo Genes (frameshifted)       :: 510 of 616
+            Pseudo Genes (incomplete)         :: 154 of 616
+            Pseudo Genes (internal stop)      :: 105 of 616
+            Pseudo Genes (multiple problems)  :: 131 of 616
+            CRISPR Arrays                     :: 4
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            CP139347.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Bacteria and source DNA available from Plant Systems Engineering
+            Research Center, Korea Research Institute of Bioscience and
+            Biotechnology, Daejeon 34141, Republic of Korea.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4018953
+                     /organism="Erwinia pyrifoliae"
+                     /mol_type="genomic DNA"
+                     /strain="YKB12327"
+                     /host="Malus domestica"
+                     /db_xref="taxon:79967"
+                     /geo_loc_name="South Korea"
+                     /collection_date="2015-06-11"
+                     /collected_by="National Institute of Agricultural Sciences"
+CONTIG      join(CP139347.1:1..4018953)
+//

@@ -1,0 +1,80 @@
+LOCUS       NZ_CP132279          4991296 bp    DNA     circular CON 24-AUG-2024
+DEFINITION  Citrobacter youngae strain UL-CPE-01 chromosome, complete genome.
+ACCESSION   NZ_CP132279
+VERSION     NZ_CP132279.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN13927060
+            Assembly: GCF_010119415.2
+KEYWORDS    RefSeq.
+SOURCE      Citrobacter youngae
+  ORGANISM  Citrobacter youngae
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Citrobacter; Citrobacter freundii complex.
+REFERENCE   1  (bases 1 to 4991296)
+  AUTHORS   Ryan,M.P., Pembroke,J.T. and Slattery,S.
+  TITLE     Characterization of an Extensively-Resistant Citrobacter youngae
+            isolate carrying blaKPC-2 from municipal wastewater
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4991296)
+  AUTHORS   Ryan,M.P., Pembroke,J.T. and Slattery,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2023) Department of Chemical Sciences, University
+            of Limerick, University of Limerick, Limerick, Limerick 00000,
+            Ireland
+REFERENCE   3  (bases 1 to 4991296)
+  AUTHORS   Ryan,M.P., Pembroke,J.T. and Slattery,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2020) Department of Chemical Sciences, University
+            of Limerick, Limerick, Ireland
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date                     :: 30-APR-2023
+            Assembly Method                   :: SPAdes v. 3.15.4
+            Genome Representation             :: Full
+            Expected Final Version            :: Yes
+            Genome Coverage                   :: 30.0x
+            Sequencing Technology :: Oxford Nanopore PromethION; Illumina
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_010119415.2-RS_2024_08_24
+            Annotation Date                   :: 08/24/2024 08:08:29
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.8
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 6,027
+            CDSs (total)                      :: 5,908
+            Genes (coding)                    :: 5,753
+            CDSs (with protein)               :: 5,753
+            Genes (RNA)                       :: 119
+            rRNAs                             :: 9, 8, 8 (5S, 16S, 23S)
+            complete rRNAs                    :: 9, 8, 8 (5S, 16S, 23S)
+            tRNAs                             :: 83
+            ncRNAs                            :: 11
+            Pseudo Genes (total)              :: 155
+            CDSs (without protein)            :: 155
+            Pseudo Genes (ambiguous residues) :: 0 of 155
+            Pseudo Genes (frameshifted)       :: 49 of 155
+            Pseudo Genes (incomplete)         :: 118 of 155
+            Pseudo Genes (internal stop)      :: 24 of 155
+            Pseudo Genes (multiple problems)  :: 32 of 155
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            CP132279.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Bacteria and source DNA available from Michael Ryan.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4991296
+                     /organism="Citrobacter youngae"
+                     /mol_type="genomic DNA"
+                     /strain="UL-CPE-01"
+                     /isolation_source="sewage sludge"
+                     /db_xref="taxon:133448"
+                     /geo_loc_name="Ireland"
+                     /collection_date="2017-11"
+CONTIG      join(CP132279.1:1..4991296)
+//
