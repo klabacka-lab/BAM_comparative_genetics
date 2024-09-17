@@ -25,8 +25,8 @@ Hafnia alvei
 Edwardsiella ictaluri
 Edwardsiella tarda
 Sodalis glossinidius
-Dickey adadantii
-Dickey asolani
+Dickeya dadantii
+Dickeya solani
 Brenneria salicis
 Samsonia erythrinae
 Pectobacterium wasabiae
@@ -73,7 +73,7 @@ Citrobacter farmeri
 Citrobacter koseri
 Citrobacter rodentium
 Citrobacter sedlakii
-Kluyveracry ocrescens
+Kluyvera cryocrescens
 Pseudescherichia vulneris
 Enterobacter cancerogenus
 Enterobacter cloacae

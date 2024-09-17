@@ -1,0 +1,332 @@
+IQ-TREE multicore version 2.3.6 for MacOS Intel 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    MSQ-VAULT-2.local (SSE4.2, 32 GB RAM)
+Command: iqtree2 -s concatenated-genes.fa -m TEST -T AUTO -ntmax 18 -bb 1000
+Seed:    393711 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep  9 22:16:57 2024
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file concatenated-genes.fa ... Fasta format detected
+Reading fasta file: done in 0.0248208 secs using 92.71% CPU
+Alignment most likely contains protein sequences
+WARNING: 210 sites contain only gaps or ambiguous characters.
+Alignment has 102 sequences with 17224 columns, 13025 distinct patterns
+9508 parsimony-informative, 3025 singleton sites, 4691 constant sites
+                                                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00215507 secs using 794.7% CPU
+   1  GCA_003610465_1_ASM361046v1_genomic                               24.76%    passed     87.63%
+   2  Cronobacter_dublinensis_genome                                    24.97%    passed     88.43%
+   3  Xenorhabdus_griffiniae_genome                                     24.79%    passed     92.69%
+   4  Raoultella_terrigena_genome                                       24.62%    passed     99.78%
+   5  GCA_012932875_1_ASM1293287v1_genomic                              24.91%    passed     96.30%
+   6  Citrobacter_rodentium_genome                                      24.49%    passed     99.72%
+   7  Mariprofundus_ferrooxydans_genome                                 24.72%    passed     98.61%
+   8  Xenorhabdus_poinarii_genome                                       24.16%    passed     93.70%
+   9  Pantoea_stewartii_genome                                          24.83%    passed     98.35%
+  10  GCA_014696825_1_ASM1469682v1_genomic                              26.08%    failed      0.00%
+  11  Proteus_vulgaris_genome                                           24.48%    passed     93.76%
+  12  GCA_900115195_1_IMG_taxon_2684622846_annotated_assembly_genomic   24.69%    passed     65.61%
+  13  Erwinia_pyrifoliae_genome                                         29.11%    passed     91.91%
+  14  Salmonella_enterica_genome                                        25.21%    passed     99.47%
+  15  Rouxiella_chamberiensis_genome                                    25.34%    passed     94.53%
+  16  Erwinia_amylovora_genome                                          25.42%    passed     93.73%
+  17  GCA_002127535_1_ASM212753v1_genomic                               24.58%    passed     66.89%
+  18  Salmonella_bongori_genome                                         26.17%    passed     99.54%
+  19  Shigella_boydii_genome                                            24.92%    passed     99.76%
+  20  GCA_002632615_1_ASM263261v1_genomic                               24.81%    passed     98.19%
+  21  Klebsiella_variicola_genome                                       24.71%    passed     98.93%
+  22  GCA_002632485_1_ASM263248v1_genomic                               24.64%    passed     98.00%
+  23  Escherichia_fergusonii_genome                                     24.81%    passed     99.73%
+  24  Providencia_rettgeri_genome                                       24.67%    passed     96.17%
+  25  Mangrovibacter_phragmitis_genome                                  24.23%    passed     89.83%
+  26  Mixta_calida_genome                                               24.76%    passed     94.82%
+  27  Cronobacter_muytjensii_genome                                     24.83%    passed     97.26%
+  28  Citrobacter_amalonaticus_genome                                   25.03%    passed     99.96%
+  29  Klebsiella_michiganensis_genome                                   24.98%    passed     99.31%
+  30  Xenorhabdus_doucetiae_genome                                      24.81%    passed     97.73%
+  31  Cronobacter_malonaticus_genome                                    24.97%    passed     90.45%
+  32  GCA_028598485_1_ASM2859848v1_genomic                              24.66%    passed     83.02%
+  33  Proteus_penneri_genome                                            24.69%    passed     98.66%
+  34  Klebsiella_aerogenes_genome                                       24.90%    passed     99.41%
+  35  Pantoea_agglomerans_genome                                        24.71%    passed     94.00%
+  36  Pectobacterium_carotovorum_genome                                 25.49%    passed     99.82%
+  37  Serratia_marcescens_genome                                        25.59%    passed     71.52%
+  38  Citrobacter_europaeus_genome                                      24.92%    passed     99.34%
+  39  GCA_003386665_1_ASM338666v1_genomic                               24.76%    passed     92.27%
+  40  Cetobacterium_somerae_genome                                      28.77%    failed      0.00%
+  41  Thermus_thermophilus_genome                                       25.67%    failed      0.00%
+  42  Serratia_proteamaculans_genome                                    24.81%    passed     98.96%
+  43  Aggregatibacter_aphrophilus_genome                                25.27%    failed      2.86%
+  44  Haemophilus_influenzae_genome                                     25.25%    failed      0.06%
+  45  Citrobacter_braakii_genome                                        24.90%    passed     99.31%
+  46  Cronobacter_turicensis_genome                                     25.23%    passed     85.14%
+  47  Atlantibacter_hermannii_genome                                    24.58%    passed     99.79%
+  48  Photorhabdus_luminescens_genome                                   24.91%    passed     75.48%
+  49  Citrobacter_sedlakii_genome                                       25.07%    passed     99.55%
+  50  Xenorhabdus_hominickii_genome                                     24.72%    passed     67.68%
+  51  Fusobacterium_nucleatum_genome                                    24.49%    failed      0.00%
+  52  Shigella_flexneri_genome                                          24.92%    passed     99.84%
+  53  Dickeya_solani_genome                                             24.55%    passed     74.17%
+  54  GCA_900113945_1_IMG_taxon_2684622849_annotated_assembly_genomic   24.80%    passed     91.77%
+  55  Cronobacter_sakazakii_genome                                      24.49%    passed     92.22%
+  56  Pluralibacter_gergoviae_genome                                    25.02%    passed     93.56%
+  57  GCA_004342665_1_ASM434266v1_genomic                               25.41%    passed     99.87%
+  58  GCA_000749845_1_ASM74984v1_genomic                                25.50%    passed     99.51%
+  59  Escherichia_coli_genome                                           21.59%    failed      0.00%
+  60  Citrobacter_werkmanii_genome                                      25.50%    passed     99.56%
+  61  GCA_003182475_1_ASM318247v1_genomic                               24.47%    passed     89.72%
+  62  GCA_003846135_1_ASM384613v1_genomic                               24.47%    passed     99.93%
+  63  GCA_000243815_3_gls454062v02_genomic                              29.47%    failed      0.00%
+  64  Erwinia_tracheiphila_genome                                       24.91%    passed     99.94%
+  65  Edwardsiella_ictaluri_genome                                      24.86%    passed     22.21%
+  66  GCA_004801125_1_ASM480112v1_genomic                               24.90%    passed     99.55%
+  67  GCA_002632595_1_ASM263259v1_genomic                               24.49%    passed     92.38%
+  68  Shigella_sonnei_genome                                            24.91%    passed     99.75%
+  69  Enterobacter_cancerogenus_genome                                  24.94%    passed     97.71%
+  70  GCA_002632755_1_ASM263275v1_genomic                               24.71%    passed     87.03%
+  71  Klebsiella_oxytoca_genome                                         25.01%    passed     99.88%
+  72  Citrobacter_koseri_genome                                         24.94%    passed     99.79%
+  73  Proteus_mirabilis_genome                                          24.59%    passed     93.94%
+  74  Arsenophonus_nasoniae_genome                                      24.89%    failed      0.00%
+  75  Bordetella_pertussis_genome                                       23.87%    failed      0.00%
+  76  Dickeya_dadantii_genome                                           24.65%    passed     70.73%
+  77  Citrobacter_gillenii_genome                                       32.33%    passed     98.94%
+  78  Escherichia_albertii_genome                                       24.91%    passed     99.82%
+  79  GCA_014467235_1_ASM1446723v1_genomic                              24.78%    passed     92.89%
+  80  Citrobacter_pasteurii_genome                                      24.98%    passed     99.15%
+  81  Serratia_symbiotica_genome                                        24.78%    passed     58.04%
+  82  Xenorhabdus_bovienii_genome                                       24.68%    passed     78.73%
+  83  Pseudescherichia_vulneris_genome                                  24.99%    passed     93.88%
+  84  GCA_002127545_1_ASM212754v1_genomic                               24.71%    passed     94.49%
+  85  Kluyvera_cryocrescens_genome                                      24.95%    passed     99.74%
+  86  Photorhabdus_temperata_genome                                     24.81%    passed     91.20%
+  87  Xenorhabdus_budapestensis_genome                                  24.78%    passed     83.85%
+  88  GCA_002632875_1_ASM263287v1_genomic                               24.68%    passed     96.34%
+  89  Citrobacter_portucalensis_genome                                  24.94%    passed     99.45%
+  90  Deinococcus_radiodurans_genome                                    97.49%    failed      0.01%
+  91  Hydrogenobacter_thermophilus_genome                               30.83%    failed      0.00%
+  92  Ewingella_americana_genome                                        24.81%    passed    100.00%
+  93  Neisseria_meningitidis_genome                                     25.57%    failed      2.85%
+  94  Hafnia_alvei_genome                                               24.84%    passed     99.84%
+  95  Klebsiella_pneumoniae_genome                                      24.72%    passed     98.95%
+  96  GCA_900116635_1_IMG_taxon_2684622845_annotated_assembly_genomic   24.62%    passed     24.87%
+  97  Citrobacter_youngae_genome                                        24.98%    passed     98.10%
+  98  Pasteurella_multocida_genome                                      24.70%    failed      4.21%
+  99  Pectobacterium_wasabiae_genome                                    25.49%    passed     99.95%
+ 100  Edwardsiella_tarda_genome                                         24.87%    passed     12.51%
+ 101  Enterobacter_cloacae_genome                                       24.95%    passed     99.30%
+ 102  Citrobacter_freundii_genome                                       24.97%    passed     99.94%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                             25.82%  14 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.286 seconds
+Measuring multi-threading efficiency up to 10 CPU cores
+4 trees examined
+Threads: 1 / Time: 11.030 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -704197
+Threads: 2 / Time: 6.948 sec / Speedup: 1.587 / Efficiency: 79% / LogL: -704197
+Threads: 3 / Time: 4.753 sec / Speedup: 2.321 / Efficiency: 77% / LogL: -704197
+Threads: 4 / Time: 3.590 sec / Speedup: 3.072 / Efficiency: 77% / LogL: -704197
+Threads: 5 / Time: 2.904 sec / Speedup: 3.799 / Efficiency: 76% / LogL: -704197
+Threads: 6 / Time: 2.511 sec / Speedup: 4.392 / Efficiency: 73% / LogL: -704197
+Threads: 7 / Time: 2.735 sec / Speedup: 4.033 / Efficiency: 58% / LogL: -704197
+Threads: 8 / Time: 2.655 sec / Speedup: 4.155 / Efficiency: 52% / LogL: -704197
+Threads: 9 / Time: 2.578 sec / Speedup: 4.278 / Efficiency: 48% / LogL: -704197
+BEST NUMBER OF THREADS: 6
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -457203.148
+2. Current log-likelihood: -457199.119
+3. Current log-likelihood: -457195.683
+4. Current log-likelihood: -457192.767
+5. Current log-likelihood: -457190.285
+6. Current log-likelihood: -457188.157
+7. Current log-likelihood: -457186.319
+8. Current log-likelihood: -457184.721
+9. Current log-likelihood: -457183.323
+10. Current log-likelihood: -457182.093
+11. Current log-likelihood: -457181.005
+Optimal log-likelihood: -457180.002
+Proportion of invariable sites: 0.016
+Gamma shape alpha: 0.500
+Parameters optimization took 11 rounds (18.677 sec)
+Time for fast ML tree search: 52.971 seconds
+
+NOTE: ModelFinder requires 872 MB RAM!
+ModelFinder will test up to 224 protein models (sample size: 17224 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            488912.839   201 978227.677   978232.448   979786.243
+  2  LG+I          481307.709   202 963019.417   963024.235   964585.737
+  3  LG+G4         457168.460   202 914740.920   914745.738   916307.239
+  4  LG+I+G4       457170.586   203 914747.171   914752.038   916321.245
+  7  LG+F+G4       457592.474   221 915626.948   915632.719   917340.595
+ 11  WAG+G4        459798.079   202 920000.157   920004.976   921566.477
+ 15  WAG+F+G4      459635.304   221 919712.609   919718.380   921426.256
+ 19  JTT+G4        460425.211   202 921254.423   921259.241   922820.743
+ 23  JTT+F+G4      460382.705   221 921207.409   921213.181   922921.056
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 27  Q.pfam+G4     457446.186   202 915296.373   915301.191   916862.693
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 31  Q.pfam+F+G4   458049.352   221 916540.704   916546.476   918254.351
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 35  Q.bird+G4     467968.658   202 936341.316   936346.134   937907.636
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 39  Q.bird+F+G4   468339.302   221 937120.603   937126.375   938834.250
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 43  Q.mammal+G4   465362.071   202 931128.141   931132.959   932694.461
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 47  Q.mammal+F+G4 465230.021   221 930902.041   930907.812   932615.688
+ 51  Q.insect+G4   457857.195   202 916118.390   916123.208   917684.710
+ 55  Q.insect+F+G4 457976.912   221 916395.824   916401.595   918109.471
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 59  Q.plant+G4    459578.768   202 919561.535   919566.353   921127.855
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 63  Q.plant+F+G4  460121.074   221 920684.149   920689.920   922397.796
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 67  Q.yeast+G4    458330.566   202 917065.132   917069.950   918631.452
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 71  Q.yeast+F+G4  458007.194   221 916456.388   916462.160   918170.035
+ 75  JTTDCMut+G4   460376.212   202 921156.425   921161.243   922722.744
+ 79  JTTDCMut+F+G4 460275.072   221 920992.143   920997.914   922705.790
+ 83  DCMut+G4      463228.912   202 926861.823   926866.641   928428.143
+ 87  DCMut+F+G4    461283.930   221 923009.860   923015.632   924723.507
+ 91  VT+G4         461422.591   202 923249.182   923254.000   924815.501
+ 95  VT+F+G4       461579.096   221 923600.192   923605.963   925313.839
+ 99  PMB+G4        466314.918   202 933033.836   933038.654   934600.156
+103  PMB+F+G4      465087.245   221 930616.489   930622.261   932330.137
+107  Blosum62+G4   465781.053   202 931966.106   931970.924   933532.426
+111  Blosum62+F+G4 465237.875   221 930917.750   930923.521   932631.397
+115  Dayhoff+G4    463186.452   202 926776.903   926781.721   928343.223
+119  Dayhoff+F+G4  461253.931   221 922949.863   922955.634   924663.510
+123  mtREV+G4      483818.298   202 968040.596   968045.415   969606.916
+127  mtREV+F+G4    464213.738   221 928869.476   928875.248   930583.123
+131  mtART+G4      488843.867   202 978091.734   978096.553   979658.054
+135  mtART+F+G4    468550.028   221 937542.057   937547.828   939255.704
+139  mtZOA+G4      477355.760   202 955115.520   955120.338   956681.840
+143  mtZOA+F+G4    463059.340   221 926560.679   926566.450   928274.326
+147  mtMet+G4      484420.660   202 969245.319   969250.138   970811.639
+151  mtMet+F+G4    464386.243   221 929214.487   929220.258   930928.134
+155  mtVer+G4      486983.121   202 974370.242   974375.060   975936.562
+159  mtVer+F+G4    468875.812   221 938193.624   938199.395   939907.271
+163  mtInv+G4      487743.045   202 975890.090   975894.908   977456.410
+167  mtInv+F+G4    462297.163   221 925036.326   925042.098   926749.974
+171  mtMAM+G4      492983.100   202 986370.199   986375.018   987936.519
+175  mtMAM+F+G4    473156.779   221 946755.558   946761.329   948469.205
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+179  FLAVI+G4      477423.469   202 955250.937   955255.756   956817.257
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+183  FLAVI+F+G4    476226.066   221 952894.132   952899.903   954607.779
+187  HIVb+G4       470300.684   202 941005.368   941010.187   942571.688
+191  HIVb+F+G4     469141.670   221 938725.341   938731.112   940438.988
+195  HIVw+G4       487898.974   202 976201.947   976206.765   977768.267
+199  HIVw+F+G4     482066.566   221 964575.132   964580.903   966288.779
+203  FLU+G4        468139.256   202 936682.512   936687.331   938248.832
+207  FLU+F+G4      466310.640   221 933063.281   933069.052   934776.928
+211  rtREV+G4      462371.114   202 925146.229   925151.047   926712.549
+215  rtREV+F+G4    459406.189   221 919254.377   919260.148   920968.024
+219  cpREV+G4      462690.016   202 925784.032   925788.851   927350.352
+223  cpREV+F+G4    461737.526   221 923917.053   923922.824   925630.700
+Akaike Information Criterion:           LG+G4
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+G4
+Best-fit model: LG+G4 chosen according to BIC
+
+All model information printed to concatenated-genes.fa.model.gz
+CPU time for ModelFinder: 4697.681 seconds (1h:18m:17s)
+Wall-clock time for ModelFinder: 863.378 seconds (0h:14m:23s)
+Generating 1000 samples for ultrafast bootstrap (seed: 393711)...
+
+NOTE: 872 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -457181.348
+2. Current log-likelihood: -457168.255
+Optimal log-likelihood: -457168.226
+Gamma shape alpha: 0.480
+Parameters optimization took 2 rounds (4.245 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.107539 secs using 591.8% CPU
+Computing ML distances took 0.108798 sec (of wall-clock time) 0.643145 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000202179 secs using 382.3% CPU
+Computing RapidNJ tree took 0.005440 sec (of wall-clock time) 0.032207 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -457600.711
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 30.815 second
+Computing log-likelihood of 98 initial trees ... 62.842 seconds
+Current best score: -457168.226
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -457141.240
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -457093.439
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -457087.037
+Iteration 10 / LogL: -457175.074 / Time: 0h:18m:1s
+Iteration 20 / LogL: -457160.188 / Time: 0h:19m:41s
+Finish initializing candidate tree set (11)
+Current best tree score: -457087.037 / CPU time: 294.448
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -457087.361 / Time: 0h:21m:46s (0h:18m:50s left)
+Iteration 40 / LogL: -457110.962 / Time: 0h:23m:59s (0h:15m:45s left)
+Iteration 50 / LogL: -457253.995 / Time: 0h:25m:59s (0h:12m:46s left)
+Log-likelihood cutoff on original alignment: -457202.688
+Iteration 60 / LogL: -457103.766 / Time: 0h:28m:5s (0h:10m:12s left)
+Iteration 70 / LogL: -457093.634 / Time: 0h:30m:8s (0h:7m:45s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -457084.534
+Iteration 80 / LogL: -457102.194 / Time: 0h:32m:15s (0h:5m:25s left)
+Iteration 90 / LogL: -457148.292 / Time: 0h:34m:24s (0h:3m:9s left)
+Iteration 100 / LogL: -457130.524 / Time: 0h:36m:21s (0h:0m:53s left)
+Log-likelihood cutoff on original alignment: -457202.765
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:37m:32s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -457084.534
+Optimal log-likelihood: -457084.521
+Gamma shape alpha: 0.481
+Parameters optimization took 1 rounds (1.654 sec)
+BEST SCORE FOUND : -457084.521
+Creating bootstrap support values...
+Split supports printed to NEXUS file concatenated-genes.fa.splits.nex
+Total tree length: 28.111
+
+Total number of iterations: 105
+CPU time used for tree search: 7883.577 sec (2h:11m:23s)
+Wall-clock time used for tree search: 1364.946 sec (0h:22m:44s)
+Total CPU time used: 12728.784 sec (3h:32m:8s)
+Total wall-clock time used: 2253.989 sec (0h:37m:33s)
+
+Computing bootstrap consensus tree...
+Reading input file concatenated-genes.fa.splits.nex...
+102 taxa and 289 splits.
+Consensus tree written to concatenated-genes.fa.contree
+Reading input trees file concatenated-genes.fa.contree
+Log-likelihood of consensus tree: -457087.271
+
+Analysis results written to: 
+  IQ-TREE report:                concatenated-genes.fa.iqtree
+  Maximum-likelihood tree:       concatenated-genes.fa.treefile
+  Likelihood distances:          concatenated-genes.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          concatenated-genes.fa.splits.nex
+  Consensus tree:                concatenated-genes.fa.contree
+  Screen log file:               concatenated-genes.fa.log
+
+Date and Time: Mon Sep  9 22:54:49 2024

@@ -1,19 +1,11 @@
 Species with no genome found:
 Anabaena sphaerica
-Deinococcus radiodurans
 Leptospira alexanderi
-Mariprofundus ferrooxydans
-Aliivibrio fischeri
-Photobacterium profundum
-Providencia sneebia
-Dickey adadantii
-Dickey asolani
 Brenneria salicis
 Samsonia erythrinae
 Pectobacterium betavasculorum
 Erwinia psidii
 Citrobacter murliniae
-Kluyveracry ocrescens
 Xenorhabdus innexi
 Xenorhabdus cabanillasii
 Xenorhabdus indica
