@@ -1,0 +1,23 @@
+Species with no genome found:
+Anabaena sphaerica
+Leptospira alexanderi
+Brenneria salicis
+Samsonia erythrinae
+Pectobacterium betavasculorum
+Erwinia psidii
+Citrobacter murliniae
+Xenorhabdus innexi
+Xenorhabdus cabanillasii
+Xenorhabdus indica
+Xenorhabdus mauleonii
+Xenorhabdus szentirmaii
+Xenorhabdus koppenhoeferi
+Xenorhabdus kozodoii
+Xenorhabdus ishibashii
+Xenorhabdus ehlersii
+Xenorhabdus japonica
+Xenorhabdus vietnamensis
+Xenorhabdus beddingii
+Xenorhabdus khoisanae
+Xenorhabdus miraniensis
+Mangrovibacter plantisponsor
