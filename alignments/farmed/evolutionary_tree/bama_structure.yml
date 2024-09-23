@@ -1,4 +1,0 @@
-name: bama_structure
-dependencies:
-  - python=3.0
-  - pymol
