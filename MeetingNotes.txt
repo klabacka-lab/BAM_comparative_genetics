@@ -1,3 +1,7 @@
+September 24 2024
+	I've got the tree rooted/unrooted & control file in BAM_comparative_genetics/PAML/tree-pruning
+	That's where I'm going to put the nucleotide alignment for bacteria when I get all of the nucleotide sequences (20 hiding in some database)
+
 September 20 2024
 
     Alex estimated a phylogenomic tree for all of the bacterial lineages represented in the BamA alignment bacteria.fa
