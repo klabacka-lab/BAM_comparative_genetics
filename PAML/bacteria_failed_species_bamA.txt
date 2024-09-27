@@ -1,0 +1,24 @@
+Anabaena sphaerica: No sequence found
+Deinococcus radiodurans: No sequence found
+Cetobacterium somerae: No sequence found
+Fusobacterium nucleatum: Gene not found in CABFLE000000000.1
+Leptospira alexanderi: No sequence found
+Proteus mirabilis: Gene not found in ABUWEF000000000.1
+Providencia rettgeri: Gene not found in ABUWZW000000000.1
+Serratia marcescens: Gene not found in ABUWXG000000000.1
+Salmonella bongori: Gene not found in ABUWFI000000000.1
+Escherichia albertii: Gene not found in ABUWCW000000000.1
+Escherichia coli: Gene not found in ABUXWH000000000.1
+Shigella flexneri: Gene not found in ABUXWF000000000.1
+Shigella boydii: Gene not found in ABUUQC000000000.1
+Shigella sonnei: Gene not found in ABUXVW000000000.1
+Klebsiella aerogenes: Gene not found in ABUWXR000000000.1
+Raoultella planticola: Gene not found in ABUUCB000000000.1
+Klebsiella michiganensis: Gene not found in ABUXIK000000000.1
+Klebsiella oxytoca: Gene not found in ABUWRF000000000.1
+Klebsiella pneumoniae: Gene not found in ABUXTX000000000.1
+Salmonella enterica: Gene not found in ABUXXB000000000.1
+Citrobacter freundii: Gene not found in ABUWXP000000000.1
+Citrobacter amalonaticus: Gene not found in ABUWXF000000000.1
+Citrobacter farmeri: Gene not found in ABUUSN000000000.1
+Enterobacter cloacae: Gene not found in ABUXTS000000000.1
