@@ -22,3 +22,6 @@ Citrobacter freundii: Gene not found in ABUWXP000000000.1
 Citrobacter amalonaticus: Gene not found in ABUWXF000000000.1
 Citrobacter farmeri: Gene not found in ABUUSN000000000.1
 Enterobacter cloacae: Gene not found in ABUXTS000000000.1
+Klebsiella pneumoniae	NULL	NULL
+Salmonella enterica	NULL	NULL
+Raoutella planticola NULL   NULL
