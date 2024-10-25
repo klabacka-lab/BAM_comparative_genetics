@@ -1,5 +1,5 @@
      seqfile = ./bact-align.fa             * Path to the alignment file
-     treefile = ./unroot-tree.fa           * Path to the tree file
+     treefile = ./unroot-tree.tree         * Path to the tree file
       outfile = ./out-bam.txt              * Path to the output file
 
         noisy = 3          * How much rubbish on the screen
