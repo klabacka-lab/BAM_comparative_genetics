@@ -1,7 +1,7 @@
       seqfile = mtCDNApri.nuc
      treefile = mtCDNApri.trees
 
-      outfile = mlc           * main result file name
+      outfile = alex_lovely_output.txt           * main result file name
         noisy = 3  * 0,1,2,3,9: how much rubbish on the screen
       verbose = 1  * 0: concise; 1: detailed, 2: too much
       runmode = 0
