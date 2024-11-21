@@ -1,4 +1,4 @@
-     seqfile = ./bact-align.fa             * Path to the alignment file
+      seqfile = ./final-bam.phy             * Path to the alignment file
      treefile = ./unroot-tree.tree         * Path to the tree file
       outfile = ./out-bam.txt              * Path to the output file
 
@@ -8,7 +8,7 @@
       seqtype = 1          * Data type
         ndata = 1          * Number of data sets or loci
         icode = 0          * Genetic code
-    cleandata = 0          * Remove sites with ambiguity data?
+    cleandata = 1          * Remove sites with ambiguity data?
 
         model = 0          * Models for ω varying across lineages
 	  NSsites = 0          * Models for ω varying across sites
@@ -16,4 +16,4 @@
 	  estFreq = 1          * Use observed freqs or estimate freqs by ML
         clock = 0          * Clock model
     fix_omega = 0          * Estimate or fix omega
-        omega = 1.0         * Initial or fixed omega
+        omega = 0.5        * Initial or fixed omega
