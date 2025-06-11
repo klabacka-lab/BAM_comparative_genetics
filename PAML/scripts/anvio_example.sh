@@ -13,7 +13,7 @@
 ##  You may need to install prodigal separately; I followed their github documentation:
 ##  https://github.com/hyattpd/Prodigal/wiki/installation#installing-on-mac-os-x
 
-cd /Users/aeverettgk/Desktop/RESEARCH/BAM/BAM_comparative_genetics/PAML/genomes
+cd /BAM_comparative_genetics/PAML/genomes
 
 # Rename all of the files so they end in 'fa'
 for file in *.fa *.fna *.fasta; do
