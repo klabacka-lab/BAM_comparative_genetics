@@ -1,4 +1,4 @@
-      seqfile = ./final-bam.phy             * Path to the alignment file
+      seqfile = ./codon_align2.phy          * Path to the alignment file
      treefile = ./unroot-tree.tree         * Path to the tree file
       outfile = ./out-bam.txt              * Path to the output file
 
