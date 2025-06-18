@@ -1,0 +1,1 @@
+Okay, so it's been a while. This thing is kind of a mess. I don't particularly want to deal with making Alex's version of the code jive with mine or always having to ensure the correct libraries are installed. Time to containerize this mess
