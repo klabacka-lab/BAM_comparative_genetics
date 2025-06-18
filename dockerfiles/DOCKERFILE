@@ -1,0 +1,44 @@
+# I want to use podman, and pull from my personal dockerhub repo
+
+# Necessary Dependancies
+# =======================
+# import Random
+# import Requests
+# import fasta_cross
+# import sys
+# import time
+# import position
+# from Bio import SeqIO
+# import csv
+# import sys
+# import os
+# import warnings
+# import pandas
+# import argparse
+# import re
+
+# Install MUSCLE (I don't think MUSCLE aligns to reference genome like bwa-mem does)
+# - muscle is slower than BLAST, but better for cases in which we already have related sequences. This suits our use case better.
+
+FROM python:3.10.12-slim
+
+# David's scripts: escherichia conservancy specific
+ADD ../Escherichia_conservancy/scripts/scripts/main.sh /workdir/scripts/main.sh
+ADD ../Escherichia_conservancy/scripts/scripts/aligner.py/ /workdir/scripts/aligner.py
+ADD ../Escherichia_conservancy/scripts/scripts/uniprot_search.py /workdir/scripts/uniprot_search.py
+ADD ../Escherichia_conservancy/scripts/scripts/ecoli_farm.py /workdir/scripts/ecoli_farm.py
+ADD ../Escherichia_conservancy/scripts/scripts/histogram.r /workdir/scripts/histogram.r
+ADD ../Escherichia_conservancy/scripts/scripts/sequence_filter.py /workdir/scripts/sequence_filter.py
+
+# Alex or David: scripts from  both pipelines
+ADD ../stat.py /workdir/scripts/stat.py
+ADD ../fasta_cross.py /workdir/scripts/fasta_cross.py
+ADD ../position.py /workdir/scripts/position.py
+
+# May switch over to BLAST. I'll talk with the team about it
+
+
+
+
+
+
