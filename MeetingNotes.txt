@@ -1,3 +1,21 @@
+March 3 2026
+	Gavin and I met, and he is re-organizing the tree (unroot-tree.tree) and alignment (codon_align.phy) files so that the names match between the two. He noticed that there are several names in one file that aren't in the other. Randy looked up the taxonomy of the tips in the tree that aren't present in the alignment, and found that they are all gammaproteobacteria- so they are fine to be removed from the tree (since we have a large representation of gamma proteobacteria within the rest of the tree). The things in the alignment file can just be deleted. Here are the names of the non-matched individuals:
+
+	['tree Hafnia_alvei', 'tree Rouxiella_chamberiensis', 'tree Erwinia_pyrifoliae', 'align Photobacterium_profundum', 'align Aliivibrio_fischeri', 'align Pectobacterium_atrosepticum', 'align Sodalis_glossinidius', 'align Raoultella_planticola', 'align Citrobacter_farmeri', 'align Providencia_sneebia', 'align Persephonella_sp_isolateMAG__Ga,']
+
+	To prune the tree, you can use ape (the r package) and specifically the 'drop.tip' command. Something like this:
+
+	library(ape)
+	my_tree <- read.tree("unroot-tree.tree")
+	my_tree_pruned <- drop.tip(my_tree, "Gen_sp") # you can do this for each taxon, or give a vector of names
+	write.tree(my_tree_pruned, file = "unroot-tree2.newick")
+
+	To remove the things in the alignment, you can just delete their lines. If you do this, you need to update the number at the top of the phyllip file (the first number is the number of individuals in the alignment, the second is the length of the alignment).
+
+	If you want to re-align things, you can try to do so either with a GUI like Aliview (https://ormbunkar.se/aliview/) or you can use something like MAFFT (https://mafft.cbrc.jp/alignment/server/index.html). With either, if it takes too long we may need to do the alignment on the command line. MAFFT has a package that can be downloaded and used from the command line (https://mafft.cbrc.jp/alignment/software/macosx.html).
+
+	
+
 September 24 2024
 	I've got the tree rooted/unrooted & control file in BAM_comparative_genetics/PAML/tree-pruning
 	That's where I'm going to put the nucleotide alignment for bacteria when I get all of the nucleotide sequences (20 hiding in some database)
