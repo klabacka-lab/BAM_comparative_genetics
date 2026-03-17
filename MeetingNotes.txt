@@ -1,3 +1,6 @@
+March 17 2026
+	Gavin and I met, he is still going to re-organize the tree and alignment (see details in notes from March 3 meeting). 
+
 March 3 2026
 	Gavin and I met, and he is re-organizing the tree (unroot-tree.tree) and alignment (codon_align.phy) files so that the names match between the two. He noticed that there are several names in one file that aren't in the other. Randy looked up the taxonomy of the tips in the tree that aren't present in the alignment, and found that they are all gammaproteobacteria- so they are fine to be removed from the tree (since we have a large representation of gamma proteobacteria within the rest of the tree). The things in the alignment file can just be deleted. Here are the names of the non-matched individuals:
 
