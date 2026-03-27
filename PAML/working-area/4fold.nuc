@@ -1,326 +1,302 @@
-   107       1
+    99       5
 
-Escherichi
-T
+Escherichia_coli
+TTTTC
 
-NZ_JACJQU0
-T
+Anabaena_sphaerica
+TATTT
 
-bamA_Therm
-C
+Thermus_thermophilus
+CACAC
 
-NZ_LIGC010
-C
+Mariprofundus_ferrooxydans
+CCCTT
 
-gb|CP05012
-C
+Deinococcus_radiodurans
+CCTCC
 
-NZ_LS48325
-C
+Bordetella_pertussis
+CCCCC
 
-NZ_ONZL010
-C
+Neisseria_meningitidis
+CCTCA
 
-bamA_Photo
-G
+Klebsiella_variicola
+TTACC
 
-bamA_Aliiv
-T
+Raoultella_terrigena
+CCCAC
 
-NZ_KQ08940
-T
+Dickeya_solani
+CCGTT
 
-bamA_Raoul
-C
+Dickeya_dadantii
+CCGCT
 
-CP136339.1
-C
+Brenneria_salicis
+TTCTC
 
-bamA_Dicke
-C
+Samsonia_erythrinae
+TCGAC
 
-NZ_QNRY010
-T
+Pectobacterium_carotovorum
+CTATC
 
-bamA_Samso
-T
+Pectobacterium_betavasculorum
+CTATC
 
-bamA_Pecto
-C
+Pectobacterium_wasabiae
+TCATC
 
-NZ_JAODTE0
-C
+Ewingella_americana
+TTTCT
 
-bamA_Pecto
-C
+Edwardsiella_tarda
+TTCCC
 
-bamA_Pecto
-T
+Edwardsiella_ictaluri
+CCCTC
 
-LN854557.1
-C
+Mangrovibacter_phragmitis
+CTTTG
 
-CP048243.1
-T
+Mangrovibacter_plantisponsor
+CCTTC
 
-AP028090.1
-T
+Serratia_symbiotica
+TTTTC
 
-bamA_Edwar
-C
+Serratia_marcescens
+TCTTC
 
-NZ_JBDJAE0
-C
+Serratia_proteamaculans
+TCGCT
 
-NZ_QGTS010
-C
+Atlantibacter_hermannii
+TCCTT
 
-bamA_Serra
-T
+Klebsiella_pneumoniae
+TCTTC
 
-SNQH010000
-T
+Klebsiella_aerogenes
+CTCTC
 
-bamA_Serra
-T
+Klebsiella_michiganensis
+CCTTC
 
-bamA_Atlan
-T
+Klebsiella_oxytoca
+TCTTC
 
-gb|SOYT010
-T
+Escherichia_fergusonii
+TCTTC
 
-CP116606.1
-C
+Escherichia_albertii
+TCTCC
 
-gb|SUPN010
-C
+Shigella_boydii
+TTTTC
 
-NZ_AP02254
-C
+Shigella_flexneri
+TTTTC
 
-NZ_LR13433
-T
+Shigella_sonnei
+TTTTC
 
-CP086604.1
-T
+Salmonella_enterica
+TCTTT
 
-NZ_CP11756
-T
+Salmonella_bongori
+TCTTT
 
-NZ_CP04960
-T
+Citrobacter_sedlakii
+TCTCT
 
-NZ_JAUTDC0
-T
+Citrobacter_rodentium
+TCTCT
 
-NZ_CP02680
-T
+Citrobacter_amalonaticus
+TTCCC
 
-gb|RSEP010
-T
+Citrobacter_koseri
+CCTCC
 
-NC_015761.
-T
+Citrobacter_murliniae
+TTTTC
 
-NZ_JAVIYE0
-T
+Citrobacter_gillenii
+TTTTC
 
-bamA_Citro
-T
+Citrobacter_europaeus
+TTTTC
 
-CP081314.1
-C
+Citrobacter_braakii
+CTTTT
 
-Citrobacte
-T
+Citrobacter_youngae
+TTTTC
 
-CP136754.1
-C
+Citrobacter_pasteurii
+TTTTC
 
-QFVP010000
-T
+Citrobacter_portucalensis
+CTTTC
 
-QVEK010000
-T
+Citrobacter_werkmanii
+CTTTT
 
-BPMF010000
-T
+Citrobacter_freundii
+CTTTC
 
-SJSI010000
-C
+Kluyvera_cryocrescens
+CTTTT
 
-VJOQ010000
-T
+Pluralibacter_gergoviae
+CTTCC
 
-bamA_Citro
-T
+Enterobacter_cloacae
+TTTTC
 
-NZ_JH41488
-C
+Enterobacter_cancerogenus
+TGTTC
 
-CP101103.1
-C
+Pseudescherichia_vulneris
+CTTCC
 
-NZ_LR89018
-C
+Cronobacter_muytjensii
+TTTTC
 
-bamA_Kluyv
-C
+Cronobacter_dublinensis
+TTTCC
 
-bamA_Plura
-C
+Cronobacter_turicensis
+TTTCT
 
-BPMY010000
-T
+Cronobacter_malonaticus
+TTTTT
 
-NZ_FYBA010
-T
+Cronobacter_sakazakii
+TTTTT
 
-bamA_Pseud
-C
+Pantoea_agglomerans
+CTCTC
 
-WAGD010000
-T
+Pantoea_stewartii
+TTTTC
 
-bamA_Crono
-T
+Erwinia_psidii
+TTACT
 
-bamA_Crono
-T
+Erwinia_tracheiphila
+CTCGT
 
-PSON010000
-T
+Mixta_calida
+TCCCC
 
-bamA_Crono
-T
+Erwinia_amylovora
+CGCTT
 
-CP162620.1
-C
+Photorhabdus_temperata
+TTACT
 
-bamA_Panto
-T
+Photorhabdus_luminescens
+TTTCT
 
-RHHM010000
-T
+Xenorhabdus_innexi
+TCTCC
 
-bamA_Erwin
-C
+Xenorhabdus_budapestensis
+TTATT
 
-bamA_Mixta
-T
+Xenorhabdus_indica
+TTATT
 
-CP147660.1
-C
+Xenorhabdus_cabanillasii
+TTATC
 
-NZ_JAJAFX0
-T
+Xenorhabdus_bovienii
+CTATT
 
-PUWW010000
-T
+Xenorhabdus_mauleonii
+TCATC
 
-bamA_Xenor
-T
+Xenorhabdus_szentirmaii
+ACATC
 
-NZ_NIBS010
-T
+Xenorhabdus_koppenhoeferi
+TAATC
 
-NZ_JAJJOW0
-T
+Xenorhabdus_poinarii
+TCATC
 
-bamA_Xenor
-T
+Xenorhabdus_vietnamensis
+TCATC
 
-NZ_JAILTX0
-C
+Xenorhabdus_japonica
+TCATC
 
-bamA_Xenor
-T
+Xenorhabdus_kozodoii
+TCATT
 
-bamA_Xenor
-A
+Xenorhabdus_doucetiae
+TCATC
 
-NZ_FPBJ010
-T
+Xenorhabdus_griffiniae
+TCATC
 
-NZ_FO70455
-T
+Xenorhabdus_ishibashii
+TCATC
 
-NZ_MUBJ010
-T
+Xenorhabdus_ehlersii
+TCATC
 
-bamA_Xenor
-T
+Xenorhabdus_hominickii
+TCATC
 
-NZ_NJCX010
-T
+Xenorhabdus_beddingii
+TTACT
 
-bamA_Xenor
-T
+Xenorhabdus_khoisanae
+TTACT
 
-bamA_Xenor
-T
+Xenorhabdus_miraniensis
+TTACT
 
-NZ_NJAK010
-T
+Proteus_mirabilis
+ATATT
 
-bamA_Xenor
-T
+Proteus_penneri
+ATTTT
 
-bamA_Xenor
-T
+Proteus_vulgaris
+ATTGT
 
-NZ_MUBK010
-T
+Arsenophonus_nasoniae
+TCTTT
 
-NZ_LFCV010
-T
+Providencia_rettgeri
+TCTTT
 
-bamA_Xenor
-T
+Haemophilus_influenzae
+TAACT
 
-CP072779.1
-A
+Aggregatibacter_aphrophilus
+TTATT
 
-CVRY010000
-A
+Pasteurella_multocida
+TCATC
 
-bamA_Prote
-A
+Hydrogenobacter_thermophilus
+CATTT
 
-bamA_Arsen
-T
+Leptospira_alexanderi
+TAATT
 
-NZ_CM00177
-T
+Fusobacterium_nucleatum
+ATTAA
 
-CP139429.1
-T
-
-NZ_JAMLFM0
-T
-
-QMGS010000
-T
-
-NZ_CP02040
-T
-
-CP076323.1
-C
-
-NZ_JQGW010
-T
-
-CABFLE0100
-A
-
-NZ_KI51809
-T
-
-QNZF010000
-C
+Cetobacterium_somerae
+TTTAA
 
 
 codons included
- 53
+ 194 225 311 454 460
