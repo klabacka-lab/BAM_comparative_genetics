@@ -1,6 +1,6 @@
-      seqfile = ./codon_align.phy          * Path to the alignment file
-     treefile = ./pruned_tree.tree          * Path to the tree file
-      outfile = ./out-bam.txt              * Path to the output file
+      seqfile = codon_align.phy          * Path to the alignment file
+     treefile = pruned_tree.tree          * Path to the tree file
+      outfile = out-bam.txt              * Path to the output file
 
         noisy = 3          * How much rubbish on the screen
       verbose = 1          * More or less detailed report
