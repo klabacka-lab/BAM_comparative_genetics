@@ -349,8 +349,9 @@ Cetobacterium_somerae           .G. TT. ..C G.G G.C ... ... ... ..C GCT ..T GTT 
     1    1    1    1    1
 
 CODONML (in paml version 4.10.10, 29 Jan 2026)  PAML/working-area/codon_align.phy
-Model: One dN/dS ratio, 
+Model: NSbranch3, 
 Codon frequency model: FMutSel
+Site-class models:  discrete (3 categories)
 ns =  99  ls = 485
 
 Codon usage in sequences

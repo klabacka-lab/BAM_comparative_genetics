@@ -13,4 +13,4 @@
 module load miniforge3
 mamba activate paml_env
 
-codeml 'PAML/working-area/control.ctl' 
+codeml 'control.ctl' 

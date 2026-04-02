@@ -1,6 +1,6 @@
-      seqfile = PAML/working-area/codon_align.phy          * Path to the alignment file
-      treefile = PAML/working-area/pruned_tree.tree          * Path to the tree file
-     outfile = out-bam.txt              * Path to the output file
+      seqfile = codon_align.phy          * Path to the alignment file
+      treefile = pruned_tree.tree          * Path to the tree file
+     outfile = outputs/m0o0out_bam.txt              * Path to the output file
 
         noisy = 3          * How much rubbish on the screen
       verbose = 1          * More or less detailed report
@@ -11,7 +11,7 @@
     cleandata = 1          * Remove sites with ambiguity data?
 
         model = 0          * Models for ω varying across lineages
-	  NSsites = 0          * Models for ω varying across sites
+	NSsites = 0          * Models for ω varying across sites
     CodonFreq = 7          * Codon frequencies
 	  estFreq = 1          * Use observed freqs or estimate freqs by ML
         clock = 0          * Clock model

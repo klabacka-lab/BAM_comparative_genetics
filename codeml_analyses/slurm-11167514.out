@@ -1,0 +1,95 @@
+
+CODONML in paml version 4.10.10, 29 Jan 2026
+
+----------------------------------------------
+Phe F TTT | Ser S TCT | Tyr Y TAT | Cys C TGT
+      TTC |       TCC |       TAC |       TGC
+Leu L TTA |       TCA | *** * TAA | *** * TGA
+      TTG |       TCG |       TAG | Trp W TGG
+----------------------------------------------
+Leu L CTT | Pro P CCT | His H CAT | Arg R CGT
+      CTC |       CCC |       CAC |       CGC
+      CTA |       CCA | Gln Q CAA |       CGA
+      CTG |       CCG |       CAG |       CGG
+----------------------------------------------
+Ile I ATT | Thr T ACT | Asn N AAT | Ser S AGT
+      ATC |       ACC |       AAC |       AGC
+      ATA |       ACA | Lys K AAA | Arg R AGA
+Met M ATG |       ACG |       AAG |       AGG
+----------------------------------------------
+Val V GTT | Ala A GCT | Asp D GAT | Gly G GGT
+      GTC |       GCC |       GAC |       GGC
+      GTA |       GCA | Glu E GAA |       GGA
+      GTG |       GCG |       GAG |       GGG
+----------------------------------------------
+Nice code, uuh?
+ns = 99  	ls = 3126
+Reading sequences, sequential format..
+Reading seq # 1: Escherichia_coli       Reading seq # 2: Anabaena_sphaerica       Reading seq # 3: Thermus_thermophilus       Reading seq # 4: Mariprofundus_ferrooxydans       Reading seq # 5: Deinococcus_radiodurans       Reading seq # 6: Bordetella_pertussis       Reading seq # 7: Neisseria_meningitidis       Reading seq # 8: Klebsiella_variicola       Reading seq # 9: Raoultella_terrigena       Reading seq #10: Dickeya_solani       Reading seq #11: Dickeya_dadantii       Reading seq #12: Brenneria_salicis       Reading seq #13: Samsonia_erythrinae       Reading seq #14: Pectobacterium_carotovorum       Reading seq #15: Pectobacterium_betavasculorum       Reading seq #16: Pectobacterium_wasabiae       Reading seq #17: Ewingella_americana       Reading seq #18: Edwardsiella_tarda       Reading seq #19: Edwardsiella_ictaluri       Reading seq #20: Mangrovibacter_phragmitis       Reading seq #21: Mangrovibacter_plantisponsor       Reading seq #22: Serratia_symbiotica       Reading seq #23: Serratia_marcescens       Reading seq #24: Serratia_proteamaculans       Reading seq #25: Atlantibacter_hermannii       Reading seq #26: Klebsiella_pneumoniae       Reading seq #27: Klebsiella_aerogenes       Reading seq #28: Klebsiella_michiganensis       Reading seq #29: Klebsiella_oxytoca       Reading seq #30: Escherichia_fergusonii       Reading seq #31: Escherichia_albertii       Reading seq #32: Shigella_boydii       Reading seq #33: Shigella_flexneri       Reading seq #34: Shigella_sonnei       Reading seq #35: Salmonella_enterica       Reading seq #36: Salmonella_bongori       Reading seq #37: Citrobacter_sedlakii       Reading seq #38: Citrobacter_rodentium       Reading seq #39: Citrobacter_amalonaticus       Reading seq #40: Citrobacter_koseri       Reading seq #41: Citrobacter_murliniae       Reading seq #42: Citrobacter_gillenii       Reading seq #43: Citrobacter_europaeus       Reading seq #44: Citrobacter_braakii       Reading seq #45: Citrobacter_youngae       Reading seq #46: Citrobacter_pasteurii       Reading seq #47: Citrobacter_portucalensis       Reading seq #48: Citrobacter_werkmanii       Reading seq #49: Citrobacter_freundii       Reading seq #50: Kluyvera_cryocrescens       Reading seq #51: Pluralibacter_gergoviae       Reading seq #52: Enterobacter_cloacae       Reading seq #53: Enterobacter_cancerogenus       Reading seq #54: Pseudescherichia_vulneris       Reading seq #55: Cronobacter_muytjensii       Reading seq #56: Cronobacter_dublinensis       Reading seq #57: Cronobacter_turicensis       Reading seq #58: Cronobacter_malonaticus       Reading seq #59: Cronobacter_sakazakii       Reading seq #60: Pantoea_agglomerans       Reading seq #61: Pantoea_stewartii       Reading seq #62: Erwinia_psidii       Reading seq #63: Erwinia_tracheiphila       Reading seq #64: Mixta_calida       Reading seq #65: Erwinia_amylovora       Reading seq #66: Photorhabdus_temperata       Reading seq #67: Photorhabdus_luminescens       Reading seq #68: Xenorhabdus_innexi       Reading seq #69: Xenorhabdus_budapestensis       Reading seq #70: Xenorhabdus_indica       Reading seq #71: Xenorhabdus_cabanillasii       Reading seq #72: Xenorhabdus_bovienii       Reading seq #73: Xenorhabdus_mauleonii       Reading seq #74: Xenorhabdus_szentirmaii       Reading seq #75: Xenorhabdus_koppenhoeferi       Reading seq #76: Xenorhabdus_poinarii       Reading seq #77: Xenorhabdus_vietnamensis       Reading seq #78: Xenorhabdus_japonica       Reading seq #79: Xenorhabdus_kozodoii       Reading seq #80: Xenorhabdus_doucetiae       Reading seq #81: Xenorhabdus_griffiniae       Reading seq #82: Xenorhabdus_ishibashii       Reading seq #83: Xenorhabdus_ehlersii       Reading seq #84: Xenorhabdus_hominickii       Reading seq #85: Xenorhabdus_beddingii       Reading seq #86: Xenorhabdus_khoisanae       Reading seq #87: Xenorhabdus_miraniensis       Reading seq #88: Proteus_mirabilis       Reading seq #89: Proteus_penneri       Reading seq #90: Proteus_vulgaris       Reading seq #91: Arsenophonus_nasoniae       Reading seq #92: Providencia_rettgeri       Reading seq #93: Haemophilus_influenzae       Reading seq #94: Aggregatibacter_aphrophilus       Reading seq #95: Pasteurella_multocida       Reading seq #96: Hydrogenobacter_thermophilus       Reading seq #97: Leptospira_alexanderi       Reading seq #98: Fusobacterium_nucleatum       Reading seq #99: Cetobacterium_somerae       
+Sites with gaps or missing data are removed.
+
+   930 ambiguity characters in seq. 1
+  1308 ambiguity characters in seq. 2
+   849 ambiguity characters in seq. 3
+  1038 ambiguity characters in seq. 4
+   795 ambiguity characters in seq. 5
+  1029 ambiguity characters in seq. 6
+  1011 ambiguity characters in seq. 7
+   948 ambiguity characters in seq. 8
+   948 ambiguity characters in seq. 9
+   933 ambiguity characters in seq. 10
+   933 ambiguity characters in seq. 11
+   942 ambiguity characters in seq. 12
+   939 ambiguity characters in seq. 13
+   942 ambiguity characters in seq. 14
+   924 ambiguity characters in seq. 15
+   939 ambiguity characters in seq. 16
+   945 ambiguity characters in seq. 17
+   975 ambiguity characters in seq. 18
+   975 ambiguity characters in seq. 19
+   966 ambiguity characters in seq. 20
+   966 ambiguity characters in seq. 21
+   966 ambiguity characters in seq. 22
+   945 ambiguity characters in seq. 23
+   966 ambiguity characters in seq. 24
+   954 ambiguity characters in seq. 25
+   933 ambiguity characters in seq. 26
+   942 ambiguity characters in seq. 27
+   933 ambiguity characters in seq. 28
+   933 ambiguity characters in seq. 29
+   954 ambiguity characters in seq. 30
+   930 ambiguity characters in seq. 31
+   930 ambiguity characters in seq. 32
+   930 ambiguity characters in seq. 33
+   930 ambiguity characters in seq. 34
+   954 ambiguity characters in seq. 35
+   930 ambiguity characters in seq. 36
+   933 ambiguity characters in seq. 37
+   933 ambiguity characters in seq. 38
+   933 ambiguity characters in seq. 39
+   933 ambiguity characters in seq. 40
+   948 ambiguity characters in seq. 41
+   948 ambiguity characters in seq. 42
+   948 ambiguity characters in seq. 43
+   948 ambiguity characters in seq. 44
+   951 ambiguity characters in seq. 45
+   951 ambiguity characters in seq. 46
+   954 ambiguity characters in seq. 47
+   954 ambiguity characters in seq. 48
+   948 ambiguity characters in seq. 49
+   960 ambiguity characters in seq. 50
+   966 ambiguity characters in seq. 51
+   954 ambiguity characters in seq. 52
+   954 ambiguity characters in seq. 53
+   954 ambiguity characters in seq. 54
+   957 ambiguity characters in seq. 55
+   957 ambiguity characters in seq. 56
+   957 ambiguity characters in seq. 57
+   957 ambiguity characters in seq. 58
+   957 ambiguity characters in seq. 59
+   960 ambiguity characters in seq. 60
+   960 ambiguity characters in seq. 61
+   969 ambiguity characters in seq. 62
+   969 ambiguity characters in seq. 63
+   966 ambiguity characters in seq. 64
+   960 ambiguity characters in seq.
