@@ -1,6 +1,6 @@
       seqfile = codon_align.phy          * Path to the alignment file
       treefile = pruned_tree.tree          * Path to the tree file
-     outfile = outputs/m0o2/m0o2_out_bam.txt              * Path to the output file
+     outfile = outputs/m0o2out_bam.txt              * Path to the output file
 
         noisy = 3          * How much rubbish on the screen
       verbose = 1          * More or less detailed report
@@ -10,7 +10,7 @@
         icode = 0          * Genetic code
     cleandata = 1          * Remove sites with ambiguity data?
 
-        model = 0         * Models for ω varying across lineages
+        model = 0          * Models for ω varying across lineages
       NSsites = 2        * Models for ω varying across sites
     CodonFreq = 7          * Codon frequencies
       estFreq = 1          * Use observed freqs or estimate freqs by ML
