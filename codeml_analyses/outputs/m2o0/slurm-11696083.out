@@ -1,0 +1,146 @@
+
+CODONML in paml version 4.10.10, 29 Jan 2026
+
+----------------------------------------------
+Phe F TTT | Ser S TCT | Tyr Y TAT | Cys C TGT
+      TTC |       TCC |       TAC |       TGC
+Leu L TTA |       TCA | *** * TAA | *** * TGA
+      TTG |       TCG |       TAG | Trp W TGG
+----------------------------------------------
+Leu L CTT | Pro P CCT | His H CAT | Arg R CGT
+      CTC |       CCC |       CAC |       CGC
+      CTA |       CCA | Gln Q CAA |       CGA
+      CTG |       CCG |       CAG |       CGG
+----------------------------------------------
+Ile I ATT | Thr T ACT | Asn N AAT | Ser S AGT
+      ATC |       ACC |       AAC |       AGC
+      ATA |       ACA | Lys K AAA | Arg R AGA
+Met M ATG |       ACG |       AAG |       AGG
+----------------------------------------------
+Val V GTT | Ala A GCT | Asp D GAT | Gly G GGT
+      GTC |       GCC |       GAC |       GGC
+      GTA |       GCA | Glu E GAA |       GGA
+      GTG |       GCG |       GAG |       GGG
+----------------------------------------------
+Nice code, uuh?
+ns = 99  	ls = 3126
+Reading sequences, sequential format..
+Reading seq # 1: Escherichia_coli       Reading seq # 2: Anabaena_sphaerica       Reading seq # 3: Thermus_thermophilus       Reading seq # 4: Mariprofundus_ferrooxydans       Reading seq # 5: Deinococcus_radiodurans       Reading seq # 6: Bordetella_pertussis       Reading seq # 7: Neisseria_meningitidis       Reading seq # 8: Klebsiella_variicola       Reading seq # 9: Raoultella_terrigena       Reading seq #10: Dickeya_solani       Reading seq #11: Dickeya_dadantii       Reading seq #12: Brenneria_salicis       Reading seq #13: Samsonia_erythrinae       Reading seq #14: Pectobacterium_carotovorum       Reading seq #15: Pectobacterium_betavasculorum       Reading seq #16: Pectobacterium_wasabiae       Reading seq #17: Ewingella_americana       Reading seq #18: Edwardsiella_tarda       Reading seq #19: Edwardsiella_ictaluri       Reading seq #20: Mangrovibacter_phragmitis       Reading seq #21: Mangrovibacter_plantisponsor       Reading seq #22: Serratia_symbiotica       Reading seq #23: Serratia_marcescens       Reading seq #24: Serratia_proteamaculans       Reading seq #25: Atlantibacter_hermannii       Reading seq #26: Klebsiella_pneumoniae       Reading seq #27: Klebsiella_aerogenes       Reading seq #28: Klebsiella_michiganensis       Reading seq #29: Klebsiella_oxytoca       Reading seq #30: Escherichia_fergusonii       Reading seq #31: Escherichia_albertii       Reading seq #32: Shigella_boydii       Reading seq #33: Shigella_flexneri       Reading seq #34: Shigella_sonnei       Reading seq #35: Salmonella_enterica       Reading seq #36: Salmonella_bongori       Reading seq #37: Citrobacter_sedlakii       Reading seq #38: Citrobacter_rodentium       Reading seq #39: Citrobacter_amalonaticus       Reading seq #40: Citrobacter_koseri       Reading seq #41: Citrobacter_murliniae       Reading seq #42: Citrobacter_gillenii       Reading seq #43: Citrobacter_europaeus       Reading seq #44: Citrobacter_braakii       Reading seq #45: Citrobacter_youngae       Reading seq #46: Citrobacter_pasteurii       Reading seq #47: Citrobacter_portucalensis       Reading seq #48: Citrobacter_werkmanii       Reading seq #49: Citrobacter_freundii       Reading seq #50: Kluyvera_cryocrescens       Reading seq #51: Pluralibacter_gergoviae       Reading seq #52: Enterobacter_cloacae       Reading seq #53: Enterobacter_cancerogenus       Reading seq #54: Pseudescherichia_vulneris       Reading seq #55: Cronobacter_muytjensii       Reading seq #56: Cronobacter_dublinensis       Reading seq #57: Cronobacter_turicensis       Reading seq #58: Cronobacter_malonaticus       Reading seq #59: Cronobacter_sakazakii       Reading seq #60: Pantoea_agglomerans       Reading seq #61: Pantoea_stewartii       Reading seq #62: Erwinia_psidii       Reading seq #63: Erwinia_tracheiphila       Reading seq #64: Mixta_calida       Reading seq #65: Erwinia_amylovora       Reading seq #66: Photorhabdus_temperata       Reading seq #67: Photorhabdus_luminescens       Reading seq #68: Xenorhabdus_innexi       Reading seq #69: Xenorhabdus_budapestensis       Reading seq #70: Xenorhabdus_indica       Reading seq #71: Xenorhabdus_cabanillasii       Reading seq #72: Xenorhabdus_bovienii       Reading seq #73: Xenorhabdus_mauleonii       Reading seq #74: Xenorhabdus_szentirmaii       Reading seq #75: Xenorhabdus_koppenhoeferi       Reading seq #76: Xenorhabdus_poinarii       Reading seq #77: Xenorhabdus_vietnamensis       Reading seq #78: Xenorhabdus_japonica       Reading seq #79: Xenorhabdus_kozodoii       Reading seq #80: Xenorhabdus_doucetiae       Reading seq #81: Xenorhabdus_griffiniae       Reading seq #82: Xenorhabdus_ishibashii       Reading seq #83: Xenorhabdus_ehlersii       Reading seq #84: Xenorhabdus_hominickii       Reading seq #85: Xenorhabdus_beddingii       Reading seq #86: Xenorhabdus_khoisanae       Reading seq #87: Xenorhabdus_miraniensis       Reading seq #88: Proteus_mirabilis       Reading seq #89: Proteus_penneri       Reading seq #90: Proteus_vulgaris       Reading seq #91: Arsenophonus_nasoniae       Reading seq #92: Providencia_rettgeri       Reading seq #93: Haemophilus_influenzae       Reading seq #94: Aggregatibacter_aphrophilus       Reading seq #95: Pasteurella_multocida       Reading seq #96: Hydrogenobacter_thermophilus       Reading seq #97: Leptospira_alexanderi       Reading seq #98: Fusobacterium_nucleatum       Reading seq #99: Cetobacterium_somerae       
+Sites with gaps or missing data are removed.
+
+   930 ambiguity characters in seq. 1
+  1308 ambiguity characters in seq. 2
+   849 ambiguity characters in seq. 3
+  1038 ambiguity characters in seq. 4
+   795 ambiguity characters in seq. 5
+  1029 ambiguity characters in seq. 6
+  1011 ambiguity characters in seq. 7
+   948 ambiguity characters in seq. 8
+   948 ambiguity characters in seq. 9
+   933 ambiguity characters in seq. 10
+   933 ambiguity characters in seq. 11
+   942 ambiguity characters in seq. 12
+   939 ambiguity characters in seq. 13
+   942 ambiguity characters in seq. 14
+   924 ambiguity characters in seq. 15
+   939 ambiguity characters in seq. 16
+   945 ambiguity characters in seq. 17
+   975 ambiguity characters in seq. 18
+   975 ambiguity characters in seq. 19
+   966 ambiguity characters in seq. 20
+   966 ambiguity characters in seq. 21
+   966 ambiguity characters in seq. 22
+   945 ambiguity characters in seq. 23
+   966 ambiguity characters in seq. 24
+   954 ambiguity characters in seq. 25
+   933 ambiguity characters in seq. 26
+   942 ambiguity characters in seq. 27
+   933 ambiguity characters in seq. 28
+   933 ambiguity characters in seq. 29
+   954 ambiguity characters in seq. 30
+   930 ambiguity characters in seq. 31
+   930 ambiguity characters in seq. 32
+   930 ambiguity characters in seq. 33
+   930 ambiguity characters in seq. 34
+   954 ambiguity characters in seq. 35
+   930 ambiguity characters in seq. 36
+   933 ambiguity characters in seq. 37
+   933 ambiguity characters in seq. 38
+   933 ambiguity characters in seq. 39
+   933 ambiguity characters in seq. 40
+   948 ambiguity characters in seq. 41
+   948 ambiguity characters in seq. 42
+   948 ambiguity characters in seq. 43
+   948 ambiguity characters in seq. 44
+   951 ambiguity characters in seq. 45
+   951 ambiguity characters in seq. 46
+   954 ambiguity characters in seq. 47
+   954 ambiguity characters in seq. 48
+   948 ambiguity characters in seq. 49
+   960 ambiguity characters in seq. 50
+   966 ambiguity characters in seq. 51
+   954 ambiguity characters in seq. 52
+   954 ambiguity characters in seq. 53
+   954 ambiguity characters in seq. 54
+   957 ambiguity characters in seq. 55
+   957 ambiguity characters in seq. 56
+   957 ambiguity characters in seq. 57
+   957 ambiguity characters in seq. 58
+   957 ambiguity characters in seq. 59
+   960 ambiguity characters in seq. 60
+   960 ambiguity characters in seq. 61
+   969 ambiguity characters in seq. 62
+   969 ambiguity characters in seq. 63
+   966 ambiguity characters in seq. 64
+   960 ambiguity characters in seq.
+error: we need more than 1 branch type to fit the branch model. 65
+   978 ambiguity characters in seq. 66
+   978 ambiguity characters in seq. 67
+   966 ambiguity characters in seq. 68
+   894 ambiguity characters in seq. 69
+   966 ambiguity characters in seq. 70
+   966 ambiguity characters in seq. 71
+   978 ambiguity characters in seq. 72
+   978 ambiguity characters in seq. 73
+   978 ambiguity characters in seq. 74
+   978 ambiguity characters in seq. 75
+   978 ambiguity characters in seq. 76
+   981 ambiguity characters in seq. 77
+   966 ambiguity characters in seq. 78
+   978 ambiguity characters in seq. 79
+   966 ambiguity characters in seq. 80
+   978 ambiguity characters in seq. 81
+   978 ambiguity characters in seq. 82
+   978 ambiguity characters in seq. 83
+   969 ambiguity characters in seq. 84
+   966 ambiguity characters in seq. 85
+   978 ambiguity characters in seq. 86
+   978 ambiguity characters in seq. 87
+   972 ambiguity characters in seq. 88
+   978 ambiguity characters in seq. 89
+   978 ambiguity characters in seq. 90
+   966 ambiguity characters in seq. 91
+   957 ambiguity characters in seq. 92
+  1005 ambiguity characters in seq. 93
+   975 ambiguity characters in seq. 94
+  1002 ambiguity characters in seq. 95
+   999 ambiguity characters in seq. 96
+   639 ambiguity characters in seq. 97
+  1260 ambiguity characters in seq. 98
+  1275 ambiguity characters in seq. 99
+557 sites are removed.   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 155 166 167 182 183 184 185 186 187 188 189 190 191 192 197 198 199 203 222 227 228 229 230 231 232 235 236 243 248 249 250 251 252 253 254 255 256 257 258 270 271 272 273 274 275 276 277 278 279 280 281 282 293 294 305 306 307 308 314 315 331 336 337 338 340 341 346 347 348 352 353 354 355 356 357 358 359 370 371 372 377 378 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 409 417 418 422 423 424 425 426 427 428 429 430 431 432 444 460 467 468 469 470 471 473 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 542 543 544 545 546 547 552 553 554 555 556 557 558 559 560 561 574 576 605 606 608 612 616 627 628 629 639 660 661 662 663 664 676 677 678 688 689 690 691 692 693 694 702 703 712 713 714 715 716 717 718 719 720 721 722 724 725 726 741 742 743 744 745 746 747 748 749 755 756 764 765 766 767 768 769 770 774 775 778 779 780 781 782 783 784 789 790 796 797 799 800 801 802 803 804 805 806 807 808 809 810 811 812 813 814 815 816 817 818 819 820 821 822 823 824 825 826 827 832 833 839 840 841 846 847 848 849 850 851 852 853 854 855 856 865 866 867 868 869 870 878 882 891 892 893 894 895 896 897 898 911 912 913 914 915 916 917 918 919 921 922 923 924 925 926 940 941 942 943 944 955 956 957 958 959 960 961 962 963 964 965 966 967 968 969 970 971 972 973 974 975 976 977 978 979 980 981 982 983 984 985 986 987 988 989 990 991 992 993 994 995 996 997 998 999 1000 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 1013 1014 1030 1031 1032 1037 1038 1039 1040 1041 1042
+Sequences read..
+Counting site patterns..  0:00
+Compressing,    485 patterns at    485 /    485 sites (100.0%),  0:00
+Collecting fpatt[] & pose[],    485 patterns at    485 /    485 sites (100.0%),  0:00
+Counting codons..
+NG distances for seqs.:
+   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99
+
+    38808 bytes for distance
+   473360 bytes for conP
+        0 bytes for fhK
+  5000000 bytes for space
+
+Tree is 
+(Photorhabdus_temperata, Photorhabdus_luminescens, ((Xenorhabdus_bovienii, ((Xenorhabdus_innexi, (Xenorhabdus_budapestensis, (Xenorhabdus_indica, Xenorhabdus_cabanillasii))), (Xenorhabdus_hominickii, ((Xenorhabdus_koppenhoeferi, (Xenorhabdus_szentirmaii, Xenorhabdus_mauleonii)), ((Xenorhabdus_beddingii, (Xenorhabdus_miraniensis, Xenorhabdus_khoisanae)), ((Xenorhabdus_vietnamensis, Xenorhabdus_japonica), ((Xenorhabdus_poinarii, Xenorhabdus_doucetiae), (Xenorhabdus_kozodoii, (Xenorhabdus_ishibashii, (Xenorhabdus_griffiniae, Xenorhabdus_ehlersii)))))))))), (((Arsenophonus_nasoniae, Providencia_rettgeri), (Proteus_mirabilis, (Proteus_penneri, Proteus_vulgaris))), (((Pasteurella_multocida, (Aggregatibacter_aphrophilus, Haemophilus_influenzae)), ((Bordetella_pertussis, Neisseria_meningitidis), (Deinococcus_radiodurans, ((Hydrogenobacter_thermophilus, Leptospira_alexanderi), (Anabaena_sphaerica, (Cetobacterium_somerae, (Fusobacterium_nucleatum, Thermus_thermophilus))))))), ((Edwardsiella_tarda, Edwardsiella_ictaluri), (((Dickeya_dadantii, Dickeya_solani), (Brenneria_salicis, (Samsonia_erythrinae, (Pectobacterium_carotovorum, (Pectobacterium_wasabiae, Pectobacterium_betavasculorum))))), ((Ewingella_americana, (Serratia_proteamaculans, (Serratia_marcescens, Serratia_symbiotica))), (((Mixta_calida, (Pantoea_agglomerans, Pantoea_stewartii)), (Erwinia_amylovora, (Erwinia_tracheiphila, Erwinia_psidii))), ((Mangrovibacter_plantisponsor, Mangrovibacter_phragmitis), (Atlantibacter_hermannii, (((Cronobacter_muytjensii, Cronobacter_dublinensis), (Cronobacter_turicensis, (Cronobacter_sakazakii, Cronobacter_malonaticus))), (Pseudescherichia_vulneris, (Pluralibacter_gergoviae, ((Enterobacter_cancerogenus, Enterobacter_cloacae), (((Raoultella_terrigena, (Klebsiella_oxytoca, Klebsiella_michiganensis)), (Klebsiella_aerogenes, (Klebsiella_variicola, (Mariprofundus_ferrooxydans, Klebsiella_pneumoniae)))), (Kluyvera_cryocrescens, (((Citrobacter_murliniae, (Citrobacter_freundii, Citrobacter_gillenii)), ((Citrobacter_pasteurii, Citrobacter_youngae), ((Citrobacter_braakii, Citrobacter_portucalensis), (Citrobacter_europaeus, Citrobacter_werkmanii)))), ((Citrobacter_koseri, (Citrobacter_amalonaticus, (Citrobacter_sedlakii, Citrobacter_rodentium))), ((Salmonella_bongori, Salmonella_enterica), (Escherichia_albertii, (Escherichia_fergusonii, (Escherichia_coli, (Shigella_flexneri, (Shigella_sonnei, Shigella_boydii))))))))))))))))))))))));

@@ -1,11 +1,9 @@
  do these analyses:
-x m0o0  null hypothesis
-m0o1    m1a
-m1o1
-m2o0    branch model
-m0o1
-m0o2    re-run this
-m0o7
-m0o8
+x m0o0  null hypothesis completed date unrecorded
+x m2o0    branch model  verified  4.5.26
+x m0o1                  completed 4.5.26
+x m0o2    re-run this   rerun 6.5.25
+x m0o7                  completed 26.4.26
+x m0o8                  completed 30.4.26
 m2o2    branch site model a
 
