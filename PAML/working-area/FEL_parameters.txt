@@ -1,0 +1,5044 @@
+{
+ "GTR":{
+   "EFV":{
+     "HsZaqSep.model":      [
+[0.2589354427664863],
+      [0.2330259179356488],
+      [0.2645286367325654],
+      [0.2435100025652994] 
+      ]
+    },
+   "LogL":-124796.2765089162,
+   "Trees":    [
+["(Photorhabdus_temperata:0.05229071785359232,Photorhabdus_luminescens:0.0551919377378018,((Xenorhabdus_bovienii:0.1191017100630723,((Xenorhabdus_innexi:0.1093139577327373,(Xenorhabdus_budapestensis:0.01596308806857246,(Xenorhabdus_indica:0.01974253720270252,Xenorhabdus_cabanillasii:0.01252204690625087)Node11:0.01393175852684521)Node9:0.06028738138930999)Node7:0.0769997538448417,(Xenorhabdus_hominickii:0.07119703182699982,((Xenorhabdus_koppenhoeferi:0.0924764629374815,(Xenorhabdus_szentirmaii:0.1130224524704617,Xenorhabdus_mauleonii:0.1013519325181675)Node19:0.02650129227761141)Node17:0.007977201808308626,((Xenorhabdus_beddingii:0.06689862271309313,(Xenorhabdus_miraniensis:0.02282986801261343,Xenorhabdus_khoisanae:0.01843858449209498)Node25:0.04476512370934187)Node23:0.03680068875896184,((Xenorhabdus_vietnamensis:0.03958597950448255,Xenorhabdus_japonica:0.04648317091867638)Node29:0.02173876979248978,((Xenorhabdus_poinarii:0.1036690688747927,Xenorhabdus_doucetiae:0.06206160370032792)Node33:0.008855703887210215,(Xenorhabdus_kozodoii:0.05911254595856868,(Xenorhabdus_ishibashii:0.04041088326444595,(Xenorhabdus_griffiniae:0.04132831504469894,Xenorhabdus_ehlersii:0.03126535106006341)Node40:0.005600632889358201)Node38:0.01696845926838829)Node36:0.01544733255298486)Node32:0.01559225371237116)Node28:0.04204989640125559)Node22:0.0137330415411329)Node16:0.01464968981686403)Node14:0.04132507544551373)Node6:0.01126516781986665)Node4:0.07898504355678906,(((Arsenophonus_nasoniae:0.1682076532975615,Providencia_rettgeri:0.1483514965425851)Node45:0.03770790762795098,(Proteus_mirabilis:0.07377499423012206,(Proteus_penneri:0.04378543785556416,Proteus_vulgaris:0.05151616391819219)Node50:0.03744529993447506)Node48:0.1181335482320164)Node44:0.05804307816469562,(((Pasteurella_multocida:0.1374127056456431,(Aggregatibacter_aphrophilus:0.2000283751282751,Haemophilus_influenzae:0.2896341375731768)Node57:0.04994451215509905)Node55:0.3753894926211606,((Bordetella_pertussis:0.4090727078040286,Neisseria_meningitidis:0.4089910353365061)Node61:0.1628059652291977,(Deinococcus_radiodurans:0.9687565639576815,((Hydrogenobacter_thermophilus:0.6105491351009461,Leptospira_alexanderi:0.8684212347724348)Node67:0.1691293510494073,(Anabaena_sphaerica:0.8581800236753909,(Cetobacterium_somerae:0.3085450071586223,(Fusobacterium_nucleatum:0.2613477717258421,Thermus_thermophilus:1.751052843443605)Node74:0)Node72:0.6312881555634933)Node70:0.21218100905982)Node66:0.07701389306389582)Node64:0.3145890231433547)Node60:0.2065518239887835)Node54:0.1650085487750953,((Edwardsiella_tarda:0.06694010177545288,Edwardsiella_ictaluri:0.05495948949454595)Node78:0.1173721677339828,(((Dickeya_dadantii:0.02155164746119189,Dickeya_solani:0.02327887153591405)Node83:0.118204579383015,(Brenneria_salicis:0.07997317229267849,(Samsonia_erythrinae:0.06045363521513294,(Pectobacterium_carotovorum:0.03409310036981324,(Pectobacterium_wasabiae:0.05068524525915129,Pectobacterium_betavasculorum:0.04166979247635842)Node92:0.01411674537637548)Node90:0.04143430051827999)Node88:0.04439230465245746)Node86:0.06908915240380575)Node82:0.05760164816357941,((Ewingella_americana:0.160449796153263,(Serratia_proteamaculans:0.06079679148822374,(Serratia_marcescens:0.05483150868978994,Serratia_symbiotica:0.1162855671974452)Node100:0.02030113421219113)Node98:0.05904692508250236)Node96:0.02514052384589071,(((Mixta_calida:0.09440113208555928,(Pantoea_agglomerans:0.07835487416735354,Pantoea_stewartii:0.08016028589390498)Node107:0.0565243336040731)Node105:0.01321701360074625,(Erwinia_amylovora:0.1011578639863286,(Erwinia_tracheiphila:0.0974226538741034,Erwinia_psidii:0.06557184899810099)Node112:0.05829719294627637)Node110:0.03454345260709697)Node104:0.0462136251999458,((Mangrovibacter_plantisponsor:0.03998789330682526,Mangrovibacter_phragmitis:0.05574063382949956)Node116:0.1300760038044591,(Atlantibacter_hermannii:0.1223699655536328,(((Cronobacter_muytjensii:0.0334351605475107,Cronobacter_dublinensis:0.02194641356639819)Node123:0.009797769768265579,(Cronobacter_turicensis:0.03172009048892077,(Cronobacter_sakazakii:0.02457485119029321,Cronobacter_malonaticus:0.02313524709033598)Node128:0.0110042742869672)Node126:0.01423263000779504)Node122:0.06983437805222062,(Pseudescherichia_vulneris:0.07862574049253374,(Pluralibacter_gergoviae:0.1141587127317383,((Enterobacter_cancerogenus:0.04537756988713739,Enterobacter_cloacae:0.04849031688834123)Node136:0.05710936995476461,(((Raoultella_terrigena:0.4472737969975861,(Klebsiella_oxytoca:0.05065262422704465,Klebsiella_michiganensis:0.02732453571266624)Node143:0.03135514760123672)Node141:0.01157048459997956,(Klebsiella_aerogenes:0.07027646308794354,(Klebsiella_variicola:0.4723965327917851,(Mariprofundus_ferrooxydans:1.313362268041645,Klebsiella_pneumoniae:0.03643267819514474)Node150:0.02905115952325773)Node148:0.007637228978595708)Node146:0.01482036538953512)Node140:0.03916162673467498,(Kluyvera_cryocrescens:0.1162347206876516,(((Citrobacter_murliniae:0.05326186809664397,(Citrobacter_freundii:0.07503860541513188,Citrobacter_gillenii:0.04340404585136546)Node159:0.004239718390739848)Node157:0.004165548218458091,((Citrobacter_pasteurii:0.00698269010988558,Citrobacter_youngae:0.003853855827182114)Node163:0.06944774834793727,((Citrobacter_braakii:0.03412333230599462,Citrobacter_portucalensis:0.06819019300840146)Node167:0.003473365119223205,(Citrobacter_europaeus:0.03313285276645398,Citrobacter_werkmanii:0.06821009152106228)Node170:0.00108864767210961)Node166:0.01035546241105861)Node162:0.004059204240873948)Node156:0.04443284762113652,((Citrobacter_koseri:0.05784679815101644,(Citrobacter_amalonaticus:0.07050872594196826,(Citrobacter_sedlakii:0.04209263843114878,Citrobacter_rodentium:0.05058035450665995)Node178:0.02634196324673872)Node176:0.01719034766891955)Node174:0.01002891783970487,((Salmonella_bongori:0.0538221377633443,Salmonella_enterica:0.06556323875862125)Node182:0.03805242048994085,(Escherichia_albertii:0.04003379402908234,(Escherichia_fergusonii:0.11735319827672,(Escherichia_coli:0.004063747567435318,(Shigella_flexneri:0.001824381886416093,(Shigella_sonnei:0.008063391097588203,Shigella_boydii:0.001413636062945097)Node193:0)Node191:0.004827901307561844)Node189:0.01756107313837743)Node187:0.009215829042762642)Node185:0.05790715820168785)Node181:0.02155768595247081)Node173:0.007168905233316202)Node155:0.03859393802721313)Node153:0.009340351282902146)Node139:0.03204487916071876)Node135:0.01974865292420166)Node133:0.01155942292879748)Node131:0.02832464453571069)Node121:0.01669006497093031)Node119:0.0259376384633558)Node115:0.04178624696835069)Node103:0.02853287928625377)Node95:0.01798656945132577)Node81:0.03064848611806354)Node77:0.05220979272487444)Node53:0.1072024394655261)Node43:0.02887225315458352)Node3:0.08005928161391657)"] 
+    ],
+   "branch length":{
+     "0":{
+       "Aggregatibacter_aphrophilus":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.3362108751298641
+          },
+         "MLE":0.2000283751282751
+        },
+       "Anabaena_sphaerica":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":1.442442636420164
+          },
+         "MLE":0.8581800236753909
+        },
+       "Arsenophonus_nasoniae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.2827260996468487
+          },
+         "MLE":0.1682076532975615
+        },
+       "Atlantibacter_hermannii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.2056813848635946
+          },
+         "MLE":0.1223699655536328
+        },
+       "Bordetella_pertussis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.6875759151387238
+          },
+         "MLE":0.4090727078040286
+        },
+       "Brenneria_salicis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1344201802678749
+          },
+         "MLE":0.07997317229267849
+        },
+       "Cetobacterium_somerae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.5186073566174109
+          },
+         "MLE":0.3085450071586223
+        },
+       "Citrobacter_amalonaticus":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1185121882734824
+          },
+         "MLE":0.07050872594196826
+        },
+       "Citrobacter_braakii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05735503980167011
+          },
+         "MLE":0.03412333230599462
+        },
+       "Citrobacter_europaeus":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05569022603425521
+          },
+         "MLE":0.03313285276645398
+        },
+       "Citrobacter_freundii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1261260817569868
+          },
+         "MLE":0.07503860541513188
+        },
+       "Citrobacter_gillenii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07295421077387707
+          },
+         "MLE":0.04340404585136546
+        },
+       "Citrobacter_koseri":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09722981860619363
+          },
+         "MLE":0.05784679815101644
+        },
+       "Citrobacter_murliniae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.08952339523000395
+          },
+         "MLE":0.05326186809664397
+        },
+       "Citrobacter_pasteurii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01173661662301542
+          },
+         "MLE":0.00698269010988558
+        },
+       "Citrobacter_portucalensis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1146151612336336
+          },
+         "MLE":0.06819019300840146
+        },
+       "Citrobacter_rodentium":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.08501626452825727
+          },
+         "MLE":0.05058035450665995
+        },
+       "Citrobacter_sedlakii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07074997631903984
+          },
+         "MLE":0.04209263843114878
+        },
+       "Citrobacter_werkmanii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1146486069702757
+          },
+         "MLE":0.06821009152106228
+        },
+       "Citrobacter_youngae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.006477622184604096
+          },
+         "MLE":0.003853855827182114
+        },
+       "Cronobacter_dublinensis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03688788106381838
+          },
+         "MLE":0.02194641356639819
+        },
+       "Cronobacter_malonaticus":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.0388860913637847
+          },
+         "MLE":0.02313524709033598
+        },
+       "Cronobacter_muytjensii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05619834976201368
+          },
+         "MLE":0.0334351605475107
+        },
+       "Cronobacter_sakazakii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04130580083738699
+          },
+         "MLE":0.02457485119029321
+        },
+       "Cronobacter_turicensis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05331563272280477
+          },
+         "MLE":0.03172009048892077
+        },
+       "Deinococcus_radiodurans":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":1.628301444468275
+          },
+         "MLE":0.9687565639576815
+        },
+       "Dickeya_dadantii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03622435191392701
+          },
+         "MLE":0.02155164746119189
+        },
+       "Dickeya_solani":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03912749761680693
+          },
+         "MLE":0.02327887153591405
+        },
+       "Edwardsiella_ictaluri":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09237678428274103
+          },
+         "MLE":0.05495948949454595
+        },
+       "Edwardsiella_tarda":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1125139880018245
+          },
+         "MLE":0.06694010177545288
+        },
+       "Enterobacter_cancerogenus":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07627134136962978
+          },
+         "MLE":0.04537756988713739
+        },
+       "Enterobacter_cloacae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.08150329604936696
+          },
+         "MLE":0.04849031688834123
+        },
+       "Erwinia_amylovora":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1700277470898866
+          },
+         "MLE":0.1011578639863286
+        },
+       "Erwinia_psidii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1102142069663722
+          },
+         "MLE":0.06557184899810099
+        },
+       "Erwinia_tracheiphila":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1637495465104947
+          },
+         "MLE":0.0974226538741034
+        },
+       "Escherichia_albertii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06728943789427347
+          },
+         "MLE":0.04003379402908234
+        },
+       "Escherichia_coli":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.006830411560750384
+          },
+         "MLE":0.004063747567435318
+        },
+       "Escherichia_fergusonii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1972491226137409
+          },
+         "MLE":0.11735319827672
+        },
+       "Ewingella_americana":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.2696865699404037
+          },
+         "MLE":0.160449796153263
+        },
+       "Fusobacterium_nucleatum":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.4392774924499435
+          },
+         "MLE":0.2613477717258421
+        },
+       "Haemophilus_influenzae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.4868216661686831
+          },
+         "MLE":0.2896341375731768
+        },
+       "Hydrogenobacter_thermophilus":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":1.026220699390435
+          },
+         "MLE":0.6105491351009461
+        },
+       "Klebsiella_aerogenes":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1181217971734111
+          },
+         "MLE":0.07027646308794354
+        },
+       "Klebsiella_michiganensis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04592751432681182
+          },
+         "MLE":0.02732453571266624
+        },
+       "Klebsiella_oxytoca":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.08513773662400541
+          },
+         "MLE":0.05065262422704465
+        },
+       "Klebsiella_pneumoniae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06123662511110838
+          },
+         "MLE":0.03643267819514474
+        },
+       "Klebsiella_variicola":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.7940116075851127
+          },
+         "MLE":0.4723965327917851
+        },
+       "Kluyvera_cryocrescens":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1953691676883827
+          },
+         "MLE":0.1162347206876516
+        },
+       "Leptospira_alexanderi":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":1.4596562269576
+          },
+         "MLE":0.8684212347724348
+        },
+       "Mangrovibacter_phragmitis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09368974410801116
+          },
+         "MLE":0.05574063382949956
+        },
+       "Mangrovibacter_plantisponsor":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06721228723007772
+          },
+         "MLE":0.03998789330682526
+        },
+       "Mariprofundus_ferrooxydans":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":2.207520194160727
+          },
+         "MLE":1.313362268041645
+        },
+       "Mixta_calida":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1586709246194809
+          },
+         "MLE":0.09440113208555928
+        },
+       "Neisseria_meningitidis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.6874386387559999
+          },
+         "MLE":0.4089910353365061
+        },
+       "Node100":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03412246935082357
+          },
+         "MLE":0.02030113421219113
+        },
+       "Node103":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04795851742861117
+          },
+         "MLE":0.02853287928625377
+        },
+       "Node104":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07767659644004682
+          },
+         "MLE":0.0462136251999458
+        },
+       "Node105":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02221536672714826
+          },
+         "MLE":0.01321701360074625
+        },
+       "Node107":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09500699915684852
+          },
+         "MLE":0.0565243336040731
+        },
+       "Node11":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02341672136967965
+          },
+         "MLE":0.01393175852684521
+        },
+       "Node110":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05806118468737877
+          },
+         "MLE":0.03454345260709697
+        },
+       "Node112":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09798684934331368
+          },
+         "MLE":0.05829719294627637
+        },
+       "Node115":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07023498867404397
+          },
+         "MLE":0.04178624696835069
+        },
+       "Node116":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.2186338165495143
+          },
+         "MLE":0.1300760038044591
+        },
+       "Node119":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04359639536628014
+          },
+         "MLE":0.0259376384633558
+        },
+       "Node121":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02805292672228267
+          },
+         "MLE":0.01669006497093031
+        },
+       "Node122":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1173787336123193
+          },
+         "MLE":0.06983437805222062
+        },
+       "Node123":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01646824729739984
+          },
+         "MLE":0.009797769768265579
+        },
+       "Node126":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.0239224309413686
+          },
+         "MLE":0.01423263000779504
+        },
+       "Node128":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01849615928648977
+          },
+         "MLE":0.0110042742869672
+        },
+       "Node131":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.0476085131471304
+          },
+         "MLE":0.02832464453571069
+        },
+       "Node133":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.0194292619554347
+          },
+         "MLE":0.01155942292879748
+        },
+       "Node135":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03319385001264869
+          },
+         "MLE":0.01974865292420166
+        },
+       "Node136":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09599033756232539
+          },
+         "MLE":0.05710936995476461
+        },
+       "Node139":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05386154268936549
+          },
+         "MLE":0.03204487916071876
+        },
+       "Node14":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06945984424176752
+          },
+         "MLE":0.04132507544551373
+        },
+       "Node140":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06582348523068612
+          },
+         "MLE":0.03916162673467498
+        },
+       "Node141":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01944785458833563
+          },
+         "MLE":0.01157048459997956
+        },
+       "Node143":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05270223091137683
+          },
+         "MLE":0.03135514760123672
+        },
+       "Node146":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02491030592117034
+          },
+         "MLE":0.01482036538953512
+        },
+       "Node148":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01283677596648067
+          },
+         "MLE":0.007637228978595708
+        },
+       "Node150":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04882965109619143
+          },
+         "MLE":0.02905115952325773
+        },
+       "Node153":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01569941103021527
+          },
+         "MLE":0.009340351282902146
+        },
+       "Node155":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06486930501993007
+          },
+         "MLE":0.03859393802721313
+        },
+       "Node156":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07468343715552452
+          },
+         "MLE":0.04443284762113652
+        },
+       "Node157":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007001519714517107
+          },
+         "MLE":0.004165548218458091
+        },
+       "Node159":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007126186120047775
+          },
+         "MLE":0.004239718390739848
+        },
+       "Node16":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02462343170337879
+          },
+         "MLE":0.01464968981686403
+        },
+       "Node162":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.006822775065187095
+          },
+         "MLE":0.004059204240873948
+        },
+       "Node163":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1167288802545397
+          },
+         "MLE":0.06944774834793727
+        },
+       "Node166":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01740562596363501
+          },
+         "MLE":0.01035546241105861
+        },
+       "Node167":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.005838087349510778
+          },
+         "MLE":0.003473365119223205
+        },
+       "Node17":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01340820770722673
+          },
+         "MLE":0.007977201808308626
+        },
+       "Node170":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.001829816326375403
+          },
+         "MLE":0.00108864767210961
+        },
+       "Node173":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01204960996493942
+          },
+         "MLE":0.007168905233316202
+        },
+       "Node174":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01685676465316672
+          },
+         "MLE":0.01002891783970487
+        },
+       "Node176":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02889380983996749
+          },
+         "MLE":0.01719034766891955
+        },
+       "Node178":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04427599089451804
+          },
+         "MLE":0.02634196324673872
+        },
+       "Node181":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03623450150613385
+          },
+         "MLE":0.02155768595247081
+        },
+       "Node182":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06395911372838092
+          },
+         "MLE":0.03805242048994085
+        },
+       "Node185":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09733127273961902
+          },
+         "MLE":0.05790715820168785
+        },
+       "Node187":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01549011206798761
+          },
+         "MLE":0.009215829042762642
+        },
+       "Node189":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02951693110683491
+          },
+         "MLE":0.01756107313837743
+        },
+       "Node19":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04454379366434478
+          },
+         "MLE":0.02650129227761141
+        },
+       "Node191":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.00811481332393494
+          },
+         "MLE":0.004827901307561844
+        },
+       "Node193":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node22":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02308271469874278
+          },
+         "MLE":0.0137330415411329
+        },
+       "Node23":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06185518312138384
+          },
+         "MLE":0.03680068875896184
+        },
+       "Node25":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07524193209069861
+          },
+         "MLE":0.04476512370934187
+        },
+       "Node28":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07067813483522038
+          },
+         "MLE":0.04204989640125559
+        },
+       "Node29":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03653887010526689
+          },
+         "MLE":0.02173876979248978
+        },
+       "Node3":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.134564914184909
+          },
+         "MLE":0.08005928161391657
+        },
+       "Node32":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.0262077080940211
+          },
+         "MLE":0.01559225371237116
+        },
+       "Node33":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01488480797737089
+          },
+         "MLE":0.008855703887210215
+        },
+       "Node36":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02596412230380079
+          },
+         "MLE":0.01544733255298486
+        },
+       "Node38":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02852085628637319
+          },
+         "MLE":0.01696845926838829
+        },
+       "Node4":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1327593177686354
+          },
+         "MLE":0.07898504355678906
+        },
+       "Node40":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.009413632859861437
+          },
+         "MLE":0.005600632889358201
+        },
+       "Node43":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04852894242553563
+          },
+         "MLE":0.02887225315458352
+        },
+       "Node44":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.0975597291757679
+          },
+         "MLE":0.05804307816469562
+        },
+       "Node45":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06338005102915722
+          },
+         "MLE":0.03770790762795098
+        },
+       "Node48":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1985607472330455
+          },
+         "MLE":0.1181335482320164
+        },
+       "Node50":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.0629386558401859
+          },
+         "MLE":0.03744529993447506
+        },
+       "Node53":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1801875657173501
+          },
+         "MLE":0.1072024394655261
+        },
+       "Node54":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.2773489938715279
+          },
+         "MLE":0.1650085487750953
+        },
+       "Node55":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.6309606311993464
+          },
+         "MLE":0.3753894926211606
+        },
+       "Node57":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.08394753058825585
+          },
+         "MLE":0.04994451215509905
+        },
+       "Node6":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01893467328709391
+          },
+         "MLE":0.01126516781986665
+        },
+       "Node60":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.3471755917549427
+          },
+         "MLE":0.2065518239887835
+        },
+       "Node61":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.2736468564070908
+          },
+         "MLE":0.1628059652291977
+        },
+       "Node64":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.5287662348376767
+          },
+         "MLE":0.3145890231433547
+        },
+       "Node66":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1294461766615135
+          },
+         "MLE":0.07701389306389582
+        },
+       "Node67":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.2842753038912694
+          },
+         "MLE":0.1691293510494073
+        },
+       "Node7":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1294224112371891
+          },
+         "MLE":0.0769997538448417
+        },
+       "Node70":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.3566372155760005
+          },
+         "MLE":0.21218100905982
+        },
+       "Node72":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":1.061079174917108
+          },
+         "MLE":0.6312881555634933
+        },
+       "Node74":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node77":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.08775505020786208
+          },
+         "MLE":0.05220979272487444
+        },
+       "Node78":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1972810067792898
+          },
+         "MLE":0.1173721677339828
+        },
+       "Node81":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05151446304831309
+          },
+         "MLE":0.03064848611806354
+        },
+       "Node82":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09681776660726389
+          },
+         "MLE":0.05760164816357941
+        },
+       "Node83":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1986801375216654
+          },
+         "MLE":0.118204579383015
+        },
+       "Node86":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1161261464868072
+          },
+         "MLE":0.06908915240380575
+        },
+       "Node88":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07461529188877819
+          },
+         "MLE":0.04439230465245746
+        },
+       "Node9":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1013319897399028
+          },
+         "MLE":0.06028738138930999
+        },
+       "Node90":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06964343148171444
+          },
+         "MLE":0.04143430051827999
+        },
+       "Node92":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02372765020929154
+          },
+         "MLE":0.01411674537637548
+        },
+       "Node95":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03023211207878028
+          },
+         "MLE":0.01798656945132577
+        },
+       "Node96":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04225659243609646
+          },
+         "MLE":0.02514052384589071
+        },
+       "Node98":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09924701104523161
+          },
+         "MLE":0.05904692508250236
+        },
+       "Pantoea_agglomerans":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1317001190336245
+          },
+         "MLE":0.07835487416735354
+        },
+       "Pantoea_stewartii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1347346837855719
+          },
+         "MLE":0.08016028589390498
+        },
+       "Pasteurella_multocida":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.2309654617224031
+          },
+         "MLE":0.1374127056456431
+        },
+       "Pectobacterium_betavasculorum":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07003925011125046
+          },
+         "MLE":0.04166979247635842
+        },
+       "Pectobacterium_carotovorum":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05730422548238219
+          },
+         "MLE":0.03409310036981324
+        },
+       "Pectobacterium_wasabiae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.08519256657373221
+          },
+         "MLE":0.05068524525915129
+        },
+       "Photorhabdus_luminescens":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09276748698798137
+          },
+         "MLE":0.0551919377378018
+        },
+       "Photorhabdus_temperata":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.08789107045163393
+          },
+         "MLE":0.05229071785359232
+        },
+       "Pluralibacter_gergoviae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1918797804892586
+          },
+         "MLE":0.1141587127317383
+        },
+       "Proteus_mirabilis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1240021839746667
+          },
+         "MLE":0.07377499423012206
+        },
+       "Proteus_penneri":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.0735952605220288
+          },
+         "MLE":0.04378543785556416
+        },
+       "Proteus_vulgaris":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.08658918787477872
+          },
+         "MLE":0.05151616391819219
+        },
+       "Providencia_rettgeri":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.2493515554851754
+          },
+         "MLE":0.1483514965425851
+        },
+       "Pseudescherichia_vulneris":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1321553954621494
+          },
+         "MLE":0.07862574049253374
+        },
+       "Raoultella_terrigena":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.7517849135892862
+          },
+         "MLE":0.4472737969975861
+        },
+       "Salmonella_bongori":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09046510539901992
+          },
+         "MLE":0.0538221377633443
+        },
+       "Salmonella_enterica":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1101997347388759
+          },
+         "MLE":0.06556323875862125
+        },
+       "Samsonia_erythrinae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1016114318152472
+          },
+         "MLE":0.06045363521513294
+        },
+       "Serratia_marcescens":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09216167211008429
+          },
+         "MLE":0.05483150868978994
+        },
+       "Serratia_proteamaculans":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1021882143382676
+          },
+         "MLE":0.06079679148822374
+        },
+       "Serratia_symbiotica":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1954546313109514
+          },
+         "MLE":0.1162855671974452
+        },
+       "Shigella_boydii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.002376061983871625
+          },
+         "MLE":0.001413636062945097
+        },
+       "Shigella_flexneri":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.003066450098440674
+          },
+         "MLE":0.001824381886416093
+        },
+       "Shigella_sonnei":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01355307603581724
+          },
+         "MLE":0.008063391097588203
+        },
+       "Thermus_thermophilus":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":2.943197476434393
+          },
+         "MLE":1.751052843443605
+        },
+       "Xenorhabdus_beddingii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1124442693339275
+          },
+         "MLE":0.06689862271309313
+        },
+       "Xenorhabdus_bovienii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.200188049040991
+          },
+         "MLE":0.1191017100630723
+        },
+       "Xenorhabdus_budapestensis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.02683101237945912
+          },
+         "MLE":0.01596308806857246
+        },
+       "Xenorhabdus_cabanillasii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.0210472556509444
+          },
+         "MLE":0.01252204690625087
+        },
+       "Xenorhabdus_doucetiae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1043141308260348
+          },
+         "MLE":0.06206160370032792
+        },
+       "Xenorhabdus_ehlersii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05255129945641624
+          },
+         "MLE":0.03126535106006341
+        },
+       "Xenorhabdus_griffiniae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06946528941161621
+          },
+         "MLE":0.04132831504469894
+        },
+       "Xenorhabdus_hominickii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1196691037551739
+          },
+         "MLE":0.07119703182699982
+        },
+       "Xenorhabdus_indica":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03318357061065905
+          },
+         "MLE":0.01974253720270252
+        },
+       "Xenorhabdus_innexi":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1837366392126305
+          },
+         "MLE":0.1093139577327373
+        },
+       "Xenorhabdus_ishibashii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06792325548011523
+          },
+         "MLE":0.04041088326444595
+        },
+       "Xenorhabdus_japonica":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.07812965317224195
+          },
+         "MLE":0.04648317091867638
+        },
+       "Xenorhabdus_khoisanae":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03099186615032848
+          },
+         "MLE":0.01843858449209498
+        },
+       "Xenorhabdus_koppenhoeferi":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1554359100961878
+          },
+         "MLE":0.0924764629374815
+        },
+       "Xenorhabdus_kozodoii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.09935730765767417
+          },
+         "MLE":0.05911254595856868
+        },
+       "Xenorhabdus_mauleonii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1703539405656016
+          },
+         "MLE":0.1013519325181675
+        },
+       "Xenorhabdus_miraniensis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.03837280535172961
+          },
+         "MLE":0.02282986801261343
+        },
+       "Xenorhabdus_poinarii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.174248620216709
+          },
+         "MLE":0.1036690688747927
+        },
+       "Xenorhabdus_szentirmaii":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.1899699361655516
+          },
+         "MLE":0.1130224524704617
+        },
+       "Xenorhabdus_vietnamensis":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.06653674411712807
+          },
+         "MLE":0.03958597950448255
+        }
+      }
+    },
+   "global":{
+     "Substitution rate from nucleotide A to nucleotide C":{
+       "ID":"HsZaqSep.model.theta_AC",
+       "MLE":0.5205886974417382,
+       "fix-me":1
+      },
+     "Substitution rate from nucleotide A to nucleotide G":{
+       "ID":"HsZaqSep.model.theta_AG",
+       "MLE":1,
+       "constraint":"1"
+      },
+     "Substitution rate from nucleotide A to nucleotide T":{
+       "ID":"HsZaqSep.model.theta_AT",
+       "MLE":0.3785840936022062,
+       "fix-me":1
+      },
+     "Substitution rate from nucleotide C to nucleotide G":{
+       "ID":"HsZaqSep.model.theta_CG",
+       "MLE":0.6017331970929117,
+       "fix-me":1
+      },
+     "Substitution rate from nucleotide C to nucleotide T":{
+       "ID":"HsZaqSep.model.theta_CT",
+       "MLE":1.927074343786861,
+       "fix-me":1
+      },
+     "Substitution rate from nucleotide G to nucleotide T":{
+       "ID":"HsZaqSep.model.theta_GT",
+       "MLE":0.4230957578858251,
+       "fix-me":1
+      }
+    },
+   "parameters":203
+  },
+ "MG94":{
+   "EFV":{
+     "wvDBCcjp.model_MGREV":      [
+[0.01713344236915468],
+      [0.03010058527095184],
+      [0.02513370722670716],
+      [0.0279623027333923],
+      [0.009491224890880584],
+      [0.01667449062472476],
+      [0.01392304374628703],
+      [0.01548996973236997],
+      [0.00933776140676339],
+      [0.01640488101621064],
+      [0.0136979222443327],
+      [0.01523951262579741],
+      [0.01233020093036607],
+      [0.02166209548062729],
+      [0.01808764716121568],
+      [0.02012326558492181],
+      [0.01109842574406641],
+      [0.01949807302495279],
+      [0.01628070864678649],
+      [0.01811297075235505],
+      [0.006148073014288841],
+      [0.01080113336429133],
+      [0.009018845356362474],
+      [0.0100338434710611],
+      [0.006048664906670803],
+      [0.010626489988167],
+      [0.008873019770411876],
+      [0.009871606394618513],
+      [0.007987059254446717],
+      [0.01403192382316806],
+      [0.01171652517797741],
+      [0.01303512534203018],
+      [0.02172357819697144],
+      [0.03816468423679594],
+      [0.03186715445473537],
+      [0.03545354499746134],
+      [0.01203397202148226],
+      [0.02114167096000493],
+      [0.01765309755305425],
+      [0.0196398109323119],
+      [0.01183939489414436],
+      [0.0207998315743742],
+      [0.01736766486263772],
+      [0.01932225510071724],
+      [0.01563352409422396],
+      [0.02746548037134967],
+      [0.02293341927675235],
+      [0.02551439016711976],
+      [0.02284646718415932],
+      [0.02122350200308162],
+      [0.007203878464656924],
+      [0.01265600650090947],
+      [0.01056764708027561],
+      [0.0117569503047414],
+      [0.01245137170666858],
+      [0.01039677894065137],
+      [0.01156685233771378],
+      [0.009358672876090265],
+      [0.0164416189613388],
+      [0.01372859808497335],
+      [0.01527364078424448] 
+      ]
+    },
+   "LogL":-112671.5006804803,
+   "Trees":    [
+["(Photorhabdus_temperata:0.06173976187971259,Photorhabdus_luminescens:0.06516523837275451,((Xenorhabdus_bovienii:0.1406236426003755,((Xenorhabdus_innexi:0.1290672225889996,(Xenorhabdus_budapestensis:0.01884765206279979,(Xenorhabdus_indica:0.02331005570068841,Xenorhabdus_cabanillasii:0.01478480743758634)Node11:0.01644925694884084)Node9:0.07118143953863691)Node7:0.09091377327210298,(Xenorhabdus_hominickii:0.08406248703352444,((Xenorhabdus_koppenhoeferi:0.1091871566426762,(Xenorhabdus_szentirmaii:0.1334458502200128,Xenorhabdus_mauleonii:0.1196664424695878)Node19:0.03129013220483056)Node17:0.00941869915594497,((Xenorhabdus_beddingii:0.07898734624281598,(Xenorhabdus_miraniensis:0.02695527375987602,Xenorhabdus_khoisanae:0.02177047595958179)Node25:0.05285427685404726)Node23:0.04345065155443508,((Xenorhabdus_vietnamensis:0.04673925026665176,Xenorhabdus_japonica:0.05488277885127384)Node29:0.02566701176878185,((Xenorhabdus_poinarii:0.1224022902982869,Xenorhabdus_doucetiae:0.07327626759799982)Node33:0.01045594843055001,(Xenorhabdus_kozodoii:0.06979430884471731,(Xenorhabdus_ishibashii:0.04771321589199326,(Xenorhabdus_griffiniae:0.04879642954785261,Xenorhabdus_ehlersii:0.03691506655040723)Node40:0.006612679174395915)Node38:0.02003469597853156)Node36:0.0182386984276694)Node32:0.01840980714904691)Node28:0.04964840219155154)Node22:0.0162146313808063)Node16:0.01729691995120878)Node14:0.04879260454619847)Node6:0.01330080762480461)Node4:0.09325780906103699,(((Arsenophonus_nasoniae:0.1986031343079608,Providencia_rettgeri:0.1751589277600439)Node45:0.0445218068042252,(Proteus_mirabilis:0.08710629273053615,(Proteus_penneri:0.05169755968105844,Proteus_vulgaris:0.06082524439941136)Node50:0.04421174534153163)Node48:0.1394805318655454)Node44:0.06853158594394133,(((Pasteurella_multocida:0.1622434740628868,(Aggregatibacter_aphrophilus:0.2361739283094788,Haemophilus_influenzae:0.3419716427697759)Node57:0.05896959181719055)Node55:0.4432231730202638,((Bordetella_pertussis:0.4829930168873143,Neisseria_meningitidis:0.4828965860310555)Node61:0.1922253497072023,(Deinococcus_radiodurans:1.143812937233309,((Hydrogenobacter_thermophilus:0.7208766634747433,Leptospira_alexanderi:1.025346800482921)Node67:0.1996913848055606,(Anabaena_sphaerica:1.013254980740424,(Cetobacterium_somerae:0.3642997467444178,(Fusobacterium_nucleatum:0.3085738704013304,Thermus_thermophilus:2.067471819677347)Node74:0)Node72:0.7453632690815223)Node70:0.2505225690614696)Node66:0.09093046747813789)Node64:0.3714359292833416)Node60:0.243876178265388)Node54:0.1948259447884295,((Edwardsiella_tarda:0.07903632066003959,Edwardsiella_ictaluri:0.06489078623713555)Node78:0.1385815682907844,(((Dickeya_dadantii:0.02544607603389572,Dickeya_solani:0.02748541317561994)Node83:0.1395643984967318,(Brenneria_salicis:0.09442449476290732,(Samsonia_erythrinae:0.0713777357846867,(Pectobacterium_carotovorum:0.04025379617978989,(Pectobacterium_wasabiae:0.05984417696992553,Pectobacterium_betavasculorum:0.04919961267830753)Node92:0.01666767131585817)Node90:0.04892156682211821)Node88:0.05241408859997299)Node86:0.0815737093115675)Node82:0.06801038860196212,((Ewingella_americana:0.1894434158637265,(Serratia_proteamaculans:0.07178290112679329,(Serratia_marcescens:0.06473967902853046,Serratia_symbiotica:0.137298616724275)Node100:0.02396959237886348)Node98:0.06971683013666026)Node96:0.02968347002086331,(((Mixta_calida:0.111459617602808,(Pantoea_agglomerans:0.0925137667215047,Pantoea_stewartii:0.09464542019017969)Node107:0.06673840100829978)Node105:0.01560535609313567,(Erwinia_amylovora:0.1194373053409365,(Erwinia_tracheiphila:0.1150271348103815,Erwinia_psidii:0.07742082169325383)Node112:0.06883161980748186)Node110:0.04078552802500472)Node104:0.05456452564739316,((Mangrovibacter_plantisponsor:0.04721379074862195,Mangrovibacter_phragmitis:0.06581308501621798)Node116:0.1535810145815426,(Atlantibacter_hermannii:0.1444824788151357,(((Cronobacter_muytjensii:0.03947696523105686,Cronobacter_dublinensis:0.02591217721464177)Node123:0.01156824762166474,(Cronobacter_turicensis:0.03745197836205184,(Cronobacter_sakazakii:0.02901557911226561,Cronobacter_malonaticus:0.02731583548699607)Node128:0.01299277007515254)Node126:0.01680449654685606)Node122:0.08245359882099426,(Pseudescherichia_vulneris:0.09283357916823097,(Pluralibacter_gergoviae:0.1347874351292313,((Enterobacter_cancerogenus:0.0535773933598696,Enterobacter_cloacae:0.05725262037021985)Node136:0.06742915467291387,(((Raoultella_terrigena:0.528097124215876,(Klebsiella_oxytoca:0.05980566124787735,Klebsiella_michiganensis:0.03226213748101783)Node143:0.03702108951771835)Node141:0.01366129579700433,(Klebsiella_aerogenes:0.08297556956372817,(Klebsiella_variicola:0.5577595918462415,(Mariprofundus_ferrooxydans:1.550689625599001,Klebsiella_pneumoniae:0.04301614069836121)Node150:0.03430076588960523)Node148:0.009017292512211032)Node146:0.01749843696317455)Node140:0.04623821604803067,(Kluyvera_cryocrescens:0.1372385821419259,(((Citrobacter_murliniae:0.06288640103894748,(Citrobacter_freundii:0.08859824114649589,Citrobacter_gillenii:0.05124724932984131)Node159:0.005005844528931689)Node157:0.004918271648634371,((Citrobacter_pasteurii:0.008244477076624079,Citrobacter_youngae:0.004550255778762838)Node163:0.08199710430613798,((Citrobacter_braakii:0.04028949109119334,Citrobacter_portucalensis:0.08051230603982085)Node167:0.004101009589934471,(Citrobacter_europaeus:0.03912002979044787,Citrobacter_werkmanii:0.08053580025607676)Node170:0.00128536862383757)Node166:0.01222671651215726)Node162:0.004792711087928955)Node156:0.05246195776939516,((Citrobacter_koseri:0.06829983771397366,(Citrobacter_amalonaticus:0.08324980280988749,(Citrobacter_sedlakii:0.04969886779723034,Citrobacter_rodentium:0.05972033223518077)Node178:0.0311020120789193)Node176:0.02029668008536725)Node174:0.01184116464165243,((Salmonella_bongori:0.06354791262705299,Salmonella_enterica:0.07741065556517161)Node182:0.04492857387373284,(Escherichia_albertii:0.04726798582909891,(Escherichia_fergusonii:0.1385591710122152,(Escherichia_coli:0.004798075403271217,(Shigella_flexneri:0.002154051576808716,(Shigella_sonnei:0.009520463033266396,Shigella_boydii:0.001669083108691893)Node193:0)Node191:0.005700313350874041)Node189:0.02073439643631046)Node187:0.01088114896830042)Node185:0.06837110495428848)Node181:0.0254532056934027)Node173:0.008464341669250202)Node155:0.0455679447827054)Node153:0.01102817264230058)Node139:0.03783545703821342)Node135:0.02331727654608078)Node133:0.01364823525829294)Node131:0.03344296809729383)Node121:0.01970599523891177)Node119:0.0306246249465027)Node115:0.04933711074489667)Node103:0.03368883131052421)Node95:0.02123678083875216)Node81:0.03618673280028278)Node77:0.06164421340797197)Node53:0.1265741484761653)Node43:0.03408953075927802)Node3:0.09452616422179189)"] 
+    ],
+   "branch length":{
+     "0":{
+       "Aggregatibacter_aphrophilus":{
+         "MLE":0.2361739283094788,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.06803694673684602,
+           "constraint":"wvDBCcjp.tree_0.Aggregatibacter_aphrophilus.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.9674927769513627,
+           "constraint":"FEL.scaler_0*0.2000283751282751"
+          }
+        },
+       "Anabaena_sphaerica":{
+         "MLE":1.013254980740424,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.2918983295444186,
+           "constraint":"wvDBCcjp.tree_0.Anabaena_sphaerica.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":4.150825970052712,
+           "constraint":"FEL.scaler_0*0.8581800236753909"
+          }
+        },
+       "Arsenophonus_nasoniae":{
+         "MLE":0.1986031343079608,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.05721355853036839,
+           "constraint":"wvDBCcjp.tree_0.Arsenophonus_nasoniae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.8135830203538241,
+           "constraint":"FEL.scaler_0*0.1682076532975615"
+          }
+        },
+       "Atlantibacter_hermannii":{
+         "MLE":0.1444824788151357,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.04162248892549903,
+           "constraint":"wvDBCcjp.tree_0.Atlantibacter_hermannii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5918763161126706,
+           "constraint":"FEL.scaler_0*0.1223699655536328"
+          }
+        },
+       "Bordetella_pertussis":{
+         "MLE":0.4829930168873143,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.1391405495070977,
+           "constraint":"wvDBCcjp.tree_0.Bordetella_pertussis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":1.978593735986351,
+           "constraint":"FEL.scaler_0*0.4090727078040286"
+          }
+        },
+       "Brenneria_salicis":{
+         "MLE":0.09442449476290732,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02720179304643285,
+           "constraint":"wvDBCcjp.tree_0.Brenneria_salicis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3868124534503412,
+           "constraint":"FEL.scaler_0*0.07997317229267849"
+          }
+        },
+       "Cetobacterium_somerae":{
+         "MLE":0.3642997467444178,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.1049474116085221,
+           "constraint":"wvDBCcjp.tree_0.Cetobacterium_somerae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":1.492363598909107,
+           "constraint":"FEL.scaler_0*0.3085450071586223"
+          }
+        },
+       "Citrobacter_amalonaticus":{
+         "MLE":0.08324980280988749,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02398258961169983,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_amalonaticus.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3410350307407695,
+           "constraint":"FEL.scaler_0*0.07050872594196826"
+          }
+        },
+       "Citrobacter_braakii":{
+         "MLE":0.04028949109119334,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01160659002052992,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_braakii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1650469715128639,
+           "constraint":"FEL.scaler_0*0.03412333230599462"
+          }
+        },
+       "Citrobacter_europaeus":{
+         "MLE":0.03912002979044787,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01126969179980275,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_europaeus.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1602562421995395,
+           "constraint":"FEL.scaler_0*0.03313285276645398"
+          }
+        },
+       "Citrobacter_freundii":{
+         "MLE":0.08859824114649589,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02552336685514003,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_freundii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3629450505963802,
+           "constraint":"FEL.scaler_0*0.07503860541513188"
+          }
+        },
+       "Citrobacter_gillenii":{
+         "MLE":0.05124724932984131,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01476329922621833,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_gillenii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2099357194934585,
+           "constraint":"FEL.scaler_0*0.04340404585136546"
+          }
+        },
+       "Citrobacter_koseri":{
+         "MLE":0.06829983771397366,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01967580610587809,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_koseri.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2797921012205468,
+           "constraint":"FEL.scaler_0*0.05784679815101644"
+          }
+        },
+       "Citrobacter_murliniae":{
+         "MLE":0.06288640103894748,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01811630415171054,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_murliniae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2576158139433646,
+           "constraint":"FEL.scaler_0*0.05326186809664397"
+          }
+        },
+       "Citrobacter_pasteurii":{
+         "MLE":0.008244477076624079,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.002375067611190286,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_pasteurii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.03377371955689631,
+           "constraint":"FEL.scaler_0*0.00698269010988558"
+          }
+        },
+       "Citrobacter_portucalensis":{
+         "MLE":0.08051230603982085,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02319397198878734,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_portucalensis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3298208024348542,
+           "constraint":"FEL.scaler_0*0.06819019300840146"
+          }
+        },
+       "Citrobacter_rodentium":{
+         "MLE":0.05972033223518077,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01720422356724909,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_rodentium.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2446459289060906,
+           "constraint":"FEL.scaler_0*0.05058035450665995"
+          }
+        },
+       "Citrobacter_sedlakii":{
+         "MLE":0.04969886779723034,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0143172417269142,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_sedlakii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2035927333751819,
+           "constraint":"FEL.scaler_0*0.04209263843114878"
+          }
+        },
+       "Citrobacter_werkmanii":{
+         "MLE":0.08053580025607676,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02320074019877344,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_werkmanii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3299170471164354,
+           "constraint":"FEL.scaler_0*0.06821009152106228"
+          }
+        },
+       "Citrobacter_youngae":{
+         "MLE":0.004550255778762838,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.001310836942395425,
+           "constraint":"wvDBCcjp.tree_0.Citrobacter_youngae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.01864024378451075,
+           "constraint":"FEL.scaler_0*0.003853855827182114"
+          }
+        },
+       "Cronobacter_dublinensis":{
+         "MLE":0.02591217721464177,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.007464775784556984,
+           "constraint":"wvDBCcjp.tree_0.Cronobacter_dublinensis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1061499229389893,
+           "constraint":"FEL.scaler_0*0.02194641356639819"
+          }
+        },
+       "Cronobacter_malonaticus":{
+         "MLE":0.02731583548699607,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.007869141430657254,
+           "constraint":"wvDBCcjp.tree_0.Cronobacter_malonaticus.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1119000463735763,
+           "constraint":"FEL.scaler_0*0.02313524709033598"
+          }
+        },
+       "Cronobacter_muytjensii":{
+         "MLE":0.03947696523105686,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0113725177033012,
+           "constraint":"wvDBCcjp.tree_0.Cronobacter_muytjensii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1617184377225548,
+           "constraint":"FEL.scaler_0*0.0334351605475107"
+          }
+        },
+       "Cronobacter_sakazakii":{
+         "MLE":0.02901557911226561,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.008358803296920597,
+           "constraint":"wvDBCcjp.tree_0.Cronobacter_sakazakii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1188630913289982,
+           "constraint":"FEL.scaler_0*0.02457485119029321"
+          }
+        },
+       "Cronobacter_turicensis":{
+         "MLE":0.03745197836205184,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01078915981644433,
+           "constraint":"wvDBCcjp.tree_0.Cronobacter_turicensis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1534230251712744,
+           "constraint":"FEL.scaler_0*0.03172009048892077"
+          }
+        },
+       "Deinococcus_radiodurans":{
+         "MLE":1.143812937233309,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.3295094443510371,
+           "constraint":"wvDBCcjp.tree_0.Deinococcus_radiodurans.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":4.685660110232982,
+           "constraint":"FEL.scaler_0*0.9687565639576815"
+          }
+        },
+       "Dickeya_dadantii":{
+         "MLE":0.02544607603389572,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.007330501432449644,
+           "constraint":"wvDBCcjp.tree_0.Dickeya_dadantii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1042405270588928,
+           "constraint":"FEL.scaler_0*0.02155164746119189"
+          }
+        },
+       "Dickeya_solani":{
+         "MLE":0.02748541317561994,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.007917993343530305,
+           "constraint":"wvDBCcjp.tree_0.Dickeya_solani.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1125947258839273,
+           "constraint":"FEL.scaler_0*0.02327887153591405"
+          }
+        },
+       "Edwardsiella_ictaluri":{
+         "MLE":0.06489078623713555,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01869372711259955,
+           "constraint":"wvDBCcjp.tree_0.Edwardsiella_ictaluri.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2658268312023659,
+           "constraint":"FEL.scaler_0*0.05495948949454595"
+          }
+        },
+       "Edwardsiella_tarda":{
+         "MLE":0.07903632066003959,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02276877036137935,
+           "constraint":"wvDBCcjp.tree_0.Edwardsiella_tarda.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3237743890815869,
+           "constraint":"FEL.scaler_0*0.06694010177545288"
+          }
+        },
+       "Enterobacter_cancerogenus":{
+         "MLE":0.0535773933598696,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01543456673823803,
+           "constraint":"wvDBCcjp.tree_0.Enterobacter_cancerogenus.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2194812164686991,
+           "constraint":"FEL.scaler_0*0.04537756988713739"
+          }
+        },
+       "Enterobacter_cloacae":{
+         "MLE":0.05725262037021985,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01649332553578548,
+           "constraint":"wvDBCcjp.tree_0.Enterobacter_cloacae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2345368816372556,
+           "constraint":"FEL.scaler_0*0.04849031688834123"
+          }
+        },
+       "Erwinia_amylovora":{
+         "MLE":0.1194373053409365,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03440747943704153,
+           "constraint":"wvDBCcjp.tree_0.Erwinia_amylovora.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.4892780970491767,
+           "constraint":"FEL.scaler_0*0.1011578639863286"
+          }
+        },
+       "Erwinia_psidii":{
+         "MLE":0.07742082169325383,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02230337768258798,
+           "constraint":"wvDBCcjp.tree_0.Erwinia_psidii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3171564546096267,
+           "constraint":"FEL.scaler_0*0.06557184899810099"
+          }
+        },
+       "Erwinia_tracheiphila":{
+         "MLE":0.1150271348103815,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03313699823009564,
+           "constraint":"wvDBCcjp.tree_0.Erwinia_tracheiphila.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.4712117162086779,
+           "constraint":"FEL.scaler_0*0.0974226538741034"
+          }
+        },
+       "Escherichia_albertii":{
+         "MLE":0.04726798582909891,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01361695364612057,
+           "constraint":"wvDBCcjp.tree_0.Escherichia_albertii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1936345607579788,
+           "constraint":"FEL.scaler_0*0.04003379402908234"
+          }
+        },
+       "Escherichia_coli":{
+         "MLE":0.004798075403271217,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.001382228779393317,
+           "constraint":"wvDBCcjp.tree_0.Escherichia_coli.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.0196554434655885,
+           "constraint":"FEL.scaler_0*0.004063747567435318"
+          }
+        },
+       "Escherichia_fergusonii":{
+         "MLE":0.1385591710122152,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0399161033799904,
+           "constraint":"wvDBCcjp.tree_0.Escherichia_fergusonii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5676113282030978,
+           "constraint":"FEL.scaler_0*0.11735319827672"
+          }
+        },
+       "Ewingella_americana":{
+         "MLE":0.1894434158637265,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.05457482833531374,
+           "constraint":"wvDBCcjp.tree_0.Ewingella_americana.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.7760599901991471,
+           "constraint":"FEL.scaler_0*0.160449796153263"
+          }
+        },
+       "Fusobacterium_nucleatum":{
+         "MLE":0.3085738704013304,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.08889391024299245,
+           "constraint":"wvDBCcjp.tree_0.Fusobacterium_nucleatum.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":1.264081064773614,
+           "constraint":"FEL.scaler_0*0.2613477717258421"
+          }
+        },
+       "Haemophilus_influenzae":{
+         "MLE":0.3419716427697759,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.09851513505822124,
+           "constraint":"wvDBCcjp.tree_0.Haemophilus_influenzae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":1.400895927294744,
+           "constraint":"FEL.scaler_0*0.2896341375731768"
+          }
+        },
+       "Hydrogenobacter_thermophilus":{
+         "MLE":0.7208766634747433,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.2076700316065237,
+           "constraint":"wvDBCcjp.tree_0.Hydrogenobacter_thermophilus.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":2.953090419323054,
+           "constraint":"FEL.scaler_0*0.6105491351009461"
+          }
+        },
+       "Klebsiella_aerogenes":{
+         "MLE":0.08297556956372817,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.023903588542886,
+           "constraint":"wvDBCcjp.tree_0.Klebsiella_aerogenes.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3399116269562868,
+           "constraint":"FEL.scaler_0*0.07027646308794354"
+          }
+        },
+       "Klebsiella_michiganensis":{
+         "MLE":0.03226213748101783,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.009294071302131619,
+           "constraint":"wvDBCcjp.tree_0.Klebsiella_michiganensis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1321627040093735,
+           "constraint":"FEL.scaler_0*0.02732453571266624"
+          }
+        },
+       "Klebsiella_oxytoca":{
+         "MLE":0.05980566124787735,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01722880513530586,
+           "constraint":"wvDBCcjp.tree_0.Klebsiella_oxytoca.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2449954814754181,
+           "constraint":"FEL.scaler_0*0.05065262422704465"
+          }
+        },
+       "Klebsiella_pneumoniae":{
+         "MLE":0.04301614069836121,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01239208279452412,
+           "constraint":"wvDBCcjp.tree_0.Klebsiella_pneumoniae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.176216764127548,
+           "constraint":"FEL.scaler_0*0.03643267819514474"
+          }
+        },
+       "Klebsiella_variicola":{
+         "MLE":0.5577595918462415,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.1606792922234871,
+           "constraint":"wvDBCcjp.tree_0.Klebsiella_variicola.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":2.284876998275004,
+           "constraint":"FEL.scaler_0*0.4723965327917851"
+          }
+        },
+       "Kluyvera_cryocrescens":{
+         "MLE":0.1372385821419259,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03953566835368474,
+           "constraint":"wvDBCcjp.tree_0.Kluyvera_cryocrescens.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5622015007828045,
+           "constraint":"FEL.scaler_0*0.1162347206876516"
+          }
+        },
+       "Leptospira_alexanderi":{
+         "MLE":1.025346800482921,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.2953817390031193,
+           "constraint":"wvDBCcjp.tree_0.Leptospira_alexanderi.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":4.200360431137396,
+           "constraint":"FEL.scaler_0*0.8684212347724348"
+          }
+        },
+       "Mangrovibacter_phragmitis":{
+         "MLE":0.06581308501621798,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01895942279440943,
+           "constraint":"wvDBCcjp.tree_0.Mangrovibacter_phragmitis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2696050526738918,
+           "constraint":"FEL.scaler_0*0.05574063382949956"
+          }
+        },
+       "Mangrovibacter_plantisponsor":{
+         "MLE":0.04721379074862195,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0136013411361785,
+           "constraint":"wvDBCcjp.tree_0.Mangrovibacter_plantisponsor.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1934125491698124,
+           "constraint":"FEL.scaler_0*0.03998789330682526"
+          }
+        },
+       "Mariprofundus_ferrooxydans":{
+         "MLE":1.550689625599001,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.4467224143556099,
+           "constraint":"wvDBCcjp.tree_0.Mariprofundus_ferrooxydans.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":6.352441282572491,
+           "constraint":"FEL.scaler_0*1.313362268041645"
+          }
+        },
+       "Mixta_calida":{
+         "MLE":0.111459617602808,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03210926845495966,
+           "constraint":"wvDBCcjp.tree_0.Mixta_calida.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.4565972871110915,
+           "constraint":"FEL.scaler_0*0.09440113208555928"
+          }
+        },
+       "Neisseria_meningitidis":{
+         "MLE":0.4828965860310555,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.1391127697217591,
+           "constraint":"wvDBCcjp.tree_0.Neisseria_meningitidis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":1.978198704419688,
+           "constraint":"FEL.scaler_0*0.4089910353365061"
+          }
+        },
+       "Node100":{
+         "MLE":0.02396959237886348,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.006905156261988584,
+           "constraint":"wvDBCcjp.tree_0.Node100.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.09819207250781053,
+           "constraint":"FEL.scaler_0*0.02030113421219113"
+          }
+        },
+       "Node103":{
+         "MLE":0.03368883131052421,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.009705073027778113,
+           "constraint":"wvDBCcjp.tree_0.Node103.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1380071932163264,
+           "constraint":"FEL.scaler_0*0.02853287928625377"
+          }
+        },
+       "Node104":{
+         "MLE":0.05456452564739316,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01571893964658229,
+           "constraint":"wvDBCcjp.tree_0.Node104.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2235250301314118,
+           "constraint":"FEL.scaler_0*0.0462136251999458"
+          }
+        },
+       "Node105":{
+         "MLE":0.01560535609313567,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.004495588437377796,
+           "constraint":"wvDBCcjp.tree_0.Node105.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.06392775616654177,
+           "constraint":"FEL.scaler_0*0.01321701360074625"
+          }
+        },
+       "Node107":{
+         "MLE":0.06673840100829978,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01922598767444779,
+           "constraint":"wvDBCcjp.tree_0.Node107.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2733956342386927,
+           "constraint":"FEL.scaler_0*0.0565243336040731"
+          }
+        },
+       "Node11":{
+         "MLE":0.01644925694884084,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.004738699258211296,
+           "constraint":"wvDBCcjp.tree_0.Node11.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.06738481846042846,
+           "constraint":"FEL.scaler_0*0.01393175852684521"
+          }
+        },
+       "Node110":{
+         "MLE":0.04078552802500472,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01174948825949646,
+           "constraint":"wvDBCcjp.tree_0.Node110.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1670790000013546,
+           "constraint":"FEL.scaler_0*0.03454345260709697"
+          }
+        },
+       "Node112":{
+         "MLE":0.06883161980748186,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01982900180461834,
+           "constraint":"wvDBCcjp.tree_0.Node112.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2819705607061624,
+           "constraint":"FEL.scaler_0*0.05829719294627637"
+          }
+        },
+       "Node115":{
+         "MLE":0.04933711074489667,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01421302681429668,
+           "constraint":"wvDBCcjp.tree_0.Node115.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2021107859915339,
+           "constraint":"FEL.scaler_0*0.04178624696835069"
+          }
+        },
+       "Node116":{
+         "MLE":0.1535810145815426,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.04424359362470656,
+           "constraint":"wvDBCcjp.tree_0.Node116.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.6291487098008373,
+           "constraint":"FEL.scaler_0*0.1300760038044591"
+          }
+        },
+       "Node119":{
+         "MLE":0.0306246249465027,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.00882233695834014,
+           "constraint":"wvDBCcjp.tree_0.Node119.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1254545903718904,
+           "constraint":"FEL.scaler_0*0.0259376384633558"
+          }
+        },
+       "Node121":{
+         "MLE":0.01970599523891177,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.005676899893495011,
+           "constraint":"wvDBCcjp.tree_0.Node121.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.08072613345915987,
+           "constraint":"FEL.scaler_0*0.01669006497093031"
+          }
+        },
+       "Node122":{
+         "MLE":0.08245359882099426,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0237532192964761,
+           "constraint":"wvDBCcjp.tree_0.Node122.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3377733599299915,
+           "constraint":"FEL.scaler_0*0.06983437805222062"
+          }
+        },
+       "Node123":{
+         "MLE":0.01156824762166474,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.003332578887549721,
+           "constraint":"wvDBCcjp.tree_0.Node123.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.04738963397043277,
+           "constraint":"FEL.scaler_0*0.009797769768265579"
+          }
+        },
+       "Node126":{
+         "MLE":0.01680449654685606,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.004841036623652034,
+           "constraint":"wvDBCcjp.tree_0.Node126.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.06884006691916811,
+           "constraint":"FEL.scaler_0*0.01423263000779504"
+          }
+        },
+       "Node128":{
+         "MLE":0.01299277007515254,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.00374295508354704,
+           "constraint":"wvDBCcjp.tree_0.Node128.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.05322522807779097,
+           "constraint":"FEL.scaler_0*0.0110042742869672"
+          }
+        },
+       "Node131":{
+         "MLE":0.03344296809729383,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.009634244793421988,
+           "constraint":"wvDBCcjp.tree_0.Node131.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1370000080260677,
+           "constraint":"FEL.scaler_0*0.02832464453571069"
+          }
+        },
+       "Node133":{
+         "MLE":0.01364823525829294,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.003931781386570386,
+           "constraint":"wvDBCcjp.tree_0.Node133.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.05591035862869766,
+           "constraint":"FEL.scaler_0*0.01155942292879748"
+          }
+        },
+       "Node135":{
+         "MLE":0.02331727654608078,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.006717237223302507,
+           "constraint":"wvDBCcjp.tree_0.Node135.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.09551984335438259,
+           "constraint":"FEL.scaler_0*0.01974865292420166"
+          }
+        },
+       "Node136":{
+         "MLE":0.06742915467291387,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01942497987745695,
+           "constraint":"wvDBCcjp.tree_0.Node136.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2762253249922422,
+           "constraint":"FEL.scaler_0*0.05710936995476461"
+          }
+        },
+       "Node139":{
+         "MLE":0.03783545703821342,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01089963229091042,
+           "constraint":"wvDBCcjp.tree_0.Node139.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1549939557644898,
+           "constraint":"FEL.scaler_0*0.03204487916071876"
+          }
+        },
+       "Node14":{
+         "MLE":0.04879260454619847,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01405616555740907,
+           "constraint":"wvDBCcjp.tree_0.Node14.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1998802018706846,
+           "constraint":"FEL.scaler_0*0.04132507544551373"
+          }
+        },
+       "Node140":{
+         "MLE":0.04623821604803067,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01332029773559208,
+           "constraint":"wvDBCcjp.tree_0.Node140.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1894160814692718,
+           "constraint":"FEL.scaler_0*0.03916162673467498"
+          }
+        },
+       "Node141":{
+         "MLE":0.01366129579700433,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.003935543864431604,
+           "constraint":"wvDBCcjp.tree_0.Node141.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.05596386147279571,
+           "constraint":"FEL.scaler_0*0.01157048459997956"
+          }
+        },
+       "Node143":{
+         "MLE":0.03702108951771835,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01066502942846599,
+           "constraint":"wvDBCcjp.tree_0.Node143.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1516578775635529,
+           "constraint":"FEL.scaler_0*0.03135514760123672"
+          }
+        },
+       "Node146":{
+         "MLE":0.01749843696317455,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.005040946865572293,
+           "constraint":"wvDBCcjp.tree_0.Node146.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.07168281228580735,
+           "constraint":"FEL.scaler_0*0.01482036538953512"
+          }
+        },
+       "Node148":{
+         "MLE":0.009017292512211032,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.002597700155793361,
+           "constraint":"wvDBCcjp.tree_0.Node148.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.0369395785371778,
+           "constraint":"FEL.scaler_0*0.007637228978595708"
+          }
+        },
+       "Node150":{
+         "MLE":0.03430076588960523,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.009881359041485844,
+           "constraint":"wvDBCcjp.tree_0.Node150.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1405139994902683,
+           "constraint":"FEL.scaler_0*0.02905115952325773"
+          }
+        },
+       "Node153":{
+         "MLE":0.01102817264230058,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.003176994175604913,
+           "constraint":"wvDBCcjp.tree_0.Node153.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.04517720245740691,
+           "constraint":"FEL.scaler_0*0.009340351282902146"
+          }
+        },
+       "Node155":{
+         "MLE":0.0455679447827054,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01312720609882844,
+           "constraint":"wvDBCcjp.tree_0.Node155.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1866702974090155,
+           "constraint":"FEL.scaler_0*0.03859393802721313"
+          }
+        },
+       "Node156":{
+         "MLE":0.05246195776939516,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01511323223531166,
+           "constraint":"wvDBCcjp.tree_0.Node156.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2149118049139893,
+           "constraint":"FEL.scaler_0*0.04443284762113652"
+          }
+        },
+       "Node157":{
+         "MLE":0.004918271648634371,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.001416854894148142,
+           "constraint":"wvDBCcjp.tree_0.Node157.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.02014783058061815,
+           "constraint":"FEL.scaler_0*0.004165548218458091"
+          }
+        },
+       "Node159":{
+         "MLE":0.005005844528931689,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.00144208287521713,
+           "constraint":"wvDBCcjp.tree_0.Node159.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.0205065752132325,
+           "constraint":"FEL.scaler_0*0.004239718390739848"
+          }
+        },
+       "Node16":{
+         "MLE":0.01729691995120878,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.004982893877641672,
+           "constraint":"wvDBCcjp.tree_0.Node16.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.07085729248815152,
+           "constraint":"FEL.scaler_0*0.01464968981686403"
+          }
+        },
+       "Node162":{
+         "MLE":0.004792711087928955,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.001380683428304674,
+           "constraint":"wvDBCcjp.tree_0.Node162.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.01963346840515701,
+           "constraint":"FEL.scaler_0*0.004059204240873948"
+          }
+        },
+       "Node163":{
+         "MLE":0.08199710430613798,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02362171243111092,
+           "constraint":"wvDBCcjp.tree_0.Node163.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3359033180121431,
+           "constraint":"FEL.scaler_0*0.06944774834793727"
+          }
+        },
+       "Node166":{
+         "MLE":0.01222671651215726,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.003522270498097013,
+           "constraint":"wvDBCcjp.tree_0.Node166.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.05008706928837284,
+           "constraint":"FEL.scaler_0*0.01035546241105861"
+          }
+        },
+       "Node167":{
+         "MLE":0.004101009589934471,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.001181418173609926,
+           "constraint":"wvDBCcjp.tree_0.Node167.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.01679989482696268,
+           "constraint":"FEL.scaler_0*0.003473365119223205"
+          }
+        },
+       "Node17":{
+         "MLE":0.00941869915594497,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.00271333731623282,
+           "constraint":"wvDBCcjp.tree_0.Node17.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.03858395152624014,
+           "constraint":"FEL.scaler_0*0.007977201808308626"
+          }
+        },
+       "Node170":{
+         "MLE":0.00128536862383757,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.000370288783453918,
+           "constraint":"wvDBCcjp.tree_0.Node170.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.005265546744233286,
+           "constraint":"FEL.scaler_0*0.00108864767210961"
+          }
+        },
+       "Node173":{
+         "MLE":0.008464341669250202,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.002438406167164255,
+           "constraint":"wvDBCcjp.tree_0.Node173.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.03467440070657169,
+           "constraint":"FEL.scaler_0*0.007168905233316202"
+          }
+        },
+       "Node174":{
+         "MLE":0.01184116464165243,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.003411200778142766,
+           "constraint":"wvDBCcjp.tree_0.Node174.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.04850764579940623,
+           "constraint":"FEL.scaler_0*0.01002891783970487"
+          }
+        },
+       "Node176":{
+         "MLE":0.02029668008536725,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.005847064287694742,
+           "constraint":"wvDBCcjp.tree_0.Node176.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.08314588963839162,
+           "constraint":"FEL.scaler_0*0.01719034766891955"
+          }
+        },
+       "Node178":{
+         "MLE":0.0311020120789193,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.008959862565563463,
+           "constraint":"wvDBCcjp.tree_0.Node178.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1274102194530872,
+           "constraint":"FEL.scaler_0*0.02634196324673872"
+          }
+        },
+       "Node181":{
+         "MLE":0.0254532056934027,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.007332555343597257,
+           "constraint":"wvDBCcjp.tree_0.Node181.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1042697338986339,
+           "constraint":"FEL.scaler_0*0.02155768595247081"
+          }
+        },
+       "Node182":{
+         "MLE":0.04492857387373284,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01294301623168167,
+           "constraint":"wvDBCcjp.tree_0.Node182.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1840510974801682,
+           "constraint":"FEL.scaler_0*0.03805242048994085"
+          }
+        },
+       "Node185":{
+         "MLE":0.06837110495428848,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01969633676084107,
+           "constraint":"wvDBCcjp.tree_0.Node185.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2800840493654215,
+           "constraint":"FEL.scaler_0*0.05790715820168785"
+          }
+        },
+       "Node187":{
+         "MLE":0.01088114896830042,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.003134639619585093,
+           "constraint":"wvDBCcjp.tree_0.Node187.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.04457491606765088,
+           "constraint":"FEL.scaler_0*0.009215829042762642"
+          }
+        },
+       "Node189":{
+         "MLE":0.02073439643631046,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.005973161542663308,
+           "constraint":"wvDBCcjp.tree_0.Node189.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.08493900630847601,
+           "constraint":"FEL.scaler_0*0.01756107313837743"
+          }
+        },
+       "Node19":{
+         "MLE":0.03129013220483056,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.009014056180745142,
+           "constraint":"wvDBCcjp.tree_0.Node19.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1281808585508109,
+           "constraint":"FEL.scaler_0*0.02650129227761141"
+          }
+        },
+       "Node191":{
+         "MLE":0.005700313350874041,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.001642145340143307,
+           "constraint":"wvDBCcjp.tree_0.Node191.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.02335148520755972,
+           "constraint":"FEL.scaler_0*0.004827901307561844"
+          }
+        },
+       "Node193":{
+         "MLE":0,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0,
+           "constraint":"wvDBCcjp.tree_0.Node193.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0,
+           "constraint":"0"
+          }
+        },
+       "Node22":{
+         "MLE":0.0162146313808063,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.004671108362849851,
+           "constraint":"wvDBCcjp.tree_0.Node22.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.06642366858251281,
+           "constraint":"FEL.scaler_0*0.0137330415411329"
+          }
+        },
+       "Node23":{
+         "MLE":0.04345065155443508,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01251725661105372,
+           "constraint":"wvDBCcjp.tree_0.Node23.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1779967494026697,
+           "constraint":"FEL.scaler_0*0.03680068875896184"
+          }
+        },
+       "Node25":{
+         "MLE":0.05285427685404726,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01522625145321341,
+           "constraint":"wvDBCcjp.tree_0.Node25.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2165189504756436,
+           "constraint":"FEL.scaler_0*0.04476512370934187"
+          }
+        },
+       "Node28":{
+         "MLE":0.04964840219155154,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01430270360346345,
+           "constraint":"wvDBCcjp.tree_0.Node28.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2033859996796881,
+           "constraint":"FEL.scaler_0*0.04204989640125559"
+          }
+        },
+       "Node29":{
+         "MLE":0.02566701176878185,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.007394148562911133,
+           "constraint":"wvDBCcjp.tree_0.Node29.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1051455961713171,
+           "constraint":"FEL.scaler_0*0.02173876979248978"
+          }
+        },
+       "Node3":{
+         "MLE":0.09452616422179189,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02723108196756149,
+           "constraint":"wvDBCcjp.tree_0.Node3.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3872289450919525,
+           "constraint":"FEL.scaler_0*0.08005928161391657"
+          }
+        },
+       "Node32":{
+         "MLE":0.01840980714904691,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.005303494240033096,
+           "constraint":"wvDBCcjp.tree_0.Node32.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.07541626448466694,
+           "constraint":"FEL.scaler_0*0.01559225371237116"
+          }
+        },
+       "Node33":{
+         "MLE":0.01045594843055001,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.003012147918039218,
+           "constraint":"wvDBCcjp.tree_0.Node33.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.04283307075909391,
+           "constraint":"FEL.scaler_0*0.008855703887210215"
+          }
+        },
+       "Node36":{
+         "MLE":0.0182386984276694,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.005254201267494152,
+           "constraint":"wvDBCcjp.tree_0.Node36.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.07471531305793187,
+           "constraint":"FEL.scaler_0*0.01544733255298486"
+          }
+        },
+       "Node38":{
+         "MLE":0.02003469597853156,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.005771591948938863,
+           "constraint":"wvDBCcjp.tree_0.Node38.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.08207266477884048,
+           "constraint":"FEL.scaler_0*0.01696845926838829"
+          }
+        },
+       "Node4":{
+         "MLE":0.09325780906103699,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0268656944197768,
+           "constraint":"wvDBCcjp.tree_0.Node4.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.382033094451609,
+           "constraint":"FEL.scaler_0*0.07898504355678906"
+          }
+        },
+       "Node40":{
+         "MLE":0.006612679174395915,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.001904979537735736,
+           "constraint":"wvDBCcjp.tree_0.Node40.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.0270890160625234,
+           "constraint":"FEL.scaler_0*0.005600632889358201"
+          }
+        },
+       "Node43":{
+         "MLE":0.03408953075927802,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.009820506459603079,
+           "constraint":"wvDBCcjp.tree_0.Node43.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1396486691623491,
+           "constraint":"FEL.scaler_0*0.02887225315458352"
+          }
+        },
+       "Node44":{
+         "MLE":0.06853158594394133,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0197425680981586,
+           "constraint":"wvDBCcjp.tree_0.Node44.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2807414640065652,
+           "constraint":"FEL.scaler_0*0.05804307816469562"
+          }
+        },
+       "Node45":{
+         "MLE":0.0445218068042252,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01282583484065986,
+           "constraint":"wvDBCcjp.tree_0.Node45.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1823847653643957,
+           "constraint":"FEL.scaler_0*0.03770790762795098"
+          }
+        },
+       "Node48":{
+         "MLE":0.1394805318655454,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.04018152886430258,
+           "constraint":"wvDBCcjp.tree_0.Node48.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5713857074368411,
+           "constraint":"FEL.scaler_0*0.1181335482320164"
+          }
+        },
+       "Node50":{
+         "MLE":0.04421174534153163,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.012736512385072,
+           "constraint":"wvDBCcjp.tree_0.Node50.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1811145903382431,
+           "constraint":"FEL.scaler_0*0.03744529993447506"
+          }
+        },
+       "Node53":{
+         "MLE":0.1265741484761653,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03646346004309941,
+           "constraint":"wvDBCcjp.tree_0.Node53.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5185143647142548,
+           "constraint":"FEL.scaler_0*0.1072024394655261"
+          }
+        },
+       "Node54":{
+         "MLE":0.1948259447884295,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.05612542638981056,
+           "constraint":"wvDBCcjp.tree_0.Node54.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.7981096630553227,
+           "constraint":"FEL.scaler_0*0.1650085487750953"
+          }
+        },
+       "Node55":{
+         "MLE":0.4432231730202638,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.1276836593741209,
+           "constraint":"wvDBCcjp.tree_0.Node55.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":1.815675513144092,
+           "constraint":"FEL.scaler_0*0.3753894926211606"
+          }
+        },
+       "Node57":{
+         "MLE":0.05896959181719055,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01698795039011391,
+           "constraint":"wvDBCcjp.tree_0.Node57.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2415705008223478,
+           "constraint":"FEL.scaler_0*0.04994451215509905"
+          }
+        },
+       "Node6":{
+         "MLE":0.01330080762480461,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.003831694490596087,
+           "constraint":"wvDBCcjp.tree_0.Node6.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.05448711209035505,
+           "constraint":"FEL.scaler_0*0.01126516781986665"
+          }
+        },
+       "Node60":{
+         "MLE":0.243876178265388,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.07025580964756219,
+           "constraint":"wvDBCcjp.tree_0.Node60.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.9990452486909651,
+           "constraint":"FEL.scaler_0*0.2065518239887835"
+          }
+        },
+       "Node61":{
+         "MLE":0.1922253497072023,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.05537624738308421,
+           "constraint":"wvDBCcjp.tree_0.Node61.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.78745625615782,
+           "constraint":"FEL.scaler_0*0.1628059652291977"
+          }
+        },
+       "Node64":{
+         "MLE":0.3714359292833416,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.107003201910104,
+           "constraint":"wvDBCcjp.tree_0.Node64.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":1.521597160423853,
+           "constraint":"FEL.scaler_0*0.3145890231433547"
+          }
+        },
+       "Node66":{
+         "MLE":0.09093046747813789,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02619523423626892,
+           "constraint":"wvDBCcjp.tree_0.Node66.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3724990777755481,
+           "constraint":"FEL.scaler_0*0.07701389306389582"
+          }
+        },
+       "Node67":{
+         "MLE":0.1996913848055606,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.05752706155617456,
+           "constraint":"wvDBCcjp.tree_0.Node67.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.8180410674527484,
+           "constraint":"FEL.scaler_0*0.1691293510494073"
+          }
+        },
+       "Node7":{
+         "MLE":0.09091377327210298,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02619042497211793,
+           "constraint":"wvDBCcjp.tree_0.Node7.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3724306895166433,
+           "constraint":"FEL.scaler_0*0.0769997538448417"
+          }
+        },
+       "Node70":{
+         "MLE":0.2505225690614696,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.07217050082377333,
+           "constraint":"wvDBCcjp.tree_0.Node70.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":1.026272365308084,
+           "constraint":"FEL.scaler_0*0.21218100905982"
+          }
+        },
+       "Node72":{
+         "MLE":0.7453632690815223,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.2147241289548615,
+           "constraint":"wvDBCcjp.tree_0.Node72.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":3.053400450265882,
+           "constraint":"FEL.scaler_0*0.6312881555634933"
+          }
+        },
+       "Node74":{
+         "MLE":0,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0,
+           "constraint":"wvDBCcjp.tree_0.Node74.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0,
+           "constraint":"0"
+          }
+        },
+       "Node77":{
+         "MLE":0.06164421340797197,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01775845494163559,
+           "constraint":"wvDBCcjp.tree_0.Node77.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.252527159284531,
+           "constraint":"FEL.scaler_0*0.05220979272487444"
+          }
+        },
+       "Node78":{
+         "MLE":0.1385815682907844,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03992255558434684,
+           "constraint":"wvDBCcjp.tree_0.Node78.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5677030792502813,
+           "constraint":"FEL.scaler_0*0.1173721677339828"
+          }
+        },
+       "Node81":{
+         "MLE":0.03618673280028278,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01042466808142809,
+           "constraint":"wvDBCcjp.tree_0.Node81.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1482399130858564,
+           "constraint":"FEL.scaler_0*0.03064848611806354"
+          }
+        },
+       "Node82":{
+         "MLE":0.06801038860196212,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01959242165291188,
+           "constraint":"wvDBCcjp.tree_0.Node82.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2786063652370248,
+           "constraint":"FEL.scaler_0*0.05760164816357941"
+          }
+        },
+       "Node83":{
+         "MLE":0.1395643984967318,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.04020568914973233,
+           "constraint":"wvDBCcjp.tree_0.Node83.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5717292693214268,
+           "constraint":"FEL.scaler_0*0.118204579383015"
+          }
+        },
+       "Node86":{
+         "MLE":0.0815737093115675,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02349974087014974,
+           "constraint":"wvDBCcjp.tree_0.Node86.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3341688691592301,
+           "constraint":"FEL.scaler_0*0.06908915240380575"
+          }
+        },
+       "Node88":{
+         "MLE":0.05241408859997299,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01509944209279412,
+           "constraint":"wvDBCcjp.tree_0.Node88.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2147157075886573,
+           "constraint":"FEL.scaler_0*0.04439230465245746"
+          }
+        },
+       "Node9":{
+         "MLE":0.07118143953863691,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02050593748940871,
+           "constraint":"wvDBCcjp.tree_0.Node9.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2915966597142272,
+           "constraint":"FEL.scaler_0*0.06028738138930999"
+          }
+        },
+       "Node90":{
+         "MLE":0.04892156682211821,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01409331698881654,
+           "constraint":"wvDBCcjp.tree_0.Node90.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2004084992629699,
+           "constraint":"FEL.scaler_0*0.04143430051827999"
+          }
+        },
+       "Node92":{
+         "MLE":0.01666767131585817,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.004801620033428496,
+           "constraint":"wvDBCcjp.tree_0.Node92.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.06827955872233755,
+           "constraint":"FEL.scaler_0*0.01411674537637548"
+          }
+        },
+       "Node95":{
+         "MLE":0.02123678083875216,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.006117888359357317,
+           "constraint":"wvDBCcjp.tree_0.Node95.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.08699703737098381,
+           "constraint":"FEL.scaler_0*0.01798656945132577"
+          }
+        },
+       "Node96":{
+         "MLE":0.02968347002086331,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.008551209200906452,
+           "constraint":"wvDBCcjp.tree_0.Node96.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.121599124194628,
+           "constraint":"FEL.scaler_0*0.02514052384589071"
+          }
+        },
+       "Node98":{
+         "MLE":0.06971683013666026,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02008401305183063,
+           "constraint":"wvDBCcjp.tree_0.Node98.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.285596848356511,
+           "constraint":"FEL.scaler_0*0.05904692508250236"
+          }
+        },
+       "Pantoea_agglomerans":{
+         "MLE":0.0925137667215047,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02665135082399085,
+           "constraint":"wvDBCcjp.tree_0.Pantoea_agglomerans.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3789851052243619,
+           "constraint":"FEL.scaler_0*0.07835487416735354"
+          }
+        },
+       "Pantoea_stewartii":{
+         "MLE":0.09464542019017969,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02726543720747862,
+           "constraint":"wvDBCcjp.tree_0.Pantoea_stewartii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.387717480337351,
+           "constraint":"FEL.scaler_0*0.08016028589390498"
+          }
+        },
+       "Pasteurella_multocida":{
+         "MLE":0.1622434740628868,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.04673907353885697,
+           "constraint":"wvDBCcjp.tree_0.Pasteurella_multocida.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.6646347053924092,
+           "constraint":"FEL.scaler_0*0.1374127056456431"
+          }
+        },
+       "Pectobacterium_betavasculorum":{
+         "MLE":0.04919961267830753,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01417341639370579,
+           "constraint":"wvDBCcjp.tree_0.Pectobacterium_betavasculorum.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2015475215058138,
+           "constraint":"FEL.scaler_0*0.04166979247635842"
+          }
+        },
+       "Pectobacterium_carotovorum":{
+         "MLE":0.04025379617978989,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01159630703627628,
+           "constraint":"wvDBCcjp.tree_0.Pectobacterium_carotovorum.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1649007463592077,
+           "constraint":"FEL.scaler_0*0.03409310036981324"
+          }
+        },
+       "Pectobacterium_wasabiae":{
+         "MLE":0.05984417696992553,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01723990073822978,
+           "constraint":"wvDBCcjp.tree_0.Pectobacterium_wasabiae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2451532621548823,
+           "constraint":"FEL.scaler_0*0.05068524525915129"
+          }
+        },
+       "Photorhabdus_luminescens":{
+         "MLE":0.06516523837275451,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01877279123905327,
+           "constraint":"wvDBCcjp.tree_0.Photorhabdus_luminescens.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2669511316733408,
+           "constraint":"FEL.scaler_0*0.0551919377378018"
+          }
+        },
+       "Photorhabdus_temperata":{
+         "MLE":0.06173976187971259,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01778598052978636,
+           "constraint":"wvDBCcjp.tree_0.Photorhabdus_temperata.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2529185761395556,
+           "constraint":"FEL.scaler_0*0.05229071785359232"
+          }
+        },
+       "Pluralibacter_gergoviae":{
+         "MLE":0.1347874351292313,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03882954232215965,
+           "constraint":"wvDBCcjp.tree_0.Pluralibacter_gergoviae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.552160311871723,
+           "constraint":"FEL.scaler_0*0.1141587127317383"
+          }
+        },
+       "Proteus_mirabilis":{
+         "MLE":0.08710629273053615,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02509356659887407,
+           "constraint":"wvDBCcjp.tree_0.Proteus_mirabilis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.356833244240967,
+           "constraint":"FEL.scaler_0*0.07377499423012206"
+          }
+        },
+       "Proteus_penneri":{
+         "MLE":0.05169755968105844,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01489302455873121,
+           "constraint":"wvDBCcjp.tree_0.Proteus_penneri.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2117804278205276,
+           "constraint":"FEL.scaler_0*0.04378543785556416"
+          }
+        },
+       "Proteus_vulgaris":{
+         "MLE":0.06082524439941136,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01752252648326002,
+           "constraint":"wvDBCcjp.tree_0.Proteus_vulgaris.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2491722309653856,
+           "constraint":"FEL.scaler_0*0.05151616391819219"
+          }
+        },
+       "Providencia_rettgeri":{
+         "MLE":0.1751589277600439,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0504597553328448,
+           "constraint":"wvDBCcjp.tree_0.Providencia_rettgeri.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.7175432048719749,
+           "constraint":"FEL.scaler_0*0.1483514965425851"
+          }
+        },
+       "Pseudescherichia_vulneris":{
+         "MLE":0.09283357916823097,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02674348234146817,
+           "constraint":"wvDBCcjp.tree_0.Pseudescherichia_vulneris.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3802952254158755,
+           "constraint":"FEL.scaler_0*0.07862574049253374"
+          }
+        },
+       "Raoultella_terrigena":{
+         "MLE":0.528097124215876,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.1521341333878087,
+           "constraint":"wvDBCcjp.tree_0.Raoultella_terrigena.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":2.163363910931482,
+           "constraint":"FEL.scaler_0*0.4472737969975861"
+          }
+        },
+       "Salmonella_bongori":{
+         "MLE":0.06354791262705299,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01830687230208979,
+           "constraint":"wvDBCcjp.tree_0.Salmonella_bongori.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2603257137529787,
+           "constraint":"FEL.scaler_0*0.0538221377633443"
+          }
+        },
+       "Salmonella_enterica":{
+         "MLE":0.07741065556517161,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02230044902606862,
+           "constraint":"wvDBCcjp.tree_0.Salmonella_enterica.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3171148087956309,
+           "constraint":"FEL.scaler_0*0.06556323875862125"
+          }
+        },
+       "Samsonia_erythrinae":{
+         "MLE":0.0713777357846867,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02056248647994598,
+           "constraint":"wvDBCcjp.tree_0.Samsonia_erythrinae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2924007925054929,
+           "constraint":"FEL.scaler_0*0.06045363521513294"
+          }
+        },
+       "Serratia_marcescens":{
+         "MLE":0.06473967902853046,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01865019617259697,
+           "constraint":"wvDBCcjp.tree_0.Serratia_marcescens.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2652078165045239,
+           "constraint":"FEL.scaler_0*0.05483150868978994"
+          }
+        },
+       "Serratia_proteamaculans":{
+         "MLE":0.07178290112679329,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02067920644559946,
+           "constraint":"wvDBCcjp.tree_0.Serratia_proteamaculans.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2940605631023794,
+           "constraint":"FEL.scaler_0*0.06079679148822374"
+          }
+        },
+       "Serratia_symbiotica":{
+         "MLE":0.137298616724275,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03955296310637352,
+           "constraint":"wvDBCcjp.tree_0.Serratia_symbiotica.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5624474340456576,
+           "constraint":"FEL.scaler_0*0.1162855671974452"
+          }
+        },
+       "Shigella_boydii":{
+         "MLE":0.001669083108691893,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0004808291896497277,
+           "constraint":"wvDBCcjp.tree_0.Shigella_boydii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.006837443334028333,
+           "constraint":"FEL.scaler_0*0.001413636062945097"
+          }
+        },
+       "Shigella_flexneri":{
+         "MLE":0.002154051576808716,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0006205388268247378,
+           "constraint":"wvDBCcjp.tree_0.Shigella_flexneri.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.008824129558501665,
+           "constraint":"FEL.scaler_0*0.001824381886416093"
+          }
+        },
+       "Shigella_sonnei":{
+         "MLE":0.009520463033266396,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.002742653437409331,
+           "constraint":"wvDBCcjp.tree_0.Shigella_sonnei.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.03900082995548843,
+           "constraint":"FEL.scaler_0*0.008063391097588203"
+          }
+        },
+       "Thermus_thermophilus":{
+         "MLE":2.067471819677347,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.5955969445153723,
+           "constraint":"wvDBCcjp.tree_0.Thermus_thermophilus.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":8.469453281342776,
+           "constraint":"FEL.scaler_0*1.751052843443605"
+          }
+        },
+       "Xenorhabdus_beddingii":{
+         "MLE":0.07898734624281598,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02275466181925548,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_beddingii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3235737640792489,
+           "constraint":"FEL.scaler_0*0.06689862271309313"
+          }
+        },
+       "Xenorhabdus_bovienii":{
+         "MLE":0.1406236426003755,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.04051083601829988,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_bovienii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5760684909562588,
+           "constraint":"FEL.scaler_0*0.1191017100630723"
+          }
+        },
+       "Xenorhabdus_budapestensis":{
+         "MLE":0.01884765206279979,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.005429628531354916,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_budapestensis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.07720990781571978,
+           "constraint":"FEL.scaler_0*0.01596308806857246"
+          }
+        },
+       "Xenorhabdus_cabanillasii":{
+         "MLE":0.01478480743758634,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.004259204914555387,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_cabanillasii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.06056635678150522,
+           "constraint":"FEL.scaler_0*0.01252204690625087"
+          }
+        },
+       "Xenorhabdus_doucetiae":{
+         "MLE":0.07327626759799982,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02110941521498959,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_doucetiae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3001781785588162,
+           "constraint":"FEL.scaler_0*0.06206160370032792"
+          }
+        },
+       "Xenorhabdus_ehlersii":{
+         "MLE":0.03691506655040723,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01063448634934012,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_ehlersii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1512235516589172,
+           "constraint":"FEL.scaler_0*0.03126535106006341"
+          }
+        },
+       "Xenorhabdus_griffiniae":{
+         "MLE":0.04879642954785261,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01405726746326153,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_griffiniae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1998958710916634,
+           "constraint":"FEL.scaler_0*0.04132831504469894"
+          }
+        },
+       "Xenorhabdus_hominickii":{
+         "MLE":0.08406248703352444,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02421670755025989,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_hominickii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.3443642132713685,
+           "constraint":"FEL.scaler_0*0.07119703182699982"
+          }
+        },
+       "Xenorhabdus_indica":{
+         "MLE":0.02331005570068841,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.0067151570433399,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_indica.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.09549026296923738,
+           "constraint":"FEL.scaler_0*0.01974253720270252"
+          }
+        },
+       "Xenorhabdus_innexi":{
+         "MLE":0.1290672225889996,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03718166442679247,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_innexi.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5287273091058574,
+           "constraint":"FEL.scaler_0*0.1093139577327373"
+          }
+        },
+       "Xenorhabdus_ishibashii":{
+         "MLE":0.04771321589199326,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01374521545000224,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_ishibashii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1954584575488538,
+           "constraint":"FEL.scaler_0*0.04041088326444595"
+          }
+        },
+       "Xenorhabdus_japonica":{
+         "MLE":0.05488277885127384,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01581062197763485,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_japonica.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2248287628431472,
+           "constraint":"FEL.scaler_0*0.04648317091867638"
+          }
+        },
+       "Xenorhabdus_khoisanae":{
+         "MLE":0.02177047595958179,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.006271635162696325,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_khoisanae.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.08918333362388864,
+           "constraint":"FEL.scaler_0*0.01843858449209498"
+          }
+        },
+       "Xenorhabdus_koppenhoeferi":{
+         "MLE":0.1091871566426762,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03145461827230511,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_koppenhoeferi.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.4472880903654186,
+           "constraint":"FEL.scaler_0*0.0924764629374815"
+          }
+        },
+       "Xenorhabdus_kozodoii":{
+         "MLE":0.06979430884471731,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.02010633310540746,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_kozodoii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.2859142419441491,
+           "constraint":"FEL.scaler_0*0.05911254595856868"
+          }
+        },
+       "Xenorhabdus_mauleonii":{
+         "MLE":0.1196664424695878,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03447348922368081,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_mauleonii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.4902167633892262,
+           "constraint":"FEL.scaler_0*0.1013519325181675"
+          }
+        },
+       "Xenorhabdus_miraniensis":{
+         "MLE":0.02695527375987602,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.007765270867132294,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_miraniensis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1104229956714488,
+           "constraint":"FEL.scaler_0*0.02282986801261343"
+          }
+        },
+       "Xenorhabdus_poinarii":{
+         "MLE":0.1224022902982869,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03526163181983308,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_poinarii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5014242367629844,
+           "constraint":"FEL.scaler_0*0.1036690688747927"
+          }
+        },
+       "Xenorhabdus_szentirmaii":{
+         "MLE":0.1334458502200128,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.03844305876038451,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_szentirmaii.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.5466644736196901,
+           "constraint":"FEL.scaler_0*0.1130224524704617"
+          }
+        },
+       "Xenorhabdus_vietnamensis":{
+         "MLE":0.04673925026665176,
+         "non-synonymous rate":{
+           "ID":"beta",
+           "MLE":0.01346463559155135,
+           "constraint":"wvDBCcjp.tree_0.Xenorhabdus_vietnamensis.alpha*wvDBCcjp.model_MGREV.omega_0"
+          },
+         "rate at which 2 nucleotides are changed instantly within a single codon":{
+           "ID":"delta",
+           "MLE":1.342308930555735,
+           "constraint":"fel.delta_shared"
+          },
+         "synonymous rate":{
+           "ID":"alpha",
+           "MLE":0.1914685814678588,
+           "constraint":"FEL.scaler_0*0.03958597950448255"
+          }
+        }
+      }
+    },
+   "global":{
+     "Substitution rate from nucleotide A to nucleotide C":{
+       "ID":"wvDBCcjp.model_MGREV.theta_AC",
+       "MLE":0.5205886974417382,
+       "constraint":"0.5205886974417382"
+      },
+     "Substitution rate from nucleotide A to nucleotide G":{
+       "ID":"wvDBCcjp.model_MGREV.theta_AG",
+       "MLE":1,
+       "constraint":"1"
+      },
+     "Substitution rate from nucleotide A to nucleotide T":{
+       "ID":"wvDBCcjp.model_MGREV.theta_AT",
+       "MLE":0.3785840936022062,
+       "constraint":"0.3785840936022062"
+      },
+     "Substitution rate from nucleotide C to nucleotide G":{
+       "ID":"wvDBCcjp.model_MGREV.theta_CG",
+       "MLE":0.6017331970929117,
+       "constraint":"0.6017331970929117"
+      },
+     "Substitution rate from nucleotide C to nucleotide T":{
+       "ID":"wvDBCcjp.model_MGREV.theta_CT",
+       "MLE":1.927074343786861,
+       "constraint":"1.927074343786861"
+      },
+     "Substitution rate from nucleotide G to nucleotide T":{
+       "ID":"wvDBCcjp.model_MGREV.theta_GT",
+       "MLE":0.4230957578858251,
+       "constraint":"0.4230957578858251"
+      },
+     "non-synonymous/synonymous rate ratio for *test*":{
+       "ID":"wvDBCcjp.model_MGREV.omega_0",
+       "MLE":0.07032295057668046
+      },
+     "rate at which 2 nucleotides are changed instantly within a single codon":{
+       "ID":"fel.delta_shared",
+       "MLE":1.342308930555735
+      }
+    },
+   "parameters":211
+  }
+}

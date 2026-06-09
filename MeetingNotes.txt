@@ -1,3 +1,19 @@
+June 5 2026
+	David, Gavin, McKinley, and Randy all met to discuss the status of the BAMA project. Here is what we will do next:
+		Randy:
+			- Add HyPhy results to GitHub repository
+			- Add readme of HyPhy results to GitHub repository
+			- Create OneDrive folder for manuscript and share with the others
+			- Add pymol code for BamA
+			- Add McKinley to GitHub
+		Gavin:
+			- Create a ReadMe.txt for the codeml_analysis folder that includes overview of what the different models are
+		McKinley
+			- Play around with pymol code for BamA, start trying to identify residues of interest
+		David
+			- Point person for McKinley as she figures out info on sequences
+			- Start fleshing out introduction (including adding citations)
+
 March 17 2026
 	Gavin and I met, he is still going to re-organize the tree and alignment (see details in notes from March 3 meeting). 
 
