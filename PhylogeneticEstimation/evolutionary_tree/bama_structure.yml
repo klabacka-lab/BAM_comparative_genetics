@@ -1,3 +1,6 @@
+# bama_structure.yml
+channels:
+  - conda-forge
 name: bama_structure
 dependencies:
   - python=3.0
