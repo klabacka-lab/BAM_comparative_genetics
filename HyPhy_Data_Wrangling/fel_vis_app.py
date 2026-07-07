@@ -271,7 +271,7 @@ viewer_html = f"""
       viewer.addStyle(
         {{ chain: 'A', resi: allRes }},
         {{ cartoon: {{ color: '{hl_color_js}', opacity: 1.0 }},
-           sphere:  {{ radius: 0.4, color: '{hl_color_js}' }} }}
+           stick:   {{ radius: 0.2, color: '{hl_color_js}' }} }}
       );
     }}
 
