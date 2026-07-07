@@ -15,12 +15,13 @@
   </style>
   <script>
     const COMPONENT_HEIGHT = 220;
-    let pendingArgs    = null;
-    let plotlyReady    = false;
-    let currentCutoff  = 0;
-    let dragging       = false;
-    let plotRendered   = false;
-    let renderReceived = false;
+    let pendingArgs              = null;
+    let plotlyReady              = false;
+    let currentCutoff            = 0;
+    let dragging                 = false;
+    let plotRendered             = false;
+    let renderReceived           = false;
+    let ignoreNextRenderCutoff   = false;
 
     function _send(type, data) {
       window.parent.postMessage(
@@ -42,7 +43,14 @@
       if (event.data.type !== "streamlit:render") return;
       renderReceived = true;
       const { values, cutoff, xaxis_title } = event.data.args;
-      pendingArgs = { values, cutoff, xaxis_title };
+      // If we just sent a new value, the next render will carry the stale
+      // pre-drag cutoff from Streamlit. Keep our local currentCutoff instead.
+      let effectiveCutoff = cutoff;
+      if (ignoreNextRenderCutoff) {
+        ignoreNextRenderCutoff = false;
+        effectiveCutoff = currentCutoff;
+      }
+      pendingArgs = { values, cutoff: effectiveCutoff, xaxis_title };
       if (plotlyReady) doRender(pendingArgs);
     });
   </script>
@@ -68,7 +76,7 @@
       const data = [{
         type: "histogram",
         x: vals,
-        nbinsx: 60,
+        nbinsx: 150,
         marker: { color: "#888888" },
         hovertemplate: xaxisTitle + ": %{x:.3f}<br>count: %{y}<extra></extra>"
       }];
@@ -123,7 +131,8 @@
     window .addEventListener("mouseup",    ()  => {
       if (!dragging) return;
       dragging = false;
-      _send("streamlit:setComponentValue", { value: currentCutoff });
+      ignoreNextRenderCutoff = true;
+      _send("streamlit:setComponentValue", { value: { cutoff: currentCutoff, t: Date.now() } });
     });
   </script>
 

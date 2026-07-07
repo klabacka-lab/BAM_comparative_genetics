@@ -9,6 +9,7 @@ Launch:
 """
 
 import io
+import json
 import sys
 from pathlib import Path
 
@@ -50,6 +51,32 @@ df      = load_fel(str(FEL_INPUT))
 mapping = load_mapping(str(ALIGNMENT))
 cif_str = load_cif(str(CIF_PATH))
 
+# ── Hover lookup: cif_residue -> FEL data (all sites in the FEL table) ────────
+@st.cache_data
+def build_hover_data(fel_path: str, alignment: str) -> dict:
+    _df  = parse_fel_output(Path(fel_path))
+    _map = build_mapping(Path(alignment))
+    codon_to_cif = {codon: cif for codon, cif in _map.items() if cif is not None}
+    out = {}
+    for _, row in _df.iterrows():
+        cif = codon_to_cif.get(int(row['Codon']))
+        if cif is None:
+            continue
+        a, b = float(row['alpha']), float(row['beta'])
+        w = b / a if a > 0 else None
+        out[cif] = {
+            'codon':     int(row['Codon']),
+            'alpha':     round(a, 4),
+            'beta':      round(b, 4),
+            'omega':     round(w, 4) if w is not None else None,
+            'pvalue':    round(float(row['pvalue']), 4),
+            'selection': row['Selection'],
+        }
+    return out
+
+hover_lookup = build_hover_data(str(FEL_INPUT), str(ALIGNMENT))
+hover_data_js = json.dumps(hover_lookup)
+
 # ── Derived: dN/dS per site ────────────────────────────────────────────────────
 omega        = np.where(df['alpha'] > 0, df['beta'] / df['alpha'], np.nan)
 omega_finite = omega[np.isfinite(omega)]
@@ -61,12 +88,14 @@ if 'omega_cutoff' not in st.session_state:
     st.session_state.omega_cutoff = omega_max
 if 'omega_precise_input' not in st.session_state:
     st.session_state['omega_precise_input'] = float(omega_max)
+if 'last_drag_t' not in st.session_state:
+    st.session_state['last_drag_t'] = -1
 if 'highlight_color' not in st.session_state:
-    st.session_state['highlight_color'] = '#ff4444'
+    st.session_state['highlight_color'] = '#F05E5E'
 if 'bg_color' not in st.session_state:
-    st.session_state['bg_color'] = '#1a1a2e'
+    st.session_state['bg_color'] = '#DFDEDE'
 if 'ribbon_color' not in st.session_state:
-    st.session_state['ribbon_color'] = '#888888'
+    st.session_state['ribbon_color'] = '#000000'
 
 # ── Sidebar filters ────────────────────────────────────────────────────────────
 st.sidebar.header('Filter Controls')
@@ -106,15 +135,20 @@ pvalue_cutoff = st.sidebar.slider(
 omega_hist_comp = components.declare_component('omega_hist', path=str(HIST_COMPONENT))
 
 st.subheader('dN/dS Distribution — click or drag to set cutoff')
-new_omega = omega_hist_comp(
+hist_result = omega_hist_comp(
     values=omega_finite.tolist(),
     cutoff=st.session_state.omega_cutoff,
     xaxis_title='dN/dS (ω)',
     key='omega_hist',
 )
-if new_omega is not None:
-    st.session_state.omega_cutoff = new_omega
-    st.session_state['omega_precise_input'] = float(new_omega)
+new_omega = None
+if isinstance(hist_result, dict):
+    drag_t = hist_result.get('t', -1)
+    if drag_t != st.session_state['last_drag_t']:
+        new_omega = float(hist_result['cutoff'])
+        st.session_state['last_drag_t'] = drag_t
+        st.session_state.omega_cutoff = new_omega
+        st.session_state['omega_precise_input'] = new_omega
 
 omega_cutoff = st.session_state.omega_cutoff
 
@@ -122,10 +156,10 @@ omega_cutoff = st.session_state.omega_cutoff
 omega_input = st.number_input(
     'Precise dN/dS cutoff:',
     min_value=0.0, max_value=float(omega_max),
-    step=0.001, format='%.3f',
+    step=0.0001, format='%.6f',
     key='omega_precise_input',
 )
-if abs(omega_input - st.session_state.omega_cutoff) > 1e-9:
+if new_omega is None and abs(omega_input - st.session_state.omega_cutoff) > 1e-9:
     st.session_state.omega_cutoff = omega_input
     st.rerun()
 
@@ -199,16 +233,33 @@ viewer_html = f"""
       backdrop-filter: blur(4px);
     }}
     #save-btn:hover {{ background: rgba(255,255,255,0.22); color: #fff; }}
+    #tooltip {{
+      position: absolute; display: none; z-index: 200;
+      background: rgba(10,10,20,0.92); color: #e8e8e8;
+      border: 1px solid rgba(255,255,255,0.18);
+      padding: 8px 11px; border-radius: 6px;
+      font-family: monospace; font-size: 12px; line-height: 1.6;
+      pointer-events: none; white-space: nowrap;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+    }}
+    #tooltip .tt-header {{ font-size: 13px; font-weight: bold; color: #fff; margin-bottom: 3px; }}
+    #tooltip .tt-sel-neg  {{ color: #7bcfff; }}
+    #tooltip .tt-sel-pos  {{ color: #ffaa55; }}
+    #tooltip .tt-dim {{ color: #888; font-size: 11px; }}
   </style>
 </head>
 <body>
   <div id="wrap">
     <div id="viewer"></div>
+    <div id="tooltip"></div>
     <button id="save-btn" onclick="savePNG()">Save PNG</button>
   </div>
   <script>
-    const cifData = `{cif_escaped}`;
-    const allRes  = {all_res_js};
+    const cifData    = `{cif_escaped}`;
+    const allRes     = {all_res_js};
+    const hoverData  = {hover_data_js};
+    const tooltip    = document.getElementById('tooltip');
+    const wrap       = document.getElementById('wrap');
 
     let viewer = $3Dmol.createViewer('viewer', {{ backgroundColor: '{bg_color_js}' }});
     viewer.addModel(cifData, 'cif');
@@ -223,6 +274,38 @@ viewer_html = f"""
            sphere:  {{ radius: 0.4, color: '{hl_color_js}' }} }}
       );
     }}
+
+    viewer.setHoverable({{}}, true,
+      function(atom, v, event) {{
+        if (atom.chain !== 'A') return;
+        const d = hoverData[atom.resi];
+        let html = `<div class="tt-header">${{atom.resn}} ${{atom.resi}}</div>`;
+        if (d) {{
+          const selClass = d.selection === 'Neg' ? 'tt-sel-neg' : 'tt-sel-pos';
+          const selLabel = d.selection === 'Neg' ? '&#8595; Purifying' : '&#8593; Positive';
+          const omegaStr = d.omega !== null ? d.omega.toFixed(4) : '<span class="tt-dim">undef (α=0)</span>';
+          html += `<span class="tt-dim">codon ${{d.codon}}</span><br>`;
+          html += `&#945; ${{d.alpha.toFixed(4)}} &nbsp; &#946; ${{d.beta.toFixed(4)}}<br>`;
+          html += `&#969; ${{omegaStr}} &nbsp; p ${{d.pvalue.toFixed(4)}}<br>`;
+          html += `<span class="${{selClass}}">${{selLabel}}</span>`;
+        }} else {{
+          html += `<span class="tt-dim">no FEL data</span>`;
+        }}
+        tooltip.innerHTML = html;
+        tooltip.style.display = 'block';
+        const wrapRect = wrap.getBoundingClientRect();
+        let x = event.clientX - wrapRect.left + 14;
+        let y = event.clientY - wrapRect.top  + 14;
+        // keep tooltip inside wrap
+        if (x + 180 > wrap.offsetWidth)  x = event.clientX - wrapRect.left - 190;
+        if (y + 120 > wrap.offsetHeight) y = event.clientY - wrapRect.top  - 130;
+        tooltip.style.left = x + 'px';
+        tooltip.style.top  = y + 'px';
+      }},
+      function() {{
+        tooltip.style.display = 'none';
+      }}
+    );
 
     viewer.zoomTo({{ chain: 'A' }});
     viewer.render();
@@ -286,3 +369,12 @@ with st.expander('Colors & Export'):
         )
     with ex2:
         st.caption('Use the **Save PNG** button in the top-right of the 3D viewer to export the structure.')
+
+# ── Codon position output ──────────────────────────────────────────────────────
+st.subheader('Codon positions')
+codon_str = ','.join(str(c) for c in sorted(filtered['Codon'].tolist()))
+st.text_area(
+    label=f'{len(filtered)} positions — copy and paste into a text file',
+    value=codon_str,
+    height=120,
+)
