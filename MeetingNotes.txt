@@ -1,3 +1,16 @@
+August 13 2026
+	Meeting with David, Mck, and Randy
+	To decide which residues to use, we settled on a dN/dS value of 0. This gave us the following residues to include in the structure figure:
+	65,83,122,130,140,142,183,187,271,275,277,280,458,549,653,656,743,764,807,937,947,948,1004,1048,1050,1073,1134,1145,1187
+	
+	1. Mck will incorporate these into the structure figure
+	2. David will make a pdf of the histogram of dN/dS values
+	3. Change Figure 2 to 3-panneled figure (scatterplot, histogram/frequency distribution of omega, and structure)
+
+	Additionally:
+	I. Check results section (walk through figures as if explaining a poster, and make sure description you give is within the results)
+	II. Start fleshing out discussion (what does the nature of the findings imply? How does that relate to published info on BamA and other similar stories?)
+
 June 26 2026
 	Meeting with David, Mck, and Randy
 	1. Create python script that organizes the HyPhy_FEL_output.txt data into objects (or dictionary)
